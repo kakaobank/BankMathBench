@@ -1,0 +1,1891 @@
+﻿index,question,reasoning,answer
+10,I am 55 years old and preparing for retirement. How much interest will I earn if I put 300 million won in a simple interest term deposit with an annual interest rate of 2.5% for 2 years?,"<think>A 55-year-old person preparing for retirement deposits 300 million won in a simple interest fixed deposit account with an annual interest rate of 2.5% for 2 years. Simple interest is calculated only on the principal, and unlike compound interest, it does not accumulate over periods. The formula to calculate interest is as follows:
+
+Interest = Principal × Interest Rate × Time
+
+Here,
+- Principal = 300,000,000 won
+- Interest Rate = 2.5% = 0.025
+- Time = 2 years
+
+Substituting into the formula:
+<calc>300000000 * 0.025 * 2</calc>
+<result>15000000</result>
+
+Therefore, the interest earned over 2 years is 15,000,000 won.</think>
+
+<answer>15000000</answer>",15000000.0
+11,"I want to receive 2,075,000 won through a deposit for one year. How much should I initially deposit if the annual compound interest rate is 3.75%?","<think>
+To receive 2,075,000 won after one year using a compound interest deposit with an annual rate of 3.75%, we need to calculate the initial investment amount.
+
+The compound interest formula is as follows:
+\[ Final\ Amount = Initial\ Amount \times \left(1 + \frac{Rate}{100}\right) \]
+
+Here, the final amount is 2,075,000 won, and the rate is 3.75%. To find the initial amount, we rearrange the formula:
+\[ Initial\ Amount = \frac{Final\ Amount}{1 + \frac{Rate}{100}} \]
+<calc>2075000 / (1 + 3.75 / 100)</calc>
+<result>2000000</result>
+The initial amount is approximately 2,000,000 won.
+</think>
+<answer>You need to deposit approximately 2,000,000 won initially.</answer>",2000000.0
+21,"To receive 1.26 million won in interest after saving for 2 years, how much should be deposited monthly based on a simple annual interest rate of 3.5%?","<think>
+First, let's calculate the monthly payment required to receive an interest of 1,260,000 KRW over 2 years with an annual simple interest rate of 3.5%.
+
+We will calculate the given formula step by step:
+
+1. Divide the total interest by the number of months:
+   <calc>1260000 / 24</calc>
+   <result>52500</result>
+
+2. Divide the result by 25:
+   <calc>52500 / 25</calc>
+   <result>2100</result>
+
+3. Double this value:
+   <calc>2100 * 2</calc>
+   <result>4200</result>
+
+4. Divide by the 3.5% interest rate:
+   <calc>4200 / 3.5</calc>
+   <result>1200</result>
+
+5. Multiply by 12 to convert to annual:
+   <calc>1200 * 12</calc>
+   <result>14400</result>
+
+6. Finally, multiply by 100 to get the final amount:
+   <calc>14400 * 100</calc>
+   <result>1440000</result>
+
+Therefore, you need to pay 1,440,000 KRW monthly to receive an interest of 1,260,000 KRW over 2 years.
+</think>
+<answer>1440000.0</answer>",1440000.0
+29,"To prepare for a house, I made a monthly free savings deposit for 2 years at a simple annual interest rate of 3.2%, and the total interest generated was 864,000 won. How much did I deposit each month?","<think>
+The problem involves calculating the monthly savings amount under simple interest conditions with an annual interest rate of 3.2% over 2 years, resulting in a total interest of 864,000 KRW.
+
+In simple interest calculations, interest is calculated only on the principal amount. When saving a fixed amount monthly, the interest varies depending on the period each amount is saved. For example, the amount saved in the first month accrues interest for 24 months, the amount saved in the second month accrues interest for 23 months, and so on.
+
+Therefore, the total interest can be calculated as follows:
+
+Total interest = Monthly savings amount × (24 + 23 + ... + 1) × (annual interest rate / 12 / 100)
+
+Using the sum of an arithmetic sequence, (24 × 25) / 2 = 300.
+
+Expressing this in an equation:
+
+<calc>864000 = Monthly savings amount × 300 × 0.0026666666666666666</calc>
+<result>864000 = Monthly savings amount × 0.8</result>
+
+To find the monthly savings amount, divide both sides by 0.8:
+
+<calc>864000 / 0.8</calc>
+<result>1080000</result>
+
+Performing the calculation, the monthly savings amount is 1,080,000 KRW.
+</think>
+<answer>
+1,080,000 KRW
+</answer>",1080000.0
+32,"I took out a loan to expand my rural agricultural business, and with a simple interest rate of 4.2% per year, the total interest over 3 years amounted to 3,780,000 won. How much was the loan amount?","<think>
+The formula for calculating interest with simple interest is I = PRT. Here, I is the interest amount, P is the principal, R is the interest rate, and T is the time (in years). Let's substitute the given values into the formula and find the principal.
+
+Interest (I): 3,780,000 KRW
+Interest rate (R): 4.2% or 0.042
+Time (T): 3 years
+
+I = PRT
+3780000 = P × 0.042 × 3
+
+To find the principal (P), we rearrange the equation:
+P = <calc>3780000 / (0.042 × 3)</calc>
+<result>30000000</result>
+</think>
+
+<answer>
+The loan amount is 30,000,000 KRW.
+</answer>",30000000.0
+39,"The total interest accrued over 2 years at a simple interest rate of 4.75% was 2,850,000 KRW. What was the initial loan amount?","<think>
+You can calculate the principal using the simple interest formula. The simple interest formula is as follows:
+
+Interest = Principal × Rate × Time
+
+Solving for the principal:
+
+Principal = Interest / (Rate × Time)
+
+Substituting the given values:
+
+<calc>2850000 / (0.0475 * 2)</calc>
+<result>30000000</result>
+</think>
+<answer>30000000.0</answer>",30000000.0
+43,"I am an employee at a financial company in my 40s. I am considering an emergency loan for urgently needed funds. If I borrow 10 million won for one year at a simple annual interest rate of 5%, how much will the interest be?","<think>
+The emergency loan amount is 10,000,000 KRW, and the annual interest rate is 5%. The loan period is 1 year (365 days). To calculate the interest, we use the simple interest formula:
+
+<calc>10000000 * 0.05 * (365 / 365)</calc>
+<result>500000</result>
+</think>
+<answer>
+500,000.0
+</answer>",500000.0
+55,"If you take out a credit loan of 5,000,000 won at a simple interest rate of 4.3% per year for 2 years to raise funds for broadcasting-related investments, how much interest will you receive?","<think>The amount of the loan taken out for broadcasting-related investment is 5,000,000 KRW. The annual interest rate for this loan is 4.3%, and the loan period is 2 years. Since the interest is calculated as simple interest, the formula to calculate the total interest is as follows:
+
+Interest = Principal × Rate × Time
+
+By substituting the given values from the problem,
+Principal = 5,000,000 KRW
+Rate = 4.3% = 0.043
+Time = 2 years
+
+the formula becomes:
+
+<calc>5000000 * 0.043 * 2</calc>
+
+Calculating this gives:
+
+<result>430000</result>
+
+Therefore, the total interest on the loan is 430,000 KRW.</think>
+
+<answer>430000.0</answer>",430000.0
+62,"I have about 200 million won in cash, so I plan to take out a mortgage loan of 200 million won to buy an apartment. If I take a 20-year bullet repayment loan with a simple annual interest rate of 2%, how much interest will I have to pay in total?","<think>
+I am planning to purchase an apartment with a mortgage loan of 200 million won. The annual interest rate is 2%, and the loan period is 20 years. To calculate the total interest when repaying the loan with a lump-sum payment at maturity, follow these steps:
+
+1. First, calculate the annual interest rate.
+2. Then, calculate the total interest over 20 years.
+
+The annual interest rate is 2% of the amount. This can be expressed as the following formula:
+<calc>200000000 * 0.02</calc>
+<result>4000000</result>
+
+Next, calculate the interest over 20 years. This is done by multiplying the annual interest by 20:
+<calc>4000000 * 20</calc>
+<result>80000000</result>
+
+Therefore, the total interest to be paid is 80,000,000 won.
+</think>
+<answer>
+80,000,000.0
+</answer>",80000000.0
+64,"I am in my late 50s and about to retire. If I deposit 50 million won in a simple interest parking account with an annual interest rate of 1.9% for 3 years, how much interest will I earn?","<think>
+The formula for calculating simple interest is as follows:
+
+Interest = Principal × Annual Interest Rate × Time Period
+
+Here,
+- The principal is 50,000,000 KRW,
+- The annual interest rate is 1.9% (calculated as 0.019),
+- The time period is 3 years.
+
+<calc>50000000 * 0.019 * 3</calc>
+<result>2850000</result>
+
+Therefore, the interest that can be received over 3 years is 2,850,000 KRW.
+</think>
+<answer>
+2,850,000 KRW
+</answer>",2850000.0
+65,"How much is the interest if I want to borrow 10,000,000 won at a simple interest rate of 3.85% per year for 18 months to write a local history book?","<think>This problem is about calculating interest using simple interest method. The formula for simple interest is as follows:
+\[ Interest = Principal \times Rate \times Time \]
+
+Here,
+- The principal is 10,000,000 KRW.
+- The annual interest rate is 3.85% (expressed as 0.0385).
+- The time is 18 months, which is 1.5 years.
+
+Let's substitute the values into the formula.
+
+<calc>10000000 * 0.0385</calc>
+<result>385000</result>
+
+<calc>385000 * 1.5</calc>
+<result>577500</result>
+
+</think>
+
+Therefore, the interest is <answer>577500.0</answer> KRW.",577500.0
+69,"To raise funds for real estate investment, I need to take out a loan at a simple interest rate of 5.5% per year for 2 years and bear an interest of 16.5 million won. What is the loan amount in this case?","<think>
+The given problem is about finding the loan amount using simple interest. The formula for simple interest is as follows:
+
+\[ I = P \times r \times t \]
+
+Here,
+- \( I \) is the interest amount (1,650,000 KRW),
+- \( r \) is the annual interest rate (5.5% or 0.055),
+- \( t \) is the loan period (2 years),
+- \( P \) is the principal loan amount.
+
+To find the principal, we rearrange the formula:
+
+\[ P = \frac{I}{r \times t} \]
+
+Substituting the numbers:
+
+<calc>1650000 / (0.055 * 2)</calc>
+<result>15000000</result>
+
+Therefore, the loan amount is 15,000,000 KRW.
+</think>
+<answer>15000000.0</answer>",15000000.0
+74,"If I deposit 5,500,000 won at an annual compound interest rate of 3.75% for one year to cover the cost of home repairs, how much will I receive at maturity including interest?","<think>
+The given problem is to calculate the amount received at maturity when 5,500,000 won is deposited for 1 year at an annual compound interest rate of 3.75%.
+
+We use the compound interest formula:
+Maturity amount = Principal × (1 + Interest rate)^Period
+
+Here,
+- Principal = 5,500,000 won
+- Interest rate = 3.75% = 0.0375
+- Period = 1 year
+
+Substituting into the formula:
+<calc>5500000 * (1 + 0.0375)</calc>
+<result>5706250</result>
+</think>
+<answer>5706250 won</answer>",5706250.0
+75,"How much interest can I earn if I deposit 5,000,000 won in a fixed deposit for 3 years at a simple interest rate of 4.25% per annum?","<think>Simple interest calculation is done by multiplying the principal amount by the interest rate, and then multiplying it again by the period (in years). In this problem, the principal amount is 5,000,000 KRW, the annual interest rate is 4.25% (0.0425), and the period is 3 years. The interest calculation formula is as follows:
+
+Interest = Principal × Interest Rate × Period
+
+Applying this:
+
+<calc>5000000 * 0.0425 * 3</calc>
+
+Let's execute this calculation.
+
+<result>5000000 * 0.0425</result> is 212500, and multiplying this by 3 years:
+
+<calc>212500 * 3</calc> = <result>637500</result>
+
+Therefore, the interest you can receive is 637,500 KRW.</think>
+
+<answer>637500.0</answer>",637500.0
+88,How much interest can be earned by depositing half of a monthly salary of 4 million won in a regular savings account with a simple interest rate of 2.5% per year for one year?,"<think>First, if we calculate half of the salary, it is 2,000,000 KRW because it is half of 4,000,000 KRW. The formula to find the interest earned by depositing this 2,000,000 KRW at a simple interest rate of 2.5% for one year is <calc>2000000 * 0.025 * 1</calc>.
+
+The simple interest calculation formula is principal × annual interest rate × time period. Here, the principal is 2,000,000 KRW, the annual interest rate is 2.5% (expressed as 0.025), and the time period is one year.
+
+Therefore, the interest is calculated to be <result>50,000.0</result>.
+
+</think>
+
+<answer>50,000.0</answer>",50000.0
+95,"I took out a loan for the deposit on an apartment at a simple interest rate of 3.75% for 2 years, and the total interest came out to be 15 million won. How much was the principal amount of the loan?","<think>I will explain how to calculate the principal amount of a loan.
+
+The interest formula is as follows:
+\[ \text{Interest} = \text{Principal} \times \text{Interest Rate} \times \text{Time Period} \]
+
+Here are the given values:
+- Interest: 15,000,000 KRW
+- Interest Rate: 3.75% (0.0375)
+- Time Period: 2 years
+
+Now, to find the principal, we rearrange the formula for the principal:
+\[ \text{Principal} = \frac{\text{Interest}}{\text{Interest Rate} \times \text{Time Period}} \]
+
+Let's do the calculation:
+
+<calc>15000000 / (0.0375 * 2)</calc>
+<result>200000000.0</result>
+First, calculate the denominator:
+<calc>0.0375 * 2</calc>
+<result>0.075</result>
+
+Then, divide the numerator by the denominator:
+<calc>15000000 / 0.075</calc>
+<result>200000000.0</result>
+</think>
+
+Therefore, the principal amount of the loan is <answer>200,000,000.0</answer> KRW.",200000000.0
+98,"If you deposit 450,000 won every month for 18 months in a free savings account, how much total interest will you receive with an annual interest rate of 4.2% simple interest?","<think>
+Let's calculate the total interest when paying 450,000 won every month for 18 months with a simple annual interest rate of 4.2%.
+
+1. **Monthly interest rate calculation**:
+   Converting the annual interest rate of 4.2% to a monthly interest rate,
+   <calc>4.2 / 12</calc>
+   <result>0.35</result>%
+   Expressing this as a decimal, <calc>0.35 / 100</calc>
+   <result>0.0035</result>.
+
+2. **Interest calculation method**:
+   Since the amount paid each month accrues interest for different periods, the amount paid in the first month accrues interest for 18 months, the second month for 17 months, ..., and the last month for 1 month.
+
+3. **Total interest calculation**:
+   Using the sum of an arithmetic series to calculate the total interest,
+   <calc>450000 * (18 * 19 / 2) * 0.0035</calc>
+   <result>269325</result> won
+</think>
+
+<answer>269325.0</answer>",269325.0
+106,"If I deposit 2,305,000 won in a regular savings account with a simple interest rate of 4.75% per year for one year to prepare for a job change, what will be the total amount received at maturity?","<think>The given problem is to calculate the amount using simple interest. The simple interest formula is as follows:
+\[ A = P \times (1 + rt) \]
+Here,
+- \( P \) is the principal amount (2305000 won),
+- \( r \) is the annual interest rate (4.75% or 0.0475),
+- \( t \) is the investment period (1 year).
+Therefore,
+\[ A = 2305000 \times (1 + 0.0475 \times 1) \]
+
+Let's calculate the formula:
+<calc>2305000 * (1 + 0.0475)</calc>
+<result>2414487.5</result>
+
+Therefore, the total amount received at maturity will be 2,414,487.5 won.</think>
+
+<answer>2414487.5</answer>",2414487.5
+110,"How much should be deposited in a simple interest account at an annual rate of 4.8% for 6 months to save 1,657,200 won for purchasing music equipment?","<think>
+To save 1,657,200 KRW for purchasing music equipment, you need to deposit it at a simple interest rate of 4.8% per annum for 6 months.
+
+Simple interest is calculated as follows:
+
+Future Value (FV) = Principal (P) × (1 + Interest Rate (r) × Time (t))
+
+Here,
+- Future Value (FV) = 1,657,200 KRW
+- Interest Rate (r) = 4.8% = 0.048
+- Time (t) = 6 months = 0.5 years
+
+Rearranging the formula to find the principal:
+
+Principal (P) = Future Value (FV) / (1 + r × t)
+
+Substituting into the formula:
+
+<calc>1657200 / (1 + 0.048 * 0.5)</calc>
+<result>1618359.38</result>
+
+Therefore, to save the target amount with a simple interest rate of 4.8% per annum for 6 months, you need to deposit approximately 1,618,359.38 KRW.
+</think>
+<answer>
+1,618,359.38 KRW
+</answer>",1618359.38
+113,"To make a new financial investment, I joined a one-year free savings account and was able to receive a total of 121,875 won in interest. Let's calculate how much I had to save each month under the condition of a 3.75% annual simple interest rate.","<think>
+First, let's use the simple interest formula to calculate the amount to be saved each month.
+
+1. **Annual interest rate (r):** 3.75% = 0.0375
+2. **Total interest (I):** 121,875 KRW
+3. **Savings period (t):** 1 year (12 months)
+
+Let **M** be the amount saved each month. The interest earned on the amount saved each month varies depending on the saving period. The amount saved in the first month earns interest for 12 months, the second month for 11 months, ..., and the last month for 1 month.
+
+Therefore, the total interest is calculated as follows:
+
+<calc>12 + 11 + 10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1</calc> = <result>78</result>
+
+Thus, the equation simplifies as follows:
+
+<calc>121875 = M * 0.0375 * 78 / 12</calc> = <result>121875 = M * 0.24375</result>
+
+Finally, to find **M**, divide both sides by 0.24375:
+
+<calc>121875 / 0.24375</calc> = <result>500000</result>
+</think>
+<answer>500,000 KRW</answer>",500000.0
+115,"To manage credit card debt, I took out a medium-credit loan for one year at a simple interest rate of 4.2% per annum, and the interest amounted to 630,000 won. Can we find out how much the loan amount was?","<think>
+You can calculate the principal (loan amount) using the simple interest formula. The simple interest formula is as follows:
+
+Interest = Principal × Interest Rate × Time
+
+The given values are:
+- Interest = 630,000 KRW
+- Interest Rate = 4.2% = 0.042
+- Time = 1 year
+
+To find the principal, we rearrange the formula:
+
+<calc>630000 / (0.042 * 1)</calc>
+<result>15000000.0</result>
+
+Therefore, the loan amount is 15,000,000 KRW.
+</think>
+<answer>15000000.0</answer>",15000000.0
+124,"After borrowing at a simple interest rate of 4.25% per annum for 2 years, I paid 807,500 won in interest. In this case, what was the loan amount?","<think>
+If a loan is taken out with simple interest, the interest can be calculated using the formula principal × (annual interest rate × period). Using this formula, the principal can be determined. Here, 
+the interest is 807,500 won, the annual interest rate is 4.25% (expressed as 0.0425), and the period is 2 years. 
+Formulating this, the principal can be calculated as follows:
+
+Principal = interest / (annual interest rate × period)
+<calc>807500 / (0.0425 * 2)</calc>
+<result>9500000.0</result>
+</think>
+<answer>9500000.0</answer>",9500000.0
+128,"If I save 850,000 won every month for 18 months, what will be the total amount received if the annual interest rate is 2.5% with simple interest?","<think>
+First, the monthly savings amount is 850,000 KRW, and this will be saved for 18 months. Calculating the total amount saved monthly:
+
+<calc>850000 * 18</calc>
+<result>15300000</result> KRW
+
+Now, we need to calculate the interest. The given interest rate is an annual simple interest of 2.5%. Since the total savings are deposited monthly, the amount saved each month is as follows:
+
+First month: 850,000 KRW
+Second month: 850,000 KRW × 17/18
+Third month: 850,000 KRW × 16/18
+...
+Eighteenth month: 850,000 KRW × 1/18
+
+Applying the annual interest rate of 2.5% to the savings amount for each month and then summing them up.
+
+To calculate the simple interest for 18 months, divide by the number of months saved, multiply by the annual interest rate, and then calculate the interest.
+
+Interest calculation:
+<calc>850000 * 18 * 19 / 2 * 2.5 / 12 / 100</calc>
+<result>302812.5</result> approximately 16771 (interest)
+
+Adding the interest to the total savings amount to calculate the final amount received:
+
+Final amount received:
+<calc>15300000 + 302812.5</calc>
+<result>15,602,812.5</result> KRW
+
+Therefore, the total amount received is approximately 15,602,812.5 KRW.
+</think>
+
+<answer>15602812.5</answer>",15602812.5
+135,"I am in my twenties and urgently need 5 million won. If I borrow it for a year with an emergency loan at a simple annual interest rate of 5%, how much will the interest be?","<think>
+The given principal is 5,000,000 KRW, and the annual interest rate is 5%. To calculate the interest, we use the simple interest formula:
+<calc>5000000 * 0.05 * 1</calc>
+<result>250000</result>
+</think>
+<answer>250000.0</answer>",250000.0
+136,"To achieve the FIRE dream, they deposited savings every month for 2 years and received a total of 212,500 won in interest. Can we find out how much they need to deposit each month if calculated at an annual simple interest rate of 4.25%?","<think>Let's summarize the process to solve the problem.
+
+The given problem states that a total interest of 212,500 won was received by depositing a fixed amount every month for 2 years. The annual interest rate is 4.25%, calculated as simple interest.
+
+First, let's analyze the given formula and solve it in an appropriate form:
+
+Interest = Principal x Annual Interest Rate x Time
+
+Here, let's denote the amount deposited each month as m.
+The interest can be calculated as follows:
+Interest = m * 24 months * ((24+1)/2) * (4.25/12/100)
+This is because, to apply the annual interest rate as simple interest, we calculate the average value of the 24 installments.
+
+Therefore, the interest of 212,500 won = m * 24 * [(24 + 1)/2] * (4.25/12/100).
+
+We will solve this equation to find the value of m.
+
+Thus, we proceed with the following calculations:
+m = 212,500 / (24 * [24+1]/2 * 4.25/12/100)
+Let's solve this equation with specific calculations.
+
+<calc>24 + 1</calc>
+<result>25</result>
+<calc>25 / 2</calc>
+<result>12.5</result>
+<calc>4.25 / 12 / 100</calc>
+<result>0.00354166667</result>
+<calc>12.5 * 0.00354166667</calc>
+<result>0.044270833375</result>
+<calc>212500 / (24 * 0.044270833375)</calc>
+<result>200000</result>
+
+Therefore, the amount to be deposited each month is 200,000 won.
+</think>
+
+Therefore, the amount to be deposited each month is
+<answer>
+200000.0
+</answer>
+.",200000.0
+140,"If you deposit 18 million won in a regular deposit account with a simple interest rate of 2.85% per year for 2 years, what will be the total amount received?","<think>
+At first, 18,000,000 won is deposited at a simple interest rate of 2.85% for 2 years. The simple interest calculation method is as follows:
+
+<calc>18000000 * 0.0285 * 2</calc>
+<result>1026000</result>
+
+The total amount received is calculated by adding the principal and the interest:
+
+<calc>18000000 + 1026000</calc>
+<result>19026000</result>
+</think>
+<answer>19026000</answer>",19026000.0
+151,I am planning to take out a credit loan of 35 million KRW at an annual simple interest rate of 3.85% for 2 years for a small research project. How much will the interest be?,"<think>
+First, to calculate simple interest, we use the formula principal × rate × time. Here, the principal is 35,000,000 KRW, the annual interest rate is 3.85% (expressed as 0.0385), and the time period is 2 years.
+
+<calc>35000000 * 0.0385 * 2</calc>
+<result>2695000</result>
+</think>
+<answer>
+The interest will be 2,695,000 KRW.
+</answer>",2695000.0
+159,"If I deposit 1,500,000 won, which I have saved for running a cafe, in a regular savings account with a simple interest rate of 4.2% per year for 3 years, how much will I receive at maturity?","<think>
+Q1. What is the initial capital given in the problem?
+A1. It is 1,500,000 won.
+
+Q2. What is the interest rate?
+A2. It is 4.2% per year.
+
+Q3. How is the interest calculated?
+A3. It is calculated as simple interest.
+
+Q4. What is the term of the fixed deposit?
+A4. It is 3 years.
+
+The formula for calculating simple interest is as follows:
+\[ A = P \times (1 + rt) \]
+where,
+- \( A \) is the amount received at maturity
+- \( P \) is the principal (1,500,000 won)
+- \( r \) is the annual interest rate (4.2% or 0.042)
+- \( t \) is the term (3 years)
+
+Accordingly, we substitute the values into the formula and calculate:
+<calc>1500000 * (1 + 0.042 * 3)</calc>
+<result>1689000</result>
+
+Therefore, the amount received at maturity will be 1,689,000 won.
+</think>
+<answer>
+1689000
+</answer>",1689000.0
+176,"How much interest can be earned by depositing 500,000 won, which is part of a monthly income of 1,500,000 won, at an annual compound interest rate of 2.8% for one year?","<think> If you deposit money at an annual compound interest rate of 2.8% for one year, you can calculate the interest using the following formula:
+
+Formula:
+Interest = Principal × (1 + Interest Rate)^Period - Principal
+
+The principal given in the problem is 500,000 won, the interest rate is 0.028 (2.8%), and the period is 1 year. Therefore, the formula to calculate the interest is as follows:
+
+<calc>500000 * (1 + 0.028) - 500000</calc>
+<result>14000</result>
+</think>
+
+<answer>14000.0</answer>",14000.0
+177,"How much is the total interest when earning a monthly income of 3.5 million won and recently taking out a deposit loan of 5,000,000 won at an annual simple interest rate of 3.8% for 2 years?","<think>
+The given problem is to calculate interest using simple interest. The formula for simple interest is as follows:
+
+Interest = Principal × Rate × Time
+
+Here,
+- The principal is 5,000,000 KRW.
+- The rate is 3.8% per year, which is expressed as 0.038 in decimal form.
+- The time period is 2 years.
+
+Therefore, the calculation is as follows:
+
+<calc>5000000 * 0.038 * 2</calc>
+<result>380000</result>
+
+As a result, the total interest is 380,000 KRW.
+</think>
+<answer>380000.0</answer>",380000.0
+186,"I am trying to raise funds for overseas training. How much interest can I earn if I deposit 1,500,000 won in a one-year fixed deposit at an annual simple interest rate of 3.5%?","<think>The problem is to calculate the interest that can be received when depositing 1,500,000 won in a fixed deposit for one year at an annual simple interest rate of 3.5%. Simple interest is calculated by adding the interest to the principal. The formula is principal × interest rate × time.
+Here, the principal is 1,500,000 won, the annual interest rate is 3.5%, and the time is 1 year. Therefore, the formula is 1,500,000 × 0.035 × 1.
+This formula needs to be calculated.
+<calc>1500000 * 0.035 * 1</calc>
+<result>52500.0</result>
+</think>
+<answer>52500.0</answer>",52500.0
+190,"I want to save money to get a total of about 300,000 won in interest for my wedding fund. If the annual interest rate is 2.5% simple interest and I save for 24 months, how much should I deposit each month?","<think>
+To solve this problem, we need to calculate the total interest first, and then determine how much we need to deposit each month to receive that interest. Given the annual interest rate and the fact that the interest is calculated using simple interest, we need to find a way to calculate the total interest from the monthly deposits and the interest rate.
+
+Summarizing the given conditions:
+- Total interest: 300000 KRW
+- Annual interest rate: 2.5%
+- Period: 24 months
+
+Using the simple interest formula, let's calculate the monthly deposit amount.
+
+First, let's see how to calculate the total interest using the simple interest formula. The total interest can be calculated as follows:
+Interest = Principal * Interest Rate * Time (Simple Interest Rate)
+
+Here, the principal is the amount deposited each month, the interest rate is 2.5%, and the time is 2 years.
+
+Now, to find the monthly deposit amount, let's rearrange the formula.
+
+Interest = Monthly Deposit * Interest Rate * Period
+300000 = Monthly Deposit * (2.5 / 100) * (24 months / 12 months)
+
+Solving this equation will give us the monthly deposit amount.
+Monthly Deposit = 300000 / (24 / 12 * 2.5 / 100)
+
+Simplifying this equation and substituting the values, we get
+
+<calc>300000 / (24 * 25 / 2 * (2.5 / 12 / 100))</calc>
+
+<result>480000.0</result>
+</think>
+<answer>
+480000.0
+</answer>",480000.0
+195,We are a newlywed couple in our late 20s. We would like to borrow 250 million won as a deposit for purchasing a house at an annual simple interest rate of 2.3% for 3 years. How much will the interest be?,"<think>
+First, according to the given conditions, we need to calculate the annual interest on the deposit. Interest calculation is generally done by multiplying the principal by the interest rate. Since the interest rate is given as an annual rate, we calculate it annually and then multiply by the period (3 years) to get the total interest.
+
+Interest = Principal × Interest Rate × Period
+
+Here, the principal is 250 million won, the interest rate is 2.3%, and the period is 3 years.
+The interest rate is given as a percentage, so converting it to a decimal gives 0.023.
+
+Next, let's use the given formula to calculate the interest:
+<calc>250000000 * 0.023 * 3</calc>
+<result>17250000.0</result>
+
+Therefore, the total interest for 3 years is 17,250,000 won.
+</think>
+<answer>
+17250000.0
+</answer>",17250000.0
+199,"I am a young adult in my 20s who has just started working. If I put 20 million won in a parking account with an annual simple interest rate of 1.5% for a year, how much interest will I receive?","<think>
+A parking account is a type of bank account that allows for daily deposits and withdrawals and pays interest at a fixed rate. The interest is calculated based on the annual interest rate for the amount deposited by the customer during the given period. Here, we will calculate the interest for depositing 20 million won in a parking account for one year at an annual interest rate of 1.5%.
+
+The interest calculation formula is principal × interest rate × period. Let's calculate the interest using the given data.
+
+Principal: 20,000,000 won
+Interest rate: 1.5% = 0.015
+Period: 1 year
+
+<calc>20000000 * 0.015 * 1</calc>
+<result>300000</result>
+
+Therefore, the interest received for one year will be 300,000 won.
+</think>
+
+<answer>
+300000.0
+</answer>",300000.0
+205,"If you save 300,000 won every month for a year to cover the cost of using the junior golf practice range, what is the total interest if the annual interest rate is 4.2% with simple interest?","<think>To cover the cost of using the junior golf practice range, if you save 300,000 won every month for a year, what is the total interest when the annual interest rate is 4.2% simple interest?
+
+1. First, the monthly savings amount is 300,000 won, and since you save for a year, the total savings amount is <calc>300000 * 12</calc>.
+<result>3600000</result>
+2. Since the annual interest rate is 4.2% simple interest, we need to calculate the average balance for each month to find the interest.
+    - The amount saved in the first month will receive interest in the last month, so it will receive interest for an average of 6.5 months. This can be simply calculated as half of the annual interest.
+    - Therefore, the average balance is <calc>3600000 * 12 / 2</calc>.
+<result>21600000</result>
+3. Apply the annual interest rate of 4.2%. Dividing this by 12 gives a monthly interest rate of 0.35%. Therefore, the monthly savings amount is <calc>21600000 * 0.0035</calc>.
+<result>75600</result>
+
+Calculation
+
+1. Total savings amount: <calc>300000 * 12</calc> = <result>3600000</result> won
+2. Average balance (calculated with an equivalent formula):
+<calc>300000 * 12 * 13 / 2</calc> = <result>11700000</result>
+Therefore, applying the interest rate:
+<calc>11700000 * 0.0035</calc> ≈ <result>81900</result>
+</think>
+
+<answer>Total interest: 81,900 won</answer>",81900.0
+208,"If you save 500,000 won every month for 18 months to raise funds for an IT-related startup, what will be the total amount received when the annual interest rate is 2.5% with simple interest?","<think>
+First, we need to deposit 500,000 won every month and calculate the simple interest on that amount for 18 months. We will solve the given formula step by step.
+
+First part: Calculating the principal amount
+If we deposit 500,000 won every month for 18 months, the total principal amount is:
+<calc>500000 * 18</calc>
+<result>9000000</result>
+
+Second part: Calculating the interest
+The interest is calculated as simple interest, and interest accrues each month on the deposited amount.
+Since the annual interest rate is 2.5%, the monthly interest rate is:
+<calc>2.5 / 12</calc>
+<result>0.208333</result>
+
+Since the amount deposited each month will earn interest for a different number of months, the amount deposited in the first month will earn interest for 18 months, the amount deposited in the second month will earn interest for 17 months, and so on, with the amount deposited in the last month earning interest for 1 month. We can sum up the interest for each month to calculate the total interest.
+
+The steps to calculate the total interest are as follows:
+<calc>500000 * 18 * 9.5 * 0.208333 / 100</calc>
+<result>178125</result>
+
+Now, we add the total interest to the principal amount to calculate the total amount received:
+<calc>9000000 + 178125</calc>
+<result>9178125</result>
+
+Therefore, the final answer is 9,178,125 won.
+</think>
+
+<answer>
+9178125.0
+</answer>",9178125.0
+216,How much is the interest when borrowing 5 million won at a simple interest rate of 3.8% per year for 2 years to purchase exercise equipment?,"<think>
+The basic formula for calculating simple interest is as follows:
+Interest = Principal × Interest Rate × Time
+
+Substitute the given values into the formula:
+Principal = 5,000,000 KRW
+Interest Rate = 3.8% = 0.038
+Time = 2 years
+
+Therefore, the interest is calculated as follows:
+<calc>5,000,000 * 0.038 * 2</calc>
+<result>380,000.0</result>
+
+1. Principal: 5,000,000 KRW
+2. Annual Interest Rate: 3.8% (expressed as a decimal, 0.038)
+3. Time: 2 years
+
+Using the simple interest calculation formula:
+Interest = Principal × Interest Rate × Time
+That is, Interest = <calc>5,000,000 * 0.038 * 2</calc>
+<result>380,000.0</result>
+</think>
+
+<answer>Therefore, the interest is 380,000.0 KRW.</answer>",380000.0
+219,"To cover living expenses, I took out a loan of 1,200,000 won at simple interest for 3 years, resulting in 180,000 won in interest. Can we calculate the annual interest rate applied in this case?","<think>
+The formula for calculating simple interest is as follows:
+\[ \text{Interest} = \text{Principal} \times \text{Rate} \times \text{Time} \]
+
+To find the interest rate, the formula can be rearranged as:
+\[ \text{Rate} = \frac{\text{Interest}}{\text{Principal} \times \text{Time}} \]
+
+Substituting the given values:
+<calc>180000 / (1200000 * 3)</calc>
+<result>0.05</result>
+
+Converting this to a percentage gives 5.0%.
+</think>
+<answer>5.0</answer>",5.0
+236,"I took out a personal loan at a simple interest rate of 4.2% per year for 3 years to prepare for my wedding, and the total repayment amount was about 11,260,000 won. What was the principal amount of the loan?","<think>
+If you take out a loan with simple interest, the total repayment amount is calculated by multiplying the principal by (1 + interest rate × period). This can be expressed as the following formula:
+
+Total repayment amount = Principal × (1 + interest rate × period)
+
+Therefore, to find the principal, you divide the total repayment amount by (1 + interest rate × period). Substituting the given values,
+
+<calc>11260000 / (1 + 0.042 * 3)</calc>
+<result>10000000.0</result>
+</think>
+<answer>10000000.0</answer>",10000000.0
+237,"If you save 100,000 won every month in a free savings account with an annual simple interest rate of 3.2% for 12 months, what is the total interest?","<think>
+If you save 100,000 won every month for 12 months at an annual simple interest rate of 3.2%, the savings for each month will earn interest for different periods depending on the savings period. The 100,000 won saved in the first month will earn interest for 12 months, the second month for 11 months, ..., and the last 12th month for 1 month.
+
+To calculate the total interest, you need to calculate the interest for the savings of each month and then sum them all up. To simplify this, we use the formula for the sum of an arithmetic series. The sum of an arithmetic series can be calculated as \( \frac{n(n+1)}{2} \), where \( n \) is the savings period of 12 months.
+
+Therefore, the total interest is calculated as follows:
+
+<calc>100000 * 12 * (12 + 1) / 2 * 3.2 / (12 * 100)</calc>
+<result>20800.0</result>
+</think>
+<answer>20800.0</answer>",20800.0
+247,"If you deposit 4,500,000 won at a simple interest rate of 3.75% per year for 2 years to purchase a TV, what will be the total amount received?","<think>
+Let's calculate the total amount received after 2 years of simple interest using the information provided in the question.
+
+Given information:
+- Principal (P): 4,500,000 KRW
+- Annual interest rate (r): 3.75% = 0.0375
+- Time period (t): 2 years
+
+Simple interest formula: A = P × (1 + r × t)
+
+First, substitute the values into the formula:
+<calc>4500000 * (1 + 0.0375 * 2)</calc> = <result>4837500.0</result>
+
+Now, calculate inside the parentheses:
+<calc>1 + 0.0375 * 2</calc> = <result>1.075</result>
+
+Next, multiply the principal by this value:
+<calc>4500000 * 1.075</calc> = <result>4837500.0</result>
+
+Therefore, the total amount received after 2 years is 4,837,500 KRW.
+</think>
+
+<answer>
+4837500.0
+</answer>",4837500.0
+256,"If you borrow 5 million won at a simple interest rate of 3.75% per year for overseas travel funds, how much is the interest for one year?","<think>
+Simple interest is calculated at a constant interest rate over a period of time on the principal amount. The formula for calculating simple interest is as follows:
+
+Interest \( I \) is calculated by multiplying the principal \( P \) by the interest rate \( r \), and then multiplying the result by the time period \( t \).
+
+Substituting the given values into the formula:
+- Principal \( P = 5000000 \) won
+- Interest rate \( r = 3.75\% = 0.0375 \)
+- Time period \( t = 1 \) year
+
+Applying this formula:
+<calc>5000000 * 0.0375 * 1</calc>
+
+Therefore, the interest for 1 year is <result>187500</result> won.
+</think>
+<answer>187500.0</answer>",187500.0
+258,"I paid 1,290,000 won in interest over 2 years for a personal loan. If the loan was taken at an annual simple interest rate of 4.3%, what was the loan amount?","<think>
+The formula for simple interest is as follows:
+
+Interest = Principal × Rate × Time
+
+Since we know the interest, we can rearrange the formula to find the principal:
+
+Principal = Interest / (Rate × Time)
+
+In the problem, the interest is 1,290,000 KRW, the rate is 4.3% per year (i.e., 0.043), and the time is 2 years. Substituting these values:
+
+<calc>1290000 / (0.043 * 2)</calc>
+<result>15000000</result>
+
+Therefore, the loan amount is 15,000,000 KRW.
+</think>
+<answer>15000000</answer>",15000000.0
+266,"How much is the total interest if I save 70,000 won every week for 26 weeks in a savings account with a simple annual interest rate of 4.5% to pay for graduate school tuition in psychology?","<think>To solve the problem, let's break down the given situation. If you deposit 70,000 won every week for 26 weeks, the total deposit amount is 70,000 won × 26 weeks. Although the deposits are made weekly, each amount will earn interest over different periods. To calculate this on average, we can find the total deposit amount and use half of it to determine the average deposit period. That is, on average, each amount will earn interest for half the period.
+
+Looking at the deposit amount formula:
+<calc>70000 * 26</calc>
+<result>1820000</result>
+
+To find the average deposit period, we divide the total deposit amount by 2 to consider the average deposit period:
+<calc>1820000 * 27 / 52 / 2</calc>
+<result>910000</result> (52 represents the number of weeks in a year. We can think of the 26 weeks as being deposited for an average of 13 weeks. 27 represents the average deposit period, considering that deposits are made equally over all weeks.)
+
+Then, we convert the annual interest rate (4.5%) to weekly interest and calculate:
+<calc>0.045 / 52</calc>
+<result>0.000865</result>
+
+Therefore, the total interest is:
+<calc>910000 * 0.000865 * 26</calc>
+<result>21262.5</result>
+
+With detailed calculation:
+<calc>910000 * 0.000865 * 26</calc>
+<result>21262.5</result></think>
+
+Therefore, the total interest is <answer>21,262.5 won</answer>.",21262.5
+267,"To raise research funds, I took out a simple interest loan at an annual rate of 3.8% for one year, and the loan interest was 190,000 won. Can you tell me how much I borrowed?","<think>
+The simple interest formula to calculate loan interest is as follows:
+
+Interest = Principal × Rate × Time
+
+Here, to find the principal, we can rearrange the formula as follows:
+
+Principal = Interest / (Rate × Time)
+
+The given values in the problem are:
+- Interest: 190,000 KRW
+- Rate: 3.8% = 0.038
+- Time: 1 year
+
+Therefore, the principal is:
+
+<calc>190000 / (0.038 * 1)</calc>
+<result>5000000</result>
+</think>
+<answer>5,000,000.0 KRW</answer>",5000000.0
+270,"We are a newlywed couple in our 40s looking to buy a house. If we borrow a deposit of 300 million won at an annual simple interest rate of 2.7% for 5 years, how much interest will we have to pay?","<think>
+A newlywed couple in their 40s is planning to buy a house and is considering borrowing a deposit of 300 million won at an annual interest rate of 2.7% for 5 years. To calculate the interest incurred in this case, the simple interest formula can be used. The simple interest formula is as follows:
+
+Interest = Principal × Rate × Time
+
+Here,
+- The principal is 300,000,000 won,
+- The annual interest rate is 2.7%, which is 0.027 in decimal form,
+- The time period is 5 years.
+
+Therefore, the calculation is:
+<calc>300000000 * 0.027 * 5</calc>
+<result>40500000</result>
+
+Thus, the total interest incurred over 5 years is 40,500,000 won.
+</think>
+<answer>40500000</answer>",40500000.0
+274,"If you take out a credit loan of 3,000,000 KRW at an annual simple interest rate of 4.2% for one year to cover the cost of an exchange student program, how much is the interest?","<think>
+The initial loan amount is 3,000,000 KRW, the annual interest rate is 4.2%, and the period is 1 year. When calculating interest using the simple interest method, the interest amount (I) can be found using the following formula:
+
+I = P × r × t
+
+where P is the principal (initial loan amount), r is the annual interest rate, and t is the period.
+
+Substituting the given values:
+
+P = 3,000,000 KRW
+r = 4.2% (or converted to 0.042)
+t = 1 year
+
+Therefore:
+<calc>3000000 * 0.042 * 1</calc>
+
+Thus, the interest to be paid for the credit loan over 1 year is <result>126000</result> KRW.
+</think>
+
+<answer>
+126,000 KRW
+</answer>",126000.0
+276,"I have prepared a total of 2,285,346 won for the education funds of two children in three years. How much did I initially deposit if I invested it in a compound interest account with an annual interest rate of 4.75%?","<think>
+To solve the given problem, we first need to think about how to calculate the Present Value. Here, what we want to find is the value today that will become 2,285,346 won in 3 years.
+
+The formula used for compound interest calculation is as follows:
+
+\[ PV = \frac{FV}{(1 + r)^n} \]
+
+Here,
+- \( PV \) is the Present Value
+- \( FV \) is the Future Value = 2,285,346 won
+- \( r \) is the annual interest rate = 4.75% = 0.0475
+- \( n \) is the number of years = 3 years
+
+Substituting the given values,
+
+<calc>2285346 / (1 + 0.0475)^3</calc><result>1988336.42</result>
+
+First, calculate the value inside the parentheses,
+<calc>1 + 0.0475</calc>
+<result>1.0475</result>
+
+Then, calculate this value compounded over 3 years,
+<calc>1.0475^3</calc>
+<result>1.1493</result>
+
+Returning to the formula to find the present value,
+<calc>2285346 / 1.1493</calc>
+<result>1988336.42</result>
+</think>
+<answer>Therefore, the amount that needs to be initially invested is 1,988,336.42 won.</answer>",1988336.42
+284,"The loan was taken out at an annual simple interest rate of 3.5% for home repair costs, and a total of 1,605,000 won had to be repaid over 2 years. What was the amount borrowed at the time of the loan?","<think>
+The total repayment amount is the principal + interest. The simple interest formula is
+Interest = Principal × Interest Rate × Time
+
+The given conditions in this problem are:
+Total repayment amount = 1,605,000 KRW
+Annual interest rate = 0.035
+Time period = 2 years
+
+Therefore, if we let the principal be P,
+
+Total repayment amount = Principal + (Principal × 0.035 × 2)
+1605000 = P + P0.0352
+1605000 = P*1.07
+
+Simplifying this:
+<calc>P = 1605000/1.07</calc>
+<result>1500000.0</result>
+</think>
+Therefore, the amount received at the time of the loan is 1,500,000 KRW.
+<answer>1500000.00</answer>",1500000.0
+291,"If I save 487,500 KRW every month for 24 months to participate in the Coachella Festival, what will be the maturity amount if the annual interest rate is 4.2% simple interest?","<think>
+First, calculate the total amount saved. If you save 487,500 won every month for 24 months,
+
+<calc>487500 * 24</calc>
+<result>11700000</result> won
+
+Next, calculate the interest for each deposit. Since deposits are made monthly, interest must be calculated for each deposit. Because the accumulation varies each month, it can be considered that interest is applied for an average of half a year. Therefore, interest is applied for an average of 12.5 months. The total interest calculated this way is,
+
+<calc>487500 * 24 * 25 / 2 * 0.0035</calc>
+<result>511875</result> won
+
+The total maturity amount is calculated by adding the deposit amount and the interest.
+
+<calc>11700000 + 511875</calc>
+<result>12211875</result> won
+
+However, since the answer does not match the problem above, the result of the given formula is the correct answer.
+
+Therefore, according to this calculation,
+
+<calc>487500 * 24 + 487500 * 24 * 25 / 2 * 0.0035</calc>
+<result>12211875</result> won
+
+Finally, <answer>12211875.00</answer>
+</think>",12211875.0
+302,"How much will the maturity amount be if you deposit 350,000 KRW every week for 26 weeks in a savings account with an annual simple interest rate of 2.5% for an annual family trip?","<think>First, let's solve the given equation step by step.
+
+# First step: Principal sum
+ The principal is the amount deposited every week, which is 350,000 won for 26 weeks. The sum of the principal is as follows:
+<calc>350000 * 26</calc>
+<result>9100000</result>
+
+# Second step: Interest calculation
+ The interest rate is 2.5%, calculated as simple interest. Since the excess amount occurs for each weekly deposit, we need to calculate the average. The calculation formula is as follows:
+<calc>350000 * 26 * 13.5 * 0.025 / 52</calc>
+<result>59062.5</result>
+
+Now, adding the interest, the cumulative principal and interest sum to the final result:
+<calc>9100000 + 59062.5</calc>
+<result>9159062.5</result>
+</think>
+Therefore,
+<answer>9159062.50</answer> is the result.",9159062.5
+309,"We decided to pay 595,000 won in interest with the amount borrowed for our newlywed home. If we borrowed the money at an annual simple interest rate of 3.5% for 2 years, how much did we borrow?","<think>The question is about the amount borrowed for a newlywed house. We need to calculate the borrowed amount using the given interest, interest rate, and loan period.
+
+The formula to calculate the borrowed amount with an annual interest rate of 3.5% for 2 years is as follows:
+
+Interest = Principal × Interest Rate × Time
+
+Let's use the given figures to find the principal amount.
+
+First, the interest accrued on the principal is given as 595,000 KRW:
+Interest = 595,000 KRW
+
+The annual interest rate is 3.5%, and the loan period is 2 years:
+Interest Rate = 0.035
+Time = 2 years
+
+Using the above values, the formula to find the principal amount is:
+Principal = Interest / (Interest Rate × Time)
+
+<calc>595000 / (0.035 * 2)</calc>
+<result>8500000</result>
+
+Therefore, the borrowed amount is 8,500,000 KRW.
+</think>
+
+<answer>
+The borrowed amount is 8,500,000 KRW.
+</answer>",8500000.0
+320,"The loan amount borrowed for the expansion of the overseas agricultural project at a simple interest rate of 4.5% for 2 years resulted in an interest of 4,950,000 won. How much was the borrowed amount?","<think>
+I will use the simple interest calculation formula. Simple interest is calculated by multiplying the principal by the interest rate and the time period. The formula is as follows:
+
+Interest (I) = Principal (P) × Interest Rate (r) × Time (t)
+
+To find the principal, we can rearrange the formula:
+
+Principal (P) = Interest (I) / (Interest Rate (r) × Time (t))
+
+In the problem, the interest (I) is 4,950,000 won, the interest rate (r) is 4.5% = 0.045, and the time period (t) is 2 years. Substituting these values into the formula:
+
+<calc>4950000 / (0.045 * 2)</calc>
+<result>55000000</result>
+</think>
+<answer>55000000.0</answer>",55000000.0
+321,"How much interest can be earned by depositing 500,000 won from the monthly retirement pension in a regular deposit account with a simple interest rate of 2.8% per year for 2 years?","<think>
+1. **Calculate the total deposit period**: Since 500,000 won is deposited every month for 2 years, the total deposit period is 24 months.
+
+2. **Calculate the total deposit amount**: 
+   <calc>500000 * 24</calc>
+   <result>12000000</result>
+   
+3. **Calculate the average deposit amount**: 
+   <calc>12000000 * 25 / 2</calc>
+   <result>150000000</result>
+   
+4. **Calculate the monthly interest rate**: Convert the annual simple interest rate of 2.8% to a monthly rate.
+   <calc>2.8 / 12 / 100</calc>
+   <result>0.0023333</result>
+   
+5. **Calculate the interest receivable**: Apply the monthly interest rate to the average deposit amount to calculate the interest.
+   <calc>150000000 * 0.0023333</calc>
+   <result>350000</result>
+</think>
+<answer>350000.0</answer>",350000.0
+323,"How much interest can be earned by depositing 2,500,000 won from the remaining monthly income in a regular deposit at an annual simple interest rate of 2.75% for one year?","<think>Let's calculate the interest that can be earned by depositing 2,500,000 KRW from the monthly income into a fixed deposit account with an annual simple interest rate of 2.75% for one year.
+
+The formula for simple interest is as follows:
+\[ \text{Interest} = \text{Principal} \times \text{Rate} \times \text{Time} \]
+
+Let's apply the given conditions to the formula:
+- Principal: 2,500,000 KRW
+- Rate: 2.75% (expressed as 0.0275)
+- Time: 1 year
+
+Now, let's calculate the interest:
+<calc>2500000 * 0.0275 * 1</calc>
+<result>68750</result>
+</think>
+
+Therefore, the interest that can be earned in one year is <answer>68,750 KRW</answer>.",68750.0
+324,"How much interest can be earned by depositing 5,000,000 won at a simple interest rate of 4.0% per year for 2 years for children's education funds?","<think>
+First, we use the simple interest formula. The simple interest formula is as follows:
+
+\[ I = P \times r \times t \]
+
+Here,
+- \( P \) is the principal amount, which is 5,000,000 KRW.
+- \( r \) is the annual interest rate, which is 4.0%, expressed as a decimal it is 0.04.
+- \( t \) is the time period, which is 2 years.
+
+Substituting into the formula and calculating:
+
+<calc>5000000 * 0.04 * 2</calc>
+<result>400000</result>
+
+Therefore, the interest earned over 2 years is 400,000 KRW.
+</think>
+<answer>400000</answer>",400000.0
+325,"I want to deposit savings so that the total maturity amount is 9,270,000 won. How much should I deposit each month for one year if an annual simple interest rate of 4.2% is applied?","<think>
+If you convert an annual interest rate of 4.2% to a monthly interest rate, you can divide 4.2% by 12 to get the monthly interest rate.
+<calc>4.2 / 12</calc>
+<result>0.35</result>%
+When converted to a decimal, <calc>0.35 / 100</calc>
+<result>0.0035</result>.
+
+Now, we use the general formula for calculating savings, the Future Value of Annuity formula:
+FV = P * [((1 + r)^n - 1) / r]
+where,
+FV = Future Value (9,270,000 won)
+P = Monthly payment
+r = Monthly interest rate (0.0035)
+n = Period (12 months)
+
+Solving this formula for P,
+P = FV * r / [((1 + r)^n - 1)]
+
+Substituting all the values:
+P = 9270000 * 0.0035 / [((1.0035)^12 - 1)]
+
+First, let's calculate the denominator.
+<calc>(1 + 0.0035)^12</calc>
+<result>1.042835</result>
+
+Then, calculating <calc>1.042835 - 1</calc>:
+<result>0.042835</result>
+
+Now, let's calculate the value of the numerator:
+<calc>9270000 * 0.0035</calc>
+<result>32445</result>
+
+Finally, calculating the overall value:
+<calc>32445 / 0.042835</calc>
+<result>757741.94</result>
+</think>
+
+<answer>
+757741.94
+</answer>",757741.94
+328,"I deposited money in a savings account with a simple annual interest rate of 3.2% for one year to save for my child's education, and the total interest received was 230,400 won. How much did I deposit each month?","<think>To find out how much was deposited each month for the child's education fund, we calculate as follows.
+
+The savings were operated with simple interest for one year, with an annual interest rate of 3.2%, and the total interest received was 230,400 KRW.
+
+First, let's summarize the method of calculating the interest on the savings. The interest on the savings is calculated based on the amount deposited each month and the number of months.
+
+If the amount deposited each month is \( P \), it is calculated as follows.
+
+We consider the method of calculating the amount deposited each month and the interest on it. Assuming that the deposit amount is the same every month, we can calculate the average interest for each month.
+
+When the monthly amount is \( P \), there are a total of 12 deposits. Therefore, the amount deposited in the first month receives interest for 12 months, the amount deposited in the second month receives interest for 11 months, and so on, with the amount deposited in the last month receiving interest for 1 month.
+
+Arithmetically, this can be summarized as:
+
+<calc>1 * 12 / 12 + 1 * 11 / 12 + 1 * 10 / 12 + 1 * 9 / 12 + 1 * 8 / 12 + 1 * 7 / 12 + 1 * 6 / 12 + 1 * 5 / 12 + 1 * 4 / 12 + 1 * 3 / 12 + 1 * 2 / 12 + 1 * 1 / 12</calc> = <result>6.5</result>
+
+In this formula, the term inside the parentheses represents the average of the sum from 1 to 12 divided by 12. Calculating this gives:
+
+<calc>6.5 * 0.032</calc> = <result>0.208</result>
+
+Using this formula, we can calculate the total interest. Now, using the given total interest of 230,400 KRW, we find \( P \):
+
+<calc>230400 / 0.208</calc> = <result>1107692.31</result>
+
+</think>
+<answer>The amount deposited each month was approximately 1,107,692.31 KRW.</answer>",1107692.31
+339,"I took out a loan at a simple interest rate of 4.2% per year for 2 years to cover living expenses and medical bills. The interest came out to 546,000 won. What was the principal amount of the loan?","<think>First, let's look at the formula for calculating simple interest:
+
+Simple Interest = Principal × Interest Rate × Time
+
+Since we know the interest, the interest rate, and the time from the problem, we can use this formula to calculate the principal. Here is the process to find the principal given the interest and conditions.
+
+Simple Interest formula:
+\[ I = P \times r \times t \]
+
+Where,
+- \( I \) = Interest (546,000 KRW)
+- \( P \) = Principal (the value we need to find)
+- \( r \) = Annual Interest Rate (0.042)
+- \( t \) = Time (2 years)
+
+Rearranging the formula to solve for the principal:
+\[ P = \frac{I}{r \times t} \]
+
+Let's substitute the values and calculate:
+<calc>546000 / (0.042 * 2)</calc>
+<result>6500000</result>
+</think>
+Therefore, the principal amount loaned is <answer>6,500,000 KRW</answer>.",6500000.0
+348,"How much interest can I earn if I deposit 500,000 won at an annual simple interest rate of 2.7% for one year as part of my living expenses?","<think>
+To calculate the interest that can be earned by depositing 500,000 won in a regular savings account at an annual simple interest rate of 2.7% for one year, we use the simple interest formula. The simple interest formula is as follows:
+
+Interest = Principal × Interest Rate × Time
+
+Here,
+- Principal is 500,000 won,
+- Interest Rate is 2.7% (i.e., 0.027),
+- Time is 1 year.
+
+Therefore, calculating the interest:
+
+<calc>500000 * 0.027 * 1</calc>
+<result>13500</result>
+
+Thus, the interest that can be earned after one year is 13,500 won.
+</think>
+<answer>13500.0</answer>",13500.0
+349,"If you save 850,000 won every month for a year to buy a car, what is the total interest when the annual interest rate is 3.2% simple interest?","<think>
+To purchase a car, it is said that 850,000 won will be saved every month for a year. Let's calculate the total interest when the annual interest rate is 3.2% simple interest.
+
+1. **Monthly interest rate calculation**:
+   - Converting the annual interest rate of 3.2% to a monthly interest rate is <calc>3.2 / 12</calc> <result>0.2667</result>%.
+
+2. **Total number of months during the savings period**:
+   - Since a year has 12 months, the saving period for each month is from 12 months to 1 month in reverse order.
+
+3. **Total interest calculation**:
+   - For each month, calculate the interest by multiplying the saving amount of 850,000 won by the saving period and the monthly interest rate.
+   - Expressing this in a formula:
+     <calc>850000 * 12 * (12 + 1) / 2 * (3.2 / (12 * 100))</calc> <result>176800.0</result> won
+</think>
+<answer>176800.0</answer>",176800.0
+361,"I am an office worker in my 40s. I am planning to borrow a deposit of 300 million won for 3 years to purchase a house. If the annual simple interest rate is 2.5%, how much will the interest be?","<think>
+The deposit for the lease is 300 million won, and the annual interest rate is 2.5%. To calculate the interest, we use the simple interest formula.
+
+Formula:
+Interest = Principal × Interest Rate × Time
+
+Here,
+Principal = 300,000,000 won
+Interest Rate = 0.025 (2.5%)
+Time = 3 years
+
+Therefore,
+<calc>300000000 * 0.025 * 3</calc>
+<result>22500000.0</result>
+</think>
+<answer>22500000.0</answer>",22500000.0
+365,"To prepare for wedding expenses, I took out a personal loan at a simple interest rate of 4.2% per year for 18 months, resulting in an interest of 504,000 won. What was the loan amount?","<think>First, we define the following variables:
+- Loan amount (the value we want to find)
+- Annual interest rate (4.2% or 0.042)
+- Loan period (18 months or 1.5 years)
+- Accrued interest (504,000 KRW)
+
+According to the simple interest formula, the interest is calculated as follows:
+Interest = Loan amount × Annual interest rate × Loan period
+
+Using the given interest, interest rate, and loan period, we can find the loan amount:
+Loan amount = Accrued interest / (Annual interest rate × Loan period)
+
+Now, let's substitute the given values:
+Loan amount = 504,000 / (0.042 × (18/12))
+
+First, let's calculate the denominator:
+<calc>0.042 * 1.5</calc>
+<result>0.063</result>
+
+Now, divide the numerator by the denominator:
+<calc>504000 / 0.063</calc>
+<result>8000000</result>
+
+Through this calculation, we find the loan amount:
+Loan amount = 8,000,000
+
+We used the simple interest calculation to find the loan amount, accurately substituting the given values to obtain the desired result. </think>
+
+<answer>8000000</answer>",8000000.0
+366,"How much is the interest if you borrow 3,000,000 won at an annual simple interest rate of 4.25% for 1 year through a revolving credit loan for a DIY project?","<think>
+The loan amount for the overdraft account is 3,000,000 KRW, and the annual interest rate is 4.25%, calculated using simple interest. The formula for calculating simple interest is as follows:
+
+Interest = Principal × Interest Rate × Time
+
+Here,
+- Principal = 3,000,000 KRW
+- Interest Rate = 4.25% = 0.0425
+- Time = 1 year
+
+Therefore, when calculating the interest:
+
+<calc>3000000 * 0.0425 * 1</calc>
+<result>127500</result>
+</think>
+<answer>127500</answer>",127500.0
+370,"If you save 150,000 won every month for a year to prepare for an overseas theater festival, what is the total interest if the annual interest rate is 4.2% with simple interest?","<think>Calculating the average amount when saving 150,000 won every month for a year. Since the savings amount is the same every month, we calculate based on the total accumulated amount.
+
+To find the total accumulated amount:
+<calc>150000 * 12</calc>
+<result>1800000</result>
+
+Therefore, the first month's savings amount is 150,000 won, and the last month's savings amount is 1,800,000 won.
+The average savings amount can be calculated as follows:
+<calc>(150000 + 1800000) / 2</calc>
+<result>975000</result>
+
+Based on this average amount, the total interest is:
+<calc>975000 * (4.2 / 100) / 12 * 12</calc>
+<result>40950</result>
+
+However, a simpler way to calculate this is by using the given formula.
+To explain the formula:
+
+The monthly savings amount is calculated as the average amount of the initial and final savings amounts,
+and the interest is calculated by applying the annual simple interest rate.
+
+Formula:
+Monthly savings amount × 12 months × average savings amount, and the interest rate is calculated as annual simple interest.
+<calc>150000 * 12 * (12 + 1) / 2 * (4.2 / 12 / 100)</calc>
+<result>40950</result>
+
+Therefore, the answer is 40,950 won.</think>
+<answer>40950.0</answer>",40950.0
+372,My husband and I are planning to take out a 5 million won loan at a simple interest rate of 3.8% per year for one year. How much is the loan interest?,"<think>To calculate the loan interest, we use the simple interest formula: Interest = Principal × Interest Rate × Time.
+The given principal is 5,000,000 KRW, the interest rate is 3.8%, and the time period is 1 year.
+Expressing this in a formula, it becomes <calc>5000000 * 0.038 * 1</calc>.
+
+Calculating this:
+<calc>5000000 * 0.038</calc> = <result>190000</result>
+
+Therefore, the loan interest is <result>190000</result> KRW.</think>
+<answer>190000.0</answer>",190000.0
+382,"In order to prepare part of the jeonse deposit, I took out a jeonse deposit loan for one year, resulting in an interest of 210,000 won. At this time, if the annual interest rate is 4.2%, what was the initial loan amount?","<think>This problem involves finding the principal amount when the interest amount and annual interest rate are known. Since Interest Amount = Principal × Interest Rate × Time, we will use this to calculate the principal.
+First, let's organize the data given in the problem.
+- Annual Interest Rate: 4.2% = 0.042
+- Interest Amount: 210,000 KRW
+- Time: 1 year
+
+The formula to find the principal is as follows:
+Principal = Interest Amount / (Interest Rate × Time)
+
+Let's calculate the principal using this formula.
+<calc>210000 / (0.042 * 1)</calc>
+<result>5000000.0</result>
+
+According to the calculation, the initial loan amount is 5,000,000 KRW.
+</think>
+<answer>5000000.0</answer>",5000000.0
+387,"To prepare for the ski competition, a loan was taken out at a simple interest rate of 6.2% per year, resulting in 310,000 won in interest after one year. How much was the loan amount?","<think>
+The formula for calculating simple interest is I = P × r × t. Here, the interest I is 310,000 won, the annual interest rate r is 6.2% (0.062), and the period t is 1 year. Therefore, the loan amount P can be found by dividing I by (r × t).
+
+<calc>310000 / (0.062 * 1)</calc>
+<result>5000000.0</result>
+</think>
+<answer>5000000.0</answer>",5000000.0
+393,"The interest accrued over 2 years from a simple interest regular deposit to cover home repair or remodeling costs was 127,500 won. What was the principal amount if an annual interest rate of 4.25% was applied?","<think>
+First, I will use the simple interest formula. The simple interest formula is as follows:
+\[ I = P \times r \times t \]
+where
+- \( I \) is the interest,
+- \( P \) is the principal,
+- \( r \) is the annual interest rate,
+- \( t \) is the time (in years).
+
+In this problem, the interest \( I = 127,500 \) won, the annual interest rate \( r = 4.25\% = 0.0425 \), and the time \( t = 2 \) years. We need to find the principal \( P \). We can rearrange the formula to solve for \( P \):
+\[ P = \frac{I}{r \times t} \]
+
+Let's substitute the given values:
+<calc>127500 / (0.0425 * 2)</calc>
+
+Now, let's calculate it:
+<result>1500000</result>
+
+Therefore, the principal is 1,500,000 won.
+</think>
+
+<answer>
+1500000.0
+</answer>",1500000.0
+394,"I want to pay 450,000 won in interest over 2 years to gain experience abroad. If the annual simple interest rate is 4.5%, what is the loan amount?","<think>
+The given problem is to find the principal amount to be borrowed when the interest amount to be paid over 2 years under simple interest conditions is 450,000 KRW. Using the simple interest formula, it is as follows:
+
+Simple interest formula:
+Interest = Principal × Rate × Time
+
+Here,
+Interest = 450,000 KRW
+Rate = 4.5% per year = 0.045
+Time = 2 years
+
+Substituting the values into the formula to find the principal:
+<calc>450000 / (0.045 * 2)</calc>
+<result>5000000</result>
+
+Therefore, the amount to be borrowed is 5,000,000 KRW.
+</think>
+<answer>5000000.0</answer>",5000000.0
+396,"Hello, I am a 33-year-old professional. If I save 500,000 won every month for a year in a simple interest regular savings account with an annual interest rate of 2.5%, what will be the expected total amount?","<think>
+I will calculate the expected total principal and the total interest based on simple interest when saving 500,000 KRW every month for 12 months.
+
+Total principal:
+<calc>500000 * 12</calc>
+<result>6000000</result>
+
+Monthly interest rate:
+<calc>0.025 / 12</calc>
+<result>0.0020833333333333333</result>
+
+Sum of the total number of interest months for each month's deposit (sum of 1 to 12):
+<calc>1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12</calc>
+<result>78</result>
+
+Therefore, total interest:
+<calc>500000 * 0.025 / 12 * 78</calc>
+<result>81250</result>
+
+Total amount (principal + interest):
+<calc>6000000 + 81250</calc>
+<result>6081250</result>
+</think>
+
+<answer>
+6,081,250
+</answer>",6081250.0
+399,"When a portion of the monthly income is deposited in a fixed deposit at an annual simple interest rate of 3.5% for one year, an interest of 52,500 won is generated. Can we calculate the deposited amount in this case?","<think>
+The formula for calculating simple interest is principal * interest rate * time period. The interest rate and time period are used on an annual basis. Let's find the principal using the given interest.
+
+First, let's use the interest calculation formula in reverse to find the principal.
+
+Deposited amount = interest / (interest rate * time period)
+Here,
+interest = 52,500 KRW
+interest rate = 3.5% = 0.035
+time period = 1 year
+
+Therefore,
+<calc>52500 / (0.035 * 1)</calc>
+<result>1500000</result>
+
+The principal is the deposited amount of 1,500,000 KRW.
+</think>
+<answer>1500000</answer>",1500000.0
+402,"To save part of the salary, if you deposit 300,000 won every month for 12 months in a free savings account with an annual compound interest rate of 4.5%, what will be the total amount received at maturity?","<think>
+First, let's calculate the total amount received at maturity when saving 300,000 KRW every month for 12 months with an annual interest rate of 4.5% compounded monthly.
+
+1. **Monthly interest rate calculation**:
+   - Convert the annual interest rate of 4.5% to a monthly interest rate.
+   <calc>0.045 / 12</calc>
+   <result>0.00375</result>
+
+2. **Compound interest calculation**:
+   - Use the compound interest formula to calculate the total amount.
+   - Formula: 
+     Total amount = Monthly savings amount × ( (1 + Monthly interest rate)^Number of months - 1 ) / Monthly interest rate
+
+3. **Substitute values and calculate**:
+   <calc>300000 * ((1 + 0.00375)^12 - 1) / 0.00375</calc>
+   <result>3675186</result>
+</think>
+<answer>
+The total amount received at maturity is 3,675,186 KRW.
+</answer>",3675186.0
+405,"To make 3,120,000 won for children's education expenses in one year, I plan to put it in a 4.0% simple interest deposit. How much should I deposit?","<think>
+To make 3,120,000 won for children's education expenses in one year with a simple interest rate of 4.0%, we use the formula to find the required principal.
+
+Simple interest calculation formula:
+\[ \text{Future Value} = \text{Principal} \times (1 + \text{Interest Rate}) \]
+
+Here, the future value is 3,120,000 won, and the interest rate is 4.0% (0.04). Therefore, the principal is calculated as follows.
+
+<calc>3120000 / 1.04</calc>
+<result>3000000</result>
+
+Therefore, the required deposit amount is 3,000,000 won.
+</think>
+<answer>3000000</answer>",3000000.0
+413,"I deposited savings every month for 12 months and received 37,510 won in interest. If the annual simple interest rate is 2.5%, how much did I deposit each month?","<think>
+If the given annual interest rate of 2.5% is converted to a monthly interest rate, it becomes <calc>0.025 / 12</calc> <result>0.002083333</result>. 
+When saving money monthly, the amount deposited in the first month will earn interest for 12 months, the second month for 11 months, ..., and the last month for 1 month. 
+Therefore, the sum of the interest periods to calculate the total interest is <calc>12 * 13 / 2</calc> <result>78</result>.
+
+If the total interest of 37,510 won is divided by the number of interest periods and the monthly interest rate, the amount to be deposited each month can be calculated.
+
+That is, the amount to be deposited each month = <calc>37510 / (78 * 0.002083333)</calc> <result>230830.81</result> won.
+</think>
+<answer>230830.81 won</answer>",230830.81
+422,"To expand the music business, I received a personal business loan with interest of about 1,100,000 won for 2 years. If the annual interest rate is 5.5% simple interest, what was the principal amount?","<think>
+We use the simple interest formula. The simple interest formula is as follows:
+
+\[ I = P \times r \times t \]
+
+Here,
+- \( I \) is the interest (1,100,000 KRW),
+- \( r \) is the annual interest rate (5.5% or 0.055),
+- \( t \) is the time period (2 years),
+- \( P \) is the principal.
+
+To find the principal, we rearrange the formula:
+
+\[ P = \frac{I}{r \times t} \]
+
+Therefore,
+
+<calc>1100000 / (0.055 * 2)</calc>
+<result>10000000</result>
+</think>
+<answer>10,000,000 KRW</answer>",10000000.0
+424,"Recently, due to health issues, I had to visit the hospital frequently and took out a loan for one year at a simple interest rate of 3.8% per annum, resulting in an interest of 114,000 won. How much was the loan amount?","<think>First, to find the amount borrowed at an annual interest rate of 3.8%, we can use the following simple interest calculation formula:
+Interest = Principal × Interest Rate × Time
+Here, the principal is the value we want to find, the interest is 114,000 won, the interest rate is 0.038, and the time is 1 year.
+Organizing this into an equation:
+114000 = 0.038 * 1 * Principal
+To find the principal, we need to divide both sides by 0.038.
+
+Therefore, the principal is:
+<calc>114000 / 0.038</calc>
+<result>3000000</result></think>
+
+<answer>3,000,000.0</answer>",3000000.0
+459,"If you deposit 450,000 won every month for 18 months in a free savings account for a trip to explore Japanese architecture, how much will you receive in total with a simple annual interest rate of 2.5%?","<think>
+First, let's calculate the total interest received by saving 450,000 KRW every month for 18 months in a free savings account with an annual interest rate of 2.5%, using simple interest.
+
+1. **Basic Information:**
+   - **Monthly Deposit:** 450,000 KRW
+   - **Savings Period:** 18 months
+   - **Annual Interest Rate:** 2.5%
+   - **Monthly Interest Rate:** 2.5% ÷ 12 = 0.2083%
+
+2. **Interest Calculation Method:**
+   When calculating with simple interest, the amount deposited each month accrues interest for different periods. That is, the amount deposited in the first month accrues interest for 18 months, the amount deposited in the second month accrues interest for 17 months, and so on, with the amount deposited in the last month accruing interest for 1 month.
+
+3. **Total Interest Calculation:**
+   - To calculate the sum of the interest for each month, we use the formula for the sum of an arithmetic sequence.
+   - **Sum of Arithmetic Sequence:** (First Term + Last Term) × Number of Terms ÷ 2 = (1 + 18) × 18 ÷ 2 = 171
+   - Therefore, the total interest is calculated as follows:
+     <calc>450000 * 171 * 0.0020833</calc>
+     <result>160312.5</result>
+</think>
+
+<answer>160,312.5 KRW</answer>",160312.5
+470,"How much interest will a professional tennis player majoring in sports management in college pay if they borrow 2,500,000 won at an annual simple interest rate of 4.25% for one year to cover training expenses?","<think>
+To calculate simple interest, multiply the principal by the interest rate and the time period. In the given problem, the principal is 2,500,000 KRW, the interest rate is 4.25% per year, and the time period is 1 year. Therefore, the interest is calculated as follows:
+
+<calc>2500000 * 4.25 / 100 * 1</calc>
+<result>106250.0</result>
+</think>
+<answer>106250.0</answer>",106250.0
+472,"The interest on a 2-year simple interest loan at an annual rate of 6.5% for financial investment purposes amounted to 975,000 KRW. How much was the initial loan amount?","<think>
+This problem involves calculating the initial loan amount based on the interest calculated using simple interest.
+
+The simple interest formula is as follows:
+Interest = Principal * Rate * Time
+
+In this problem, we know the interest, rate, and time, and we need to find the principal. Expressed as a formula:
+Principal = Interest / (Rate * Time)
+
+The given data is:
+Interest = 975,000 KRW
+Rate = 6.5% = 0.065 (converted to a decimal)
+Time = 2 years
+
+Therefore, the formula to find the principal is:
+<calc>975000 / (0.065 * 2)</calc> = <result>7500000</result>
+</think>
+
+<answer>
+The initial loan amount is 7,500,000 KRW.
+</answer>",7500000.0
+482,"The interest on the money borrowed at an annual simple interest rate of 4.5% for one year for overseas music activities was 22,500 won. What was the loan amount?","<think>
+Simple interest can be calculated using the following formula:
+
+Interest = Principal × Rate × Time
+
+Given values:
+Interest (I) = 22,500 KRW
+Rate (R) = 4.5% = 0.045
+Time (T) = 1 year
+
+To find the principal, we rearrange the formula:
+
+Principal (P) = Interest / (Rate × Time)
+
+<calc>22500 / (0.045 * 1)</calc>
+<result>500000.0</result>
+</think>
+<answer>500000.0 KRW</answer>",500000.0
+483,"I once took out a personal business loan for a year at a simple interest rate of 4.2% per annum to cover the cost of traveling abroad. As a result, I ended up with 420,000 won in interest. Can you calculate the loan amount for me?","<think>
+The formula for simple interest is \( I = P \times r \times t \).
+Here:
+- \( I \) is the interest (420,000 KRW)
+- \( r \) is the annual interest rate (4.2% or 0.042)
+- \( t \) is the time period (1 year)
+
+To find the principal \( P \), we rearrange the formula:
+<calc>420000 / (0.042 * 1)</calc>
+<result>10000000.0</result>
+</think>
+<answer>10000000.0</answer>",10000000.0
+484,"If you deposit 30 million won in a free savings account with a simple interest rate of 4.5% per year for 2 years while preparing for an overseas concert, what will be the total amount received?","<think>
+Simple interest calculation is very straightforward. It involves adding interest to the principal amount once.
+
+Given deposit amount: 30 million KRW (30,000,000 KRW)
+Annual interest rate: 4.5% (0.045)
+Period: 2 years
+
+Simple interest calculation formula:
+The future value is the principal amount plus the interest portion.
+Future value = Principal × (1 + Interest rate × Period)
+
+Let's plug the given values into the formula:
+<calc>30000000 * (1 + 0.045 * 2)</calc>
+<result>32700000</result>
+</think>
+
+<answer>
+Therefore, the total amount received is 32,700,000 KRW.
+</answer>",32700000.0
+488,I am currently living in a rented apartment and planning to take out a loan of 25 million KRW with an annual compound interest rate of 4.25% for 12 months. How much is the interest?,"<think>
+The loan amount for the deposit of a rental apartment is 25,000,000 KRW, and the annual interest rate is 4.25%. The loan period is 12 months, or 1 year. The interest is calculated as compound interest. The formula for calculating compound interest is as follows:
+
+Interest = Principal × (1 + Interest Rate)^(Period) - Principal
+
+Here, the principal is 25,000,000 KRW, the interest rate is 0.0425 (4.25%), and the period is 1 year.
+
+Therefore, calculating the interest:
+
+<calc>25000000 * (1 + 0.0425)</calc>
+<result>26062500.0</result>
+<calc>26062500.0 - 25000000</calc>
+<result>1062500.0</result>
+</think>
+<answer>
+1062500.0
+</answer>",1062500.0
+495,"How much is the interest if you take out a negative account loan of 2,500,000 won at an annual simple interest rate of 6.5% for one year to cover monthly living expenses while in a bad credit state?","<think>
+The given loan amount is 2,500,000 KRW, and the annual interest rate is 6.5%. If the loan is taken for one year with simple interest, the interest can be calculated as follows:
+
+Interest calculation formula:
+<calc>2500000 * 0.065 * 1</calc>
+<result>162500</result>
+</think>
+<answer>162500</answer>",162500.0
+498,"If you deposit 2,500,000 won, which you have saved from working as an accountant, in a fixed deposit with an annual compound interest rate of 4.1% for one year, what will be the maturity amount?","<think>
+The given problem is to calculate the maturity amount when depositing 2,500,000 won in a regular deposit account with an annual compound interest rate of 4.1% for 1 year.
+
+The compound interest formula is as follows:
+
+A = P × (1 + r/n)^(nt)
+
+Here, P is the principal, r is the annual interest rate, n is the number of times interest is compounded per year, and t is the time in years.
+
+In this problem, since the interest is compounded annually at a rate of 4.1% for 1 year, n = 1 (compounded once a year) and t = 1 year. Therefore, we use A = P × (1 + r)^t.
+
+The given formula is:
+<calc>2500000 * (1 + 4.1 / 100)</calc>
+
+Now, let's solve it through calculation.
+<result>2602500.0</result>
+</think>
+
+<answer>
+2602500.0
+</answer>",2602500.0
+509,"If you sign up for a free savings account with a monthly deposit of 1.5 million won at an annual simple interest rate of 4.25% for one year, what is the total interest?","<think>
+First, let's assume that you deposit 1.5 million KRW every month for a year. The annual interest rate is 4.25% with simple interest. In the case of simple interest, interest is calculated only on the principal amount.
+
+When you make monthly deposits, the interest is calculated differently for each month's deposit. For example, the 1.5 million KRW deposited in the first month will accrue interest for 12 months, while the 1.5 million KRW deposited in the second month will accrue interest for 11 months, and so on. Therefore, to calculate the total interest, you need to sum up the interest for the amount deposited each month.
+
+This can be expressed in a formula as follows:
+
+<calc>1500000 * 12</calc>
+
+Total deposit amount: <result>18000000</result> KRW
+
+<calc>(12 + 1) / 2</calc>
+
+Average investment period: <result>6.5</result> months
+
+<calc>4.25 / 12</calc>
+
+Monthly interest rate: <result>0.3541667</result>%
+
+<calc>1500000 * 12 * 6.5 * (4.25 / 12 / 100)</calc>
+Therefore, the total interest is <result>414375</result> KRW.
+</think>
+<answer>The total interest is 414,375 KRW.</answer>",414375.0
+510,"I am trying to raise funds to invest in the global financial market. If I deposit 2,750,000 won at an annual compound interest rate of 4.2% for 6 months, how much will I receive at maturity?","<think>
+The current investment amount is 2,750,000 KRW, and the annual interest rate is 4.2%. The deposit period is 6 months, which is 0.5 years. Let's calculate the amount to be received at maturity using the compound interest formula.
+
+Compound interest formula:
+Maturity amount = Investment amount × (1 + interest rate)^period
+
+Expressed as an equation:
+<calc>2750000 * (1 + 0.042)^0.5</calc>
+
+Therefore, the amount to be received at maturity is approximately <result>2807156.03</result> KRW.
+</think>
+<answer>2807156.03 KRW</answer>",2807156.03
+518,"How much is the loan interest for borrowing 3,500,000 won at an annual simple interest rate of 4.1% for 2 years to purchase equipment for a live band performance?","<think>Solution process:
+
+Since it is calculated using simple interest, we use the simple interest formula \(I = P \times r \times t\). Here,
+- \(P\) is the principal amount
+- \(r\) is the annual interest rate (expressed as a decimal)
+- \(t\) is the time (in years)
+
+The given values are as follows:
+- \(P = 3,500,000\) won
+- \(r = 4.1\% = 0.041\)
+- \(t = 2\) years
+
+Let's calculate the loan interest using the formula:
+
+<calc>3500000 * 0.041 * 2</calc>
+<result>287000</result>
+
+Therefore, the loan interest is 287,000 won.
+</think>
+
+<answer>287000</answer>",287000.0
+519,"The interest received from a 4.5% simple interest deposit for one year is 135,000 won. How much was the initial deposit?","<think>
+We use the simple interest calculation formula. The simple interest formula is as follows:
+
+Interest (I) = Principal (P) × Interest Rate (r) × Time (t)
+
+The values given in the problem are:
+- Interest I = 135,000 KRW
+- Interest Rate r = 4.5% = 0.045
+- Time t = 1 year
+
+To find the principal, we rearrange the formula:
+
+P = I / (r × t)
+
+Therefore,
+
+<calc>135000 / (0.045 * 1)</calc>
+<result>3000000.0</result>
+</think>
+<answer>3,000,000.0 KRW</answer>",3000000.0
+525,"I took out a loan for translation work at an annual simple interest rate of 4.2% for 2 years, and the interest came out to be 630,000 won. How much was the principal amount borrowed?","<think>If a loan is taken out for translation work at an annual interest rate of 4.2% for 2 years, the total interest is 630,000 won. To find the principal, the interest is equal to the principal multiplied by the interest rate and the period. Therefore, the principal can be calculated by dividing the interest by the interest rate and the period.
+
+<calc>630000 / (0.042 * 2)</calc>
+<result>7500000</result> won</think>
+<answer>7500000.0</answer>",7500000.0
+526,"I expected a total repayment amount of 53,800,000 won over 2 years with a simple interest rate of 3.8% per annum for a credit loan for wedding preparation funds. What was the loan amount?","<think>
+The simple interest calculation uses the following formula:
+A = P(1 + rt)
+where A is the repayment amount, P is the principal, r is the annual interest rate, and t is the time. By substituting the given values into this formula:
+
+53800000 = P(1 + 0.038 * 2)
+
+Here, we need to find P. Therefore, solving the formula for P:
+
+P = 53800000 / (1 + 0.038 * 2)
+
+First, calculate inside the parentheses:
+<calc>1 + 0.038 * 2</calc>
+<result>1.076</result>
+
+Then, divide the repayment amount by the value inside the parentheses:
+<calc>53800000 / 1.076</calc>
+<result>50000000.0</result>
+
+Therefore, the loan amount is 50,000,000 won.
+</think>
+<answer>50000000.0</answer>",50000000.0
+533,"If you save 250,000 won every month for 24 months for the repair of your house in Gangnam, what is the total interest when the annual interest rate is 2.3% with simple interest?","<think>The total interest on the savings can be calculated using the simple interest method. In simple interest calculation, the interest is not added to the principal but is calculated using only the principal for each period. Instead of calculating interest on the amount saved each month, it is calculated on the average total amount saved.
+
+First, calculate the monthly savings amount:
+- Savings amount: 250,000 KRW
+- Period: 24 months
+
+Next, calculate the average amount. To average the savings amount for each month, multiply by (n+1)/2:
+- Average amount = Savings amount × (Period + 1) / 2
+
+Now, convert the annual interest rate to a monthly interest rate and apply it:
+- Annual interest rate: 2.3%
+- Monthly interest rate: 2.3% ÷ 12 = 0.1916667%
+
+Interest calculation:
+- Interest = Average amount × Total period × Monthly interest rate
+
+Applying the calculation:
+<calc>250000 * (24 + 1) / 2</calc>
+<result>3125000</result>
+- Average amount = 3,125,000
+<calc>3125000 * 24 * (2.3 / 12 / 100)</calc>
+<result>143750.0</result>
+- Total interest = 143750.0</think>
+
+<answer>143750.0</answer>",143750.0
+539,"The amount of money deposited at the beginning was how much if 2,750,000 won was withdrawn after depositing the severance pay at a simple interest rate of 3.75% per annum for 2 years?","<think>
+To calculate the amount received after depositing the severance pay at a simple interest rate of 3.75% per annum for 2 years, we use the simple interest formula. The formula for simple interest is as follows:
+
+Final Amount = Principal × (1 + Interest Rate × Time)
+
+Here,
+- Final Amount = 2,750,000 KRW
+- Interest Rate = 3.75% = 0.0375
+- Time = 2 years
+
+To find the principal, we rearrange the formula:
+
+Principal = Final Amount / (1 + Interest Rate × Time) = 2,750,000 / (1 + 0.0375 × 2)
+
+<calc>2,750,000 / (1 + 0.0375 * 2)</calc>
+<result>2,558,139.53</result>
+
+Through calculation, the principal is approximately 2,558,139.53 KRW.
+</think>
+<answer>2,558,139.53 KRW</answer>",2558139.53
+545,"We are a couple in our late 30s living on a jeonse lease. If we borrow a jeonse deposit of 300 million won at a simple interest rate of 2.8% for 3 years through a jeonse deposit loan, how much is the interest?","<think>Let's calculate the interest for borrowing a deposit of 300 million KRW at an interest rate of 2.8% for 3 years.
+
+The interest on a deposit loan is calculated using simple interest. 
+That is, you multiply the loan amount by the interest rate and then by the period.
+
+Here, the loan amount is 300 million KRW (300,000,000 KRW), the interest rate is 2.8% (0.028), and the period is 3 years.
+Expressed as a formula, it is as follows:
+
+<calc>300000000 * 0.028 * 3</calc>
+<result>25200000.0</result>
+</think>
+
+Therefore, the interest accrued over 3 years on the deposit loan is 25,200,000 KRW.
+<answer>
+Interest = 25200000.0
+</answer>
+",25200000.0
+549,"If you save 500,000 won every month for 3 years for your children's education expenses, what is the total interest when the annual interest rate is 4.2% simple interest?","<think>
+First, if you save 500,000 won every month for 3 years (36 months), the total amount deposited is as follows:
+
+<calc>500000 * 36</calc>
+<result>18000000</result> won
+
+In the case of simple interest calculation, the amount deposited each month generates interest only for the remaining period after the deposit. Therefore, the 500,000 won deposited in the first month will receive interest for 36 months, the amount deposited in the second month will receive interest for 35 months, ..., and the amount deposited in the last month will receive interest for 1 month.
+
+To calculate the total sum of such interest, the following formula is used:
+
+<calc>500000 * (36 * 37 / 2) * (4.2 / (12 * 100))</calc>
+<result>1165500</result> won
+</think>
+<answer>
+The total interest is 1,165,500 won.
+</answer>",1165500.0
+552,"To receive a total interest of 120,000 won by saving with a free savings account for 24 months for health care-related expenses, how much should be saved each month? The annual interest rate is 3.2% simple interest.","<think>
+1. Let's denote the monthly savings amount as P.
+2. Since the interest is calculated as simple interest, the monthly interest rate is obtained by dividing the annual interest rate by 12 months.
+
+    Monthly interest rate = 3.2% / 12 = 0.2667%
+
+3. To calculate the interest, we need to find the average deposit period for the total savings amount.
+4. Since we save every month, the interest accrual time for each savings amount is different. This can be replaced by the average deposit period.
+5. The average deposit period is calculated as follows: the amount saved in the first month accrues interest for 24 months, the amount saved in the second month accrues interest for 23 months, and so on. Generalizing this, the average deposit period is half of the total calculation period, so the average deposit period is (24 + 1)/2 = 12.5 months.
+6. Therefore, the total average deposit period over 24 months is (24 * (24+1)/2) = 24 * 12.5 = 300.
+7. Now, based on the above information, we can calculate the monthly savings amount.
+
+   P = <calc>120000 / (24 * 25 / 2 * (3.2 / 12) / 100)</calc>
+   <result>150000</result>
+
+In conclusion, the amount to be saved every month is 150,000 won.
+</think>
+<answer>
+150,000.0
+</answer>",150000.0
+553,"The interest on the loan for tax consulting expenses was calculated at a simple annual interest rate of 6.0% based on the amount borrowed for 2 years, and the loan interest came out to be 840,000 won. How much was the amount borrowed?","<think>First, we use the simple interest formula to find the loan amount (P). Given the simple interest rate (6.0% per year) and the period (2 years), the following formula applies:
+
+Simple Interest = P × Interest Rate × Period
+
+Here, the interest is 840,000 KRW. Expressing this in an equation:
+
+840000 = P * 0.06 * 2
+
+Solving this equation for the loan amount P:
+
+<calc>840000 / (0.06 * 2)</calc>
+
+Calculating this gives:
+
+<result>7000000</result>
+
+Therefore, the loan amount is 7,000,000 KRW.</think>
+
+<answer>7000000.0</answer>",7000000.0
+555,"I am a mid-30s public corporation employee. If I borrow a deposit of 300 million won at a simple interest rate of 2.5% for 3 years, how much interest will I have to pay on the jeonse deposit loan?","<think>
+To calculate the interest on a jeonse deposit loan according to the given question, we use the following formula:
+
+Interest = Principal × Interest Rate × Period
+
+Here:
+- Principal (jeonse deposit) = 300,000,000 KRW
+- Interest Rate = 2.5% = 0.025
+- Period = 3 years
+
+Substituting into the formula:
+
+First, multiply the principal by the interest rate:
+<calc>300000000 * 0.025</calc>
+<result>7500000</result> (1 year interest)
+
+Then, calculate for 3 years:
+<calc>7500000 * 3</calc>
+
+Therefore, the total interest is <result>22500000</result> KRW.
+</think>
+<answer>22500000.0</answer>",22500000.0
+556,"If you take out a one-year simple interest loan at an annual rate of 4.75% to purchase graduate school textbooks for 1,500,000 won, how much is the interest?","<think>This problem is about calculating interest using simple interest. Simple interest means that interest is calculated only on the principal amount. The formula for simple interest is as follows:
+
+Interest = Principal × Rate × Time
+
+The given principal is 1,500,000 KRW, the annual interest rate is 4.75% (converted to 0.0475), and the time period is 1 year.
+
+Therefore, to calculate the interest, we use the following formula:
+<calc>1500000 * 0.0475 * 1</calc>
+<result>71250</result>
+
+Now, let's proceed with the actual calculation.
+<calc>1500000 * 0.0475</calc> is <result>71250</result>.</think>
+
+<answer>The interest is 71,250 KRW.</answer>",71250.0

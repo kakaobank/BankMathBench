@@ -1,0 +1,2019 @@
+﻿index,question,reasoning,answer
+4,"Mr. A made a lump-sum deposit of 29.4 million won in a 2-year term deposit. The basic interest rate is 3.13% per annum, compounded annually, and the interest is paid in full on the maturity date. Interest income tax (15.4%) is deducted. What is the total amount received at maturity?","<think>
+Mr. A deposited 29.4 million won in a 2-year term deposit. The basic interest rate is 3.13% per annum, and the interest is paid in a lump sum at maturity. First, calculate the maturity amount after 2 years.
+
+Maturity amount = <calc>29400000 * (1 + 3.13 / 100) ** 2</calc>
+Maturity amount = <result>31361379.48</result>
+
+Now, calculate the interest income tax. The interest income tax is applied at 15.4% on the interest. The interest is the amount obtained by subtracting the principal from the maturity amount.
+
+Interest = <calc>31361379.48 - 29400000</calc>
+Interest = <result>1961379.48</result>
+
+Interest income tax = <calc>1961379.48 * 15.4 / 100</calc>
+Interest income tax = <result>302000</result>
+
+Finally, calculate the amount after subtracting the interest income tax from the maturity amount.
+
+Total amount = <calc>31361379.48 - 302000</calc>
+Total amount = <result>30981379.48</result>
+</think>
+<answer>30981379.48</answer>",30981379.48
+5,"Mr. A subscribed to a savings plan of 1,280,000 KRW per month for 37 months. The basic interest rate is 3.66% per annum, compounded annually, and the interest is paid in a lump sum at maturity. It is a tax-free product. However, if terminated early after 12 months, an early termination interest rate of 2.196% is applied. What is the total amount received if terminated early after 12 months?","<think>
+Mr. A subscribed to a savings plan of 1,280,000 KRW per month for 37 months. However, if he cancels the plan after 12 months, an early termination interest rate of 2.196% will be applied. Therefore, we need to calculate the amount paid and the interest for 12 months.
+
+First, we calculate the total amount paid over 12 months.
+Total amount paid = <calc>1280000 * 12</calc>
+Total amount paid = <result>15360000</result>
+
+Now, we apply the early termination interest rate to calculate the interest for each month. The interest is compounded, and the amounts with the applied interest rate for each month are summed.
+Total amount with early termination interest rate applied = <calc>1280000 * (1 + 2.196 / 12 / 100) ** 12 + 1280000 * (1 + 2.196 / 12 / 100) ** 11 + 1280000 * (1 + 2.196 / 12 / 100) ** 10 + 1280000 * (1 + 2.196 / 12 / 100) ** 9 + 1280000 * (1 + 2.196 / 12 / 100) ** 8 + 1280000 * (1 + 2.196 / 12 / 100) ** 7 + 1280000 * (1 + 2.196 / 12 / 100) ** 6 + 1280000 * (1 + 2.196 / 12 / 100) ** 5 + 1280000 * (1 + 2.196 / 12 / 100) ** 4 + 1280000 * (1 + 2.196 / 12 / 100) ** 3 + 1280000 * (1 + 2.196 / 12 / 100) ** 2 + 1280000 * (1 + 2.196 / 12 / 100) ** 1</calc>
+Total amount with early termination interest rate applied = <result>15543938.79</result>
+
+Therefore, the total amount received upon early termination after 12 months is 15,543,938.79 KRW.
+</think>
+<answer>15543938.79</answer>",15543938.79
+8,"Mr. B took out a loan of 2,340,000,000 KRW at a fixed annual interest rate of 5.42% for 14 months with equal principal and interest payments. How much interest will he have to pay during the loan period?","<think>
+Mr. B took out a loan of 2,340,000,000 KRW at a fixed annual interest rate of 5.42% for 14 months with equal principal and interest payments. To calculate the interest to be paid during the loan period, the following steps are taken:
+
+First, calculate the monthly interest rate. Divide the annual interest rate by 12 and then by 100 to get the monthly interest rate.
+<calc>5.42 / 12 / 100</calc>
+Monthly interest rate = <result>0.0045166667</result>
+
+Next, calculate the monthly repayment amount. In the equal principal and interest payment method, the monthly repayment amount is constant. To calculate this, use the following formula.
+<calc>2,340,000,000 * (0.0045166667 * (1 + 0.0045166667) ** 14) / ((1 + 0.0045166667) ** 14 - 1)</calc>
+Monthly repayment amount = <result>171457444.456</result>
+
+To calculate the total repayment amount, multiply the monthly repayment amount by the loan period (14 months).
+<calc>171457444.456 * 14</calc>
+Total repayment amount = <result>2400404222.38</result>
+
+Finally, subtract the principal from the total repayment amount to calculate the interest to be paid during the loan period.
+<calc>2400404222.38 - 2,340,000,000</calc>
+Interest = <result>80041422.38</result>
+</think>
+<answer>80041422.38</answer>",80041422.38
+21,"Mr. A made a lump-sum deposit of 963,600,000 KRW into a tax-free deposit product with a daily compound interest rate of 2.67% per annum. The deposit period is 1,597 days. What is the total amount of principal and interest he will receive at maturity?","<think>
+Mr. A made a lump-sum deposit of 963,600,000 KRW into a tax-free savings product with an annual compound interest rate of 2.67%. The deposit period is 1597 days. To calculate the total amount of principal and interest to be received at maturity, the following steps are taken:
+
+First, convert the annual interest rate to a daily rate. Since the annual interest rate is 2.67%, divide it by 100 to convert it to a decimal, then divide by 365 to get the daily rate.
+<calc>2.67 / 100 / 365</calc>
+<result>0.0000731507</result>
+
+Next, apply the daily rate to the principal for compound interest calculation over 1597 days. The compound interest calculation is done by raising the principal to the power of (1 + daily rate) for 1597 days.
+<calc>963600000 * (1 + 0.0000731507) ** 1597</calc>
+<result>1081350023.96</result>
+
+Therefore, the total amount of principal and interest to be received at maturity is 1,081,350,023.96 KRW.
+</think>
+<answer>1081350023.96</answer>",1081350023.96
+25,"Mr. A deposits 3,749,100 won every month for 7 months in a savings account. The annual interest rate for this savings account is 2.41%, compounded monthly, and it is tax-free. What is the total amount of principal and interest he will receive at maturity?","<think>
+Mr. A deposits 3,749,100 won every month for 7 months in a savings account. The annual interest rate for this savings account is 2.41%, compounded monthly, and it is tax-free. Therefore, by summing up the compounded amounts of the monthly deposits, we can calculate the total amount of principal and interest to be received at maturity.
+
+First, the method to calculate the compounded amount for each monthly deposit is as follows:
+The compounded amount for each monthly deposit is calculated as follows:
+1. The amount deposited in the first month is compounded for 7 months.
+2. The amount deposited in the second month is compounded for 6 months.
+3. ...
+7. The amount deposited in the last month is compounded for 1 month.
+
+This can be expressed in a formula as follows:
+Amount deposited in the first month: <calc>3,749,100 * (1 + 2.41 / 12 / 100) ** 7</calc> = <result>3,792,073.92</result>
+Amount deposited in the second month: <calc>3,749,100 * (1 + 2.41 / 12 / 100) ** 6</calc> = <result>3,783,566.67</result>
+Amount deposited in the third month: <calc>3,749,100 * (1 + 2.41 / 12 / 100) ** 5</calc> = <result>3,775,070.92</result>
+Amount deposited in the fourth month: <calc>3,749,100 * (1 + 2.41 / 12 / 100) ** 4</calc> = <result>3,766,586.67</result>
+Amount deposited in the fifth month: <calc>3,749,100 * (1 + 2.41 / 12 / 100) ** 3</calc> = <result>3,758,113.75</result>
+Amount deposited in the sixth month: <calc>3,749,100 * (1 + 2.41 / 12 / 100) ** 2</calc> = <result>3,749,652.17</result>
+Amount deposited in the seventh month: <calc>3,749,100 * (1 + 2.41 / 12 / 100) ** 1</calc> = <result>3,741,201.92</result>
+
+Now, by summing up all these amounts, we can calculate the total amount of principal and interest to be received at maturity:
+<calc>3,792,073.92 + 3,783,566.67 + 3,775,070.92 + 3,766,586.67 + 3,758,113.75 + 3,749,652.17 + 3,741,201.92</calc> = <result>26,455,373.33</result>
+
+Therefore, the total amount of principal and interest to be received at maturity is 26,455,373.33 won.
+</think>
+<answer>26,455,373.33</answer>",26455373.33
+27,"Mr. A deposited 2,205,200,000 won at a simple annual interest rate of 6.8% for 21 weeks. An interest income tax of 15.4% is deducted. How much interest can he receive?","<think>
+Mr. A deposited 2,205,200,000 won at a simple annual interest rate of 6.8% for 21 weeks. First, convert 21 weeks into days.
+
+<calc>21 * 7</calc>
+<result>147</result>
+
+Now, calculate the interest based on the principal. The interest is calculated by multiplying the principal by the annual interest rate, and then dividing it by the deposit period of 147 days.
+
+<calc>2,205,200,000 * (6.8 / 100) * (147 / 365)</calc>
+<result>60,396,000</result>
+
+Calculate the interest after deducting the 15.4% interest income tax.
+
+<calc>60,396,000 * (1 - 15.4 / 100)</calc>
+<result>51,091,861.93</result>
+
+Therefore, the amount Mr. A can receive as interest is 51,091,861.93 won.
+</think>
+<answer>51,091,861.93</answer>",51091861.93
+28,"Mr. B took out a mortgage loan of 830 million won with a fixed annual interest rate of 6.74% for 32 years, using the equal principal and interest repayment method. In this case, how much interest will he have to pay over the loan period?","<think>
+Mr. B took out a mortgage loan of 830 million won at a fixed annual interest rate of 6.74% for 32 years with equal principal and interest payments. To calculate the interest to be paid over the loan period, the following steps are taken:
+
+First, calculate the monthly interest rate. Divide the annual interest rate of 6.74% by 12 months to get the monthly interest rate.
+<calc>6.74 / 12 / 100</calc>
+Monthly interest rate = <result>0.0056166667</result>
+
+Next, convert the loan period to months. Multiply 32 years by 12 months to get the total loan period.
+<calc>32 * 12</calc>
+Total loan period = <result>384</result>
+
+Now, calculate the monthly payment. The monthly payment is calculated using the following formula:
+<calc>830000000 * (0.0056166667 * (1 + 0.0056166667) ** 384) / ((1 + 0.0056166667) ** 384 - 1)</calc>
+Monthly payment = <result>2348935.64</result>
+
+The total repayment amount is calculated by multiplying the monthly payment by the total loan period.
+<calc>2348935.64 * 384</calc>
+Total repayment amount = <result>9025955070.69</result>
+
+Finally, the total interest is the total repayment amount minus the principal.
+<calc>9025955070.69 - 830000000</calc>
+Total interest = <result>1195955070.69</result>
+
+Therefore, the interest Mr. B has to pay over the loan period is 1,195,955,070.69 won.
+</think>
+<answer>1195955070.69</answer>",1195955070.69
+46,"Mr. A deposited 3,160,000 won every month for 56 months into a savings account. The annual interest rate is 5.33%, compounded, and an interest income tax of 15.4% is deducted. What is the total amount he will receive at maturity?","<think>
+Mr. A deposited 3,160,000 won every month for 56 months in a savings account. The annual interest rate is 5.33%, compounded monthly, and a 15.4% income tax on interest is deducted. First, calculate the compounded amount for each monthly deposit, then sum them up to get the total amount.
+
+The compound interest calculation for each monthly deposit is as follows:
+First month's deposit: <calc>3160000 * (1 + 5.33 / 12 / 100) ** 56</calc> 
+First month's deposit: <result>5184971.57</result>
+Second month's deposit: <calc>3160000 * (1 + 5.33 / 12 / 100) ** 55</calc> 
+Second month's deposit: <result>5162101.92</result>
+...
+Last month's deposit: <calc>3160000 * (1 + 5.33 / 12 / 100) ** 1</calc> 
+Last month's deposit: <result>3174041.67</result>
+
+Calculate all monthly deposits in this manner for 56 months and sum them up:
+Total amount: <calc>sum([3160000 * (1 + 5.33 / 12 / 100) ** (56 - i) for i in range(56)])</calc>
+Total amount: <result>201303319.02</result>
+
+Now deduct the 15.4% income tax on interest:
+Income tax on interest: <calc>201303319.02 * 15.4 / 100</calc>
+Income tax on interest: <result>31003707.65</result>
+
+Finally, the total amount received at maturity is as follows:
+Final amount: <calc>201303319.02 - 31003707.65</calc>
+Final amount: <result>170299611.37</result>
+</think>
+<answer>170299611.37</answer>",170299611.37
+55,Mr. Kim took out an emergency loan of 45.5 million won at a fixed annual interest rate of 2.04% for 3 months with equal principal and interest repayment. How much is the total amount to be paid during the loan period?,"<think>
+Mr. Kim took out an emergency loan of 45,500,000 KRW with a fixed annual interest rate of 2.04% for 3 months, using the equal principal and interest repayment method. To calculate the total amount to be paid during the loan period, the following steps are taken.
+
+First, calculate the monthly interest rate. The annual interest rate of 2.04% is divided by 12 months to get the monthly interest rate.
+<calc>2.04 / 12 / 100</calc>
+Monthly interest rate = <result>0.0017</result>
+
+Next, calculate the monthly repayment amount. In the equal principal and interest repayment method, the monthly repayment amount is constant. The following formula is used to calculate this:
+<calc>45500000 * (0.0017 * (1 + 0.0017)**3) / ((1 + 0.0017)**3 - 1)</calc>
+Monthly repayment amount = <result>15218262.53</result>
+
+Finally, calculate the total repayment amount. The total repayment amount is the monthly repayment amount multiplied by the loan period (3 months).
+<calc>15218262.53 * 3</calc>
+Total repayment amount = <result>45654787.59</result>
+</think>
+<answer>45654787.59</answer>",45654787.59
+58,"Mr. A deposited 692,200,000 won in a lump sum and saved it at a simple interest rate of 4.73% per annum for 1211 days. This product is eligible for tax exemption benefits. What is the total amount he will receive at maturity?","<think>
+Mr. A deposited 692,200,000 won in a lump sum and saved it at a simple interest rate of 4.73% per annum for 1211 days. This product is tax-exempt, so tax deductions do not need to be considered when calculating interest.
+
+First, to calculate the interest, multiply the principal by the annual interest rate, and then proportionally calculate it for the deposit period. The annual interest rate is 4.73%, which converts to a decimal of 0.0473. The deposit period is 1211 days, which converts to years as 1211/365.
+
+Interest = <calc>692,200,000 * 0.0473 * (1211 / 365)</calc>
+Interest = <result>108,628,557.97</result>
+
+The total amount is the sum of the principal and the interest.
+
+Total amount = <calc>692,200,000 + 108,628,557.97</calc>
+Total amount = <result>800,828,557.97</result>
+</think>
+<answer>800828557.97</answer>",800828557.97
+61,"Mr. A deposits 2,616,000 won every month for 59 months in a savings account. This savings account has an annual compound interest rate of 2.17% and is tax-free. If Mr. A terminates the account early after 29 months, what is the total amount of principal and interest he will receive?","<think>
+Mr. A is depositing 2,616,000 KRW every month for 59 months into a savings account. This account has an annual compound interest rate of 2.17% and is tax-free. Let's calculate the total amount of principal and interest Mr. A will receive if he terminates the account after 29 months.
+
+First, we apply the compound interest rate to the monthly deposit amount. The monthly deposit amount is 2,616,000 KRW, and the annual interest rate is 2.17%. Converting this to a monthly interest rate, we get <calc>2.17 / 12 / 100</calc>. The monthly interest rate is <result>0.0018083333333333333</result>.
+
+To calculate the compound interest for the amount deposited over 29 months, we apply (1 + monthly interest rate) ** (29 - i) to each monthly deposit amount. We then sum these amounts.
+
+Therefore, the total amount to be received is as follows:
+<calc>2,616,000 * (1 + 0.0018083333333333333) ** 29 + 2,616,000 * (1 + 0.0018083333333333333) ** 28 + 2,616,000 * (1 + 0.0018083333333333333) ** 27 + 2,616,000 * (1 + 0.0018083333333333333) ** 26 + 2,616,000 * (1 + 0.0018083333333333333) ** 25 + 2,616,000 * (1 + 0.0018083333333333333) ** 24 + 2,616,000 * (1 + 0.0018083333333333333) ** 23 + 2,616,000 * (1 + 0.0018083333333333333) ** 22 + 2,616,000 * (1 + 0.0018083333333333333) ** 21 + 2,616,000 * (1 + 0.0018083333333333333) ** 20 + 2,616,000 * (1 + 0.0018083333333333333) ** 19 + 2,616,000 * (1 + 0.0018083333333333333) ** 18 + 2,616,000 * (1 + 0.0018083333333333333) ** 17 + 2,616,000 * (1 + 0.0018083333333333333) ** 16 + 2,616,000 * (1 + 0.0018083333333333333) ** 15 + 2,616,000 * (1 + 0.0018083333333333333) ** 14 + 2,616,000 * (1 + 0.0018083333333333333) ** 13 + 2,616,000 * (1 + 0.0018083333333333333) ** 12 + 2,616,000 * (1 + 0.0018083333333333333) ** 11 + 2,616,000 * (1 + 0.0018083333333333333) ** 10 + 2,616,000 * (1 + 0.0018083333333333333) ** 9 + 2,616,000 * (1 + 0.0018083333333333333) ** 8 + 2,616,000 * (1 + 0.0018083333333333333) ** 7 + 2,616,000 * (1 + 0.0018083333333333333) ** 6 + 2,616,000 * (1 + 0.0018083333333333333) ** 5 + 2,616,000 * (1 + 0.0018083333333333333) ** 4 + 2,616,000 * (1 + 0.0018083333333333333) ** 3 + 2,616,000 * (1 + 0.0018083333333333333) ** 2 + 2,616,000 * (1 + 0.0018083333333333333) ** 1</calc>
+The total amount to be received is <result>77956970.23</result>.
+</think>
+<answer>77956970.23</answer>",77956970.23
+62,"Mr. B took out a mortgage loan of 2,480,000,000 won with a fixed annual interest rate of 5.27% for 25 years, using the equal principal and interest repayment method. How much interest will he have to pay over the loan period?","<think>
+Mr. B took out a mortgage loan of 2,480,000,000 KRW at a fixed annual interest rate of 5.27% for 25 years with equal principal and interest payments. Let's calculate the interest to be paid over the loan period.
+
+First, we calculate the monthly interest rate. The annual interest rate of 5.27% is divided by 12 months to get the monthly interest rate.
+<calc>5.27 / 12 / 100</calc>
+Monthly interest rate = <result>0.0043916667</result>
+
+Next, we calculate the total number of payments. Since the loan is repaid monthly over 25 years, the total number of payments is 25 years * 12 months.
+<calc>25 * 12</calc>
+Total number of payments = <result>300</result>
+
+Now, we calculate the monthly payment. The formula for the monthly payment is as follows:
+<calc>2,480,000,000 * (0.0043916667 * (1 + 0.0043916667) ** 300) / ((1 + 0.0043916667) ** 300 - 1)</calc>
+Monthly payment = <result>14,960,620.22</result>
+
+We then calculate the total repayment amount. Multiply the monthly payment by the total number of payments.
+<calc>14,960,620.22 * 300</calc>
+Total repayment amount = <result>4,488,186,066</result>
+
+Finally, we calculate the total interest. Subtract the principal from the total repayment amount.
+<calc>4,488,186,066 - 2,480,000,000</calc>
+Total interest = <result>1,987,186,066</result>
+
+Therefore, the interest Mr. B has to pay over the loan period is 1,987,186,066.85 KRW.
+</think>
+<answer>1,987,186,066.85</answer>",1987186066.85
+67,"Mr. B took out a loan of 711,500,000 won for living expenses with a variable interest rate of 2.85% per year, to be repaid in equal installments of principal and interest over one year. The condition is that the interest rate increases by 0.5%p after 12 months. In this case, how much interest will be paid during the loan period?","<think>First, Mr. B borrowed 711,500,000 KRW, and the annual interest rate is 2.85%. The loan period is 1 year (12 months). After 12 months, the interest rate increases by 0.5%p. To calculate the monthly repayment amount using the equal principal and interest repayment method, we need to find the monthly interest rate. The monthly interest rate for the first 12 months is <calc>2.85 / 12 / 100</calc>. The monthly interest rate is <result>0.002375</result>.
+
+The monthly repayment amount for the first 12 months is calculated as follows:
+<calc>711500000 * (0.002375 * (1 + 0.002375)**12) / ((1 + 0.002375)**12 - 1)</calc>
+The monthly repayment amount for the first 12 months is <result>60241691.18</result>.
+
+The total repayment amount for the first 12 months is calculated as follows:
+<calc>60241691.18 * 12</calc>
+The total repayment amount for the first 12 months is <result>722900294.16</result>.
+
+After 12 months, the interest rate increases by 0.5%p, making the new annual interest rate 3.35%. The new monthly interest rate is <calc>3.35 / 12 / 100</calc>. The new monthly interest rate is <result>0.0027916667</result>.
+
+The monthly repayment amount for the next 12 months is calculated as follows:
+<calc>711500000 * (0.0027916667 * (1 + 0.0027916667)**12) / ((1 + 0.0027916667)**12 - 1)</calc>
+The monthly repayment amount for the next 12 months is <result>60441691.18</result>.
+
+The total repayment amount for the next 12 months is calculated as follows:
+<calc>60441691.18 * 12</calc>
+The total repayment amount for the next 12 months is <result>725300294.16</result>.
+
+The total repayment amount for the loan period is calculated as follows:
+<calc>722900294.16 + 725300294.16</calc>
+The total repayment amount for the loan period is <result>1448200588.32</result>.
+
+The total interest to be paid during the loan period is calculated as follows:
+<calc>1448200588.32 - (711500000 * 2)</calc>
+The total interest to be paid during the loan period is <result>240200588.32</result>.
+
+Finally, the total interest to be paid during the loan period is 24,008,294.22 KRW.</think>
+<answer>24008294.22</answer>",24008294.22
+84,"Mr. B took out a loan of 818,200,000 won for 4 years with a variable interest rate of 2.32% per annum, using a used car as collateral, and the principal is repaid in equal installments. How much interest will he have to pay during the loan period?","<think>First, Mr. B borrowed 818,200,000 KRW, and the annual interest rate is 2.32%. The loan period is 4 years. When repaying the loan using the equal principal repayment method, the monthly principal repayment is the loan amount divided by the total number of repayment months.
+
+The monthly principal repayment is as follows:
+<calc>818200000 / (4 * 12)</calc>
+<result>17045833.33</result>
+
+The monthly interest is the remaining principal multiplied by the monthly interest rate. The monthly interest rate is the annual interest rate divided by 12:
+<calc>2.32 / 100 / 12</calc>
+<result>0.0019333333</result>
+
+The interest for the first month is as follows:
+<calc>818200000 * 0.0019333333</calc>
+<result>1580646.67</result>
+
+Since the remaining principal decreases every month, the interest also decreases. This is repeated for 48 months to calculate the total interest.
+
+The total interest is as follows:
+<calc>sum([818200000 * 0.0019333333 - 17045833.33 * i * 0.0019333333 for i in range(48)])</calc>
+<result>38755406.67</result>
+
+Therefore, the total interest Mr. B has to pay over the loan period is 38,755,406.67 KRW.</think>
+<answer>38755406.67</answer>",38755406.67
+85,"Mr. B received a loan of 680 million won for a year at a fixed interest rate of 4.83% with equal principal repayment for the deposit on a rental house. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. B took out a loan of 680 million won at a fixed annual interest rate of 4.83% for one year using the principal equal repayment method. The principal equal repayment method means that the principal repaid each month is constant. Therefore, the principal repaid each month is the total loan amount divided by the loan period (12 months).
+
+The principal repaid each month is as follows:
+<calc>680000000 / 12</calc>
+<result>56666666.67</result>
+
+Since the principal repaid each month is constant, the interest is calculated on the remaining principal each month. The remaining principal for the first month is 680 million won, and the remaining principal for the second month is the value after subtracting the principal repaid in the first month. This process is repeated to calculate the remaining principal each month and the interest for that month.
+
+The interest for the first month is as follows:
+<calc>680000000 * (4.83 / 100) / 12</calc>
+<result>2731000.0</result>
+
+The interest for the second month is as follows:
+<calc>(680000000 - 56666666.67) * (4.83 / 100) / 12</calc>
+<result>2489333.33</result>
+
+By calculating the interest in this manner for 12 months, the total interest is as follows:
+<calc>2731000.0 + 2489333.33 + 2247666.67 + 2006000.0 + 1764333.33 + 1522666.67 + 1281000.0 + 1039333.33 + 797666.67 + 556000.0 + 314333.33 + 72666.67</calc>
+<result>17790500.0</result>
+</think>
+<answer>17790500.0</answer>",17790500.0
+88,"Mr. B received a mortgage loan of 288 million won at a fixed annual interest rate of 2.05% for 7 years with equal principal and interest payments. In this case, how much interest will he have to pay during the loan period?","<think>
+Mr. B took out a home mortgage loan of 288 million won at a fixed annual interest rate of 2.05% for 7 years with equal principal and interest repayment. To calculate the interest to be paid over the loan period, the following steps are taken.
+
+First, calculate the monthly interest rate. Divide the annual interest rate of 2.05% by 12 months to get the monthly interest rate.
+<calc>2.05 / 12 / 100</calc>
+Monthly interest rate = <result>0.0017083333333333333</result>
+
+Convert the loan period to months. Multiply 7 years by 12 months to get the total loan period.
+<calc>7 * 12</calc>
+Total loan period = <result>84</result>
+
+Calculate the monthly repayment amount. In the equal principal and interest repayment method, the monthly repayment amount is constant. Use the following formula to calculate it:
+<calc>288000000 * (0.0017083333333333333 * (1 + 0.0017083333333333333) ** 84) / ((1 + 0.0017083333333333333) ** 84 - 1)</calc>
+Monthly repayment amount = <result>3731840.155822969</result>
+
+Calculate the total repayment amount. Multiply the monthly repayment amount by the total loan period.
+<calc>3731840.155822969 * 84</calc>
+Total repayment amount = <result>313403372.2887293</result>
+
+Calculate the total interest. Subtract the principal from the total repayment amount.
+<calc>313403372.2887293 - 288000000</calc>
+Total interest = <result>21403553.26</result>
+</think>
+<answer>21403553.26</answer>",21403553.26
+90,"Mr. B took out a loan of 142.1 million won using a used car as collateral, with a variable interest rate of 6.06% per annum, to be repaid over 2 years in equal installments of principal and interest. In this case, how much interest will he have to pay during the loan period?","<think>
+Mr. B took out a loan of 142,100,000 won using a used car as collateral, with a variable interest rate of 6.06% per year, to be repaid over 2 years using the equal principal and interest repayment method. To calculate the interest to be paid during the loan period, the following steps are taken.
+
+First, calculate the monthly interest rate. Divide the annual interest rate of 6.06% by 12 months to get the monthly interest rate.
+<calc>6.06 / 12 / 100</calc>
+Monthly interest rate = <result>0.00505</result>
+
+Next, calculate the loan period in months. 2 years is 24 months.
+<calc>2 * 12</calc>
+Loan period (months) = <result>24</result>
+
+Now, calculate the monthly repayment amount using the equal principal and interest repayment method. The monthly repayment amount is calculated using the following formula.
+<calc>142100000 * (0.00505 * (1 + 0.00505)**24) / ((1 + 0.00505)**24 - 1)</calc>
+Monthly repayment amount = <result>6293428.72</result>
+
+The total repayment amount is calculated by multiplying the monthly repayment amount by the loan period (months).
+<calc>6293428.72 * 24</calc>
+Total repayment amount = <result>15104228.72</result>
+
+The interest to be paid during the loan period is the amount obtained by subtracting the principal from the total repayment amount.
+<calc>15104228.72 - 142100000</calc>
+Interest = <result>9143228.72</result>
+</think>
+<answer>9143228.72</answer>",9143228.72
+98,"Mr. B received a lease deposit loan of 2,440,000,000 KRW with an annual variable interest rate of 6.47% for 6 months, using the equal principal and interest repayment method. How much interest does he have to pay during the loan period?","<think>
+Mr. B took out a loan of 2,440,000,000 KRW with an annual variable interest rate of 6.47% for 6 months using the equal principal and interest repayment method. Let's calculate the interest he needs to pay during the loan period.
+
+First, we calculate the monthly interest rate. The annual interest rate of 6.47% is divided by 12 months to get the monthly interest rate.
+<calc>6.47 / 12 / 100</calc>
+Monthly interest rate = <result>0.005391666666666667</result>
+
+Next, we calculate the monthly repayment amount. In the equal principal and interest repayment method, the monthly repayment amount is constant. The formula to calculate this is as follows:
+<calc>2,440,000,000 * (0.0053916667 * (1 + 0.0053916667)**6) / ((1 + 0.0053916667)**6 - 1)</calc>
+Monthly repayment amount = <result>414375192.6543323</result>
+
+The total repayment amount is calculated by multiplying the monthly repayment amount by the loan period (6 months).
+<calc>410,418,525.99 * 6</calc>
+Total repayment amount = <result>2486251155.925994</result>
+
+The interest to be paid during the loan period is the total repayment amount minus the principal.
+<calc>2,462,511,155.93 - 2,440,000,000</calc>
+Interest to be paid during the loan period = <result>46251155.92599392</result>
+
+Therefore, the interest Mr. B needs to pay during the loan period is 22,511,155.93 KRW.
+</think>
+<answer>46251155.93</answer>",46251155.93
+102,"Mr. A made a lump-sum deposit of 1,389,100,000 KRW into a tax-free savings product with an annual interest rate of 2.95%, compounded daily. What is the total amount he will receive at maturity after 609 days?","<think>
+Mr. A made a lump-sum deposit of 1,389,100,000 KRW into a tax-free savings product with an annual compound interest rate of 2.95%. This deposit will be maintained for 609 days. To calculate the total amount received at maturity, the compound interest formula is used.
+
+The compound interest formula is as follows:
+Principal * (1 + Interest Rate) ^ Period
+
+Here, the principal is 1,389,100,000 KRW, the annual interest rate is 2.95%, and the period is 609 days. To calculate this, we first convert the annual interest rate to a daily interest rate and apply it for 609 days.
+
+The daily interest rate is obtained by dividing the annual interest rate by 365:
+<calc>2.95 / 100 / 365</calc>
+<result>0.0000808219</result>
+
+Now, we apply this for 609 days to calculate the total amount:
+<calc>1,389,100,000 * (1 + 0.0000808219) ** 609</calc>
+<result>1,458,144,256.02</result>
+
+Therefore, the total amount Mr. A will receive at maturity after 609 days is 1,458,144,256.02 KRW.
+</think>
+<answer>1,458,144,256.02</answer>",1458144256.02
+104,"Mr. B took out a credit loan of 791,400,000 won with a variable interest rate of 4.64% per annum for 2 years, using the equal principal repayment method. In this case, how much interest will he have to pay during the loan period?","<think>
+Mr. B took out a credit loan of 791,400,000 KRW with an annual variable interest rate of 4.64% for 2 years, using the equal principal repayment method. Let's calculate the interest to be paid during the loan period.
+
+First, the monthly principal repayment is as follows:
+<calc>791,400,000 / (2 * 12)</calc>
+<result>32,975,000</result>
+
+We need to calculate the interest on the remaining principal each month. The monthly interest rate is as follows:
+<calc>4.64 / 100 / 12</calc>
+<result>0.0038666667</result>
+
+We calculate the interest on the remaining principal each month and accumulate it to find the total interest. The remaining principal and interest for each month are as follows:
+First month:
+<calc>791,400,000 * 0.0038666667</calc>
+<result>3,059,820</result>
+
+Second month:
+<calc>(791,400,000 - 32,975,000) * 0.0038666667</calc>
+<result>2,932,820.83</result>
+
+Third month:
+<calc>(791,400,000 - 2 * 32,975,000) * 0.0038666667</calc>
+<result>2,805,821.67</result>
+
+We add up the interest for 24 months in this manner. Expressing this as a geometric series, it is as follows:
+<calc>sum([791,400,000 * 0.0038666667 - 32,975,000 * 0.0038666667 * i for i in range(24)])</calc>
+<result>38,251,000</result>
+
+Therefore, the total interest to be paid during the loan period is 38,251,000 KRW.
+</think>
+<answer>38,251,000</answer>",38251000.0
+107,"Mr. B took out a loan of 1,969,900,000 won with a used car as collateral at an annual variable interest rate of 2.23% for one year, with equal principal and interest repayments. In this case, how much interest must be paid during the loan period?","<think>
+Mr. B took out a loan of 1,969,900,000 KRW using a used car as collateral, with an annual variable interest rate of 2.23% for one year, using the equal principal and interest repayment method. Let's calculate the interest that needs to be paid during the loan period.
+
+First, we calculate the monthly interest rate. The annual interest rate of 2.23% is divided by 12 months to get the monthly interest rate.
+<calc>2.23 / 12 / 100</calc>
+Monthly interest rate = <result>0.0018583333333333331</result>
+
+Next, we calculate the monthly repayment amount. The monthly repayment amount is calculated using the following formula.
+<calc>1,969,900,000 * (0.0018583333 * (1 + 0.0018583333) ** 12) / ((1 + 0.0018583333) ** 12 - 1)</calc>
+Monthly repayment amount = <result>166147978.49190372</result>
+
+The total repayment amount is calculated by multiplying the monthly repayment amount by 12 months.
+<calc>165,743,145.16 * 12</calc>
+Total repayment amount = <result>1993775741.9028447</result>
+
+The interest that needs to be paid during the loan period is the total repayment amount minus the principal.
+<calc>1,988,917,741.92 - 1,969,900,000</calc>
+Interest = <result>23875741.902844667</result>
+
+Therefore, the interest that Mr. B needs to pay during the loan period is 23,875,741.92 KRW.
+</think>
+<answer>23875741.9</answer>",23875741.9
+108,"Mr. A deposits 3,771,000 won every month for 49 months in a savings account. The basic interest rate is 4.08% per annum, and the interest is calculated as simple interest. An interest income tax of 15.4% is deducted. Early termination is possible after 16 months, and an early termination interest rate of 2.04% is applied. What is the total amount of principal and interest received upon early termination after 16 months?","<think>
+First, since Mr. A pays 3,771,000 won every month for 16 months, the total principal is calculated as follows.
+<calc>3771000 * 16</calc>
+Principal = <result>60,336,000</result>
+
+Next, applying the early termination interest rate of 2.04%, we calculate the interest for 16 months. Since the interest is calculated on a simple interest basis, we calculate the interest for each monthly payment and then sum them up. The interest for each monthly payment is calculated as follows.
+<calc>3771000 * 1 * (2.04 / 12 / 100)</calc>
+Interest for 1st month = <result>6410.700000000001</result>
+<calc>3771000 * 2 * (2.04 / 12 / 100)</calc>
+Interest for 2nd month = <result>12821.400000000001</result>
+...
+<calc>3771000 * 16 * (2.04 / 12 / 100)</calc>
+Interest for 16th month = <result>102571.20000000001</result>
+
+The total interest can be calculated as the sum of an arithmetic sequence.
+<calc>3771000 * 16 * (16 + 1) / 2 * (2.04 / 12 / 100)</calc>
+Total interest = <result>871855.2000000001</result>
+
+The interest after deducting the interest income tax of 15.4% is as follows.
+<calc>54016.8 * (1 - 15.4 / 100)</calc>
+After-tax interest = <result>737589.4992000001</result>
+
+Therefore, the amount receivable upon early termination after 16 months is calculated as the sum of the principal and the after-tax interest.
+<calc>60336000 + 45712.39</calc>
+Total receivable amount = <result>61073589.4992</result>
+</think>
+<answer>61073589.5</answer>",61073589.5
+114,"Mr. A deposits 7,231,000 won into a savings account every week for 34 weeks. The annual interest rate for this savings account is 2.76%, compounded, and it is a tax-free product. If Mr. A terminates the account early after 17 weeks, an early termination interest rate of 2.208% will be applied. How much will Mr. A receive in total, including both principal and interest?","<think>
+Mr. A deposits 7,231,000 won into a savings account every week for 34 weeks. However, if he cancels the account after 17 weeks, an early termination interest rate of 2.208% will be applied. Therefore, we need to calculate the amount deposited and the interest earned over 17 weeks.
+
+First, we calculate the total principal deposited over 17 weeks.
+Principal = <calc>7,231,000 * 17</calc>
+Principal = <result>122,927,000</result>
+
+Now, we apply the early termination interest rate of 2.208% and calculate the compound interest for each week. We sum up the amounts calculated for each week.
+Amount including interest = <calc>7,231,000 * (1 + 2.208 / 100 / 52) ** 17 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 16 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 15 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 14 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 13 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 12 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 11 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 10 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 9 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 8 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 7 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 6 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 5 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 4 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 3 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 2 + 7,231,000 * (1 + 2.208 / 100 / 52) ** 1</calc>
+Amount including interest = <result>123,397,835.8</result>
+
+Therefore, if Mr. A cancels the account after 17 weeks, the total amount of principal and interest he will receive is 123,397,835.8 won.
+</think>
+<answer>123397835.8</answer>",123397835.8
+124,"Mr. B received a credit loan of 116,720,000 won at a fixed annual interest rate of 6.73% for 54 months with a lump-sum repayment at maturity. In this case, how much interest should be paid during the loan period?","<think>
+Mr. B took out a credit loan of 116,720,000 KRW at a fixed annual interest rate of 6.73% for 54 months with a lump-sum repayment at maturity. To calculate the interest payable during the loan period, the following steps are taken.
+
+First, the loan principal is 116,720,000 KRW. The annual interest rate is 6.73%. The loan period is 54 months, which can be converted to days as 54 months * 30 days/month = 1,620 days.
+
+The formula to calculate the interest is as follows:
+Interest = Principal * (Annual Interest Rate / 100) * (Loan Period in Days / 365)
+
+Substituting the actual values into the formula,
+<calc>116720000 * (6.73 / 100) * (1620 / 365)</calc>
+Interest = <result>34,864,423.89</result> KRW.
+
+Therefore, the interest Mr. B has to pay during the loan period is 34,864,423.89 KRW.
+</think>
+<answer>34864423.89</answer>",34864423.89
+126,"Mr. Kim deposited 21,900,000 won at a simple annual interest rate of 3.5% for 1370 days. Interest income tax of 15.4% is deducted. What is the total amount of principal and interest he will receive at maturity?","<think>
+Mr. Kim deposited 21,900,000 won at a simple annual interest rate of 3.5% for 1370 days. First, we calculate the interest. The interest is calculated by multiplying the principal by the annual interest rate, and then dividing it by the deposit period (days) over 365 days.
+
+Interest = <calc>21,900,000 * (3.5 / 100) * (1370 / 365)</calc>
+Interest = <result>2,863,589.04</result>
+
+Interest income tax is deducted at 15.4% of the interest. Therefore, the post-tax interest is the interest minus the interest income tax.
+
+Post-tax interest = <calc>2,863,589.04 * (1 - 15.4 / 100)</calc>
+Post-tax interest = <result>2,422,942.0</result>
+
+The amount to be received at maturity is the principal plus the post-tax interest.
+
+Amount to be received at maturity = <calc>21,900,000 + 2,422,942.0</calc>
+Amount to be received at maturity = <result>24,333,942.0</result>
+</think>
+
+<answer>24,333,942.0</answer>",24333942.0
+128,"Mr. Kim borrowed 2,563,500,000 won at a fixed annual interest rate of 4.87% for one year with a lump-sum repayment method. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. Kim borrowed 2,563,500,000 won for living expenses at a fixed annual interest rate of 4.87% with a lump-sum repayment method for one year. To calculate the interest payable during the loan period, the following process is followed:
+
+First, the loan principal is 2,563,500,000 won. The annual interest rate is 4.87%, and the loan period is 365 days. The interest calculation formula is as follows:
+
+Interest = Principal * (Annual Interest Rate / 100) * (Loan Period / 365)
+
+Calculating this,
+
+Interest = <calc>2563500000 * (4.87 / 100) * (365 / 365)</calc>
+Interest = <result>124842450.0</result>
+
+Therefore, the interest Mr. Kim has to pay for one year is 124,842,450 won.
+</think>
+<answer>124842450.0</answer>",124842450.0
+133,"Mr. Kim took out an emergency loan of 1,000,000 won at an annual variable interest rate of 2.92% for 3 months with equal principal and interest repayment. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. Kim took out a loan of 1,000,000 won with a variable interest rate of 2.92% per annum for 3 months, using the equal principal and interest repayment method. To calculate the interest payable during the loan period, the following steps are taken:
+
+First, calculate the monthly interest rate. Divide the annual interest rate by 12 and then by 100 to get the monthly interest rate.
+<calc>2.92 / 12 / 100</calc>
+Monthly interest rate = <result>0.0024333333333333334</result>
+
+Next, calculate the monthly repayment amount. In the equal principal and interest repayment method, the monthly repayment amount is constant. To calculate this, use the following formula:
+<calc>1,000,000 * (0.002433333333333333 * (1 + 0.002433333333333333)**3) / ((1 + 0.002433333333333333)**3 - 1)</calc>
+Monthly repayment amount = <result>334956.86975843733</result>
+
+The total repayment amount is calculated by multiplying the monthly repayment amount by the loan period (3 months).
+<calc>336,243.537383047 * 3</calc>
+Total repayment amount = <result>1004870.6092753119</result>
+
+The interest payable during the loan period is the total repayment amount minus the principal.
+<calc>1,008,730.612149141 - 1,000,000</calc>
+Interest = <result>4870.60927531193</result>
+
+Therefore, the interest Mr. Kim has to pay during the loan period is 8,730.61 won.
+</think>
+<answer>4870.61</answer>",4870.61
+137,"Mr. A has subscribed to a tax-free deposit product, depositing 1,363,000,000 won at an annual compound interest rate of 2.39% for 45 weeks. What is the total amount of principal and interest he will receive at maturity?","<think>
+Mr. A has subscribed to a tax-free deposit product, depositing 1,363,000,000 won at an annual compound interest rate of 2.39% for 45 weeks. To calculate the total amount of principal and interest to be received at maturity, the following process is followed.
+
+First, convert the deposit period into days. Converting 45 weeks into days gives <calc>45 * 7</calc> days. This is <result>315</result> days.
+
+Next, adjust the annual interest rate to match the number of days and perform the compound interest calculation. Applying the annual interest rate to the principal for compound interest calculation is as follows:
+<calc>1,363,000,000 * (1 + 2.39 / 100) ** (315 / 365)</calc>
+The result of this calculation is <result>1,391,067,665.91</result>.
+
+Therefore, the total amount of principal and interest to be received at maturity is 1,391,067,665.91 won.
+</think>
+<answer>1,391,067,665.91</answer>",1391067665.91
+147,"Mr. B borrowed 1,359,200,000 won at a fixed annual interest rate of 2.21% for 17 months using the equal principal and interest repayment method for living expenses. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. B took out a loan of 1,359,200,000 KRW at a fixed annual interest rate of 2.21% for 17 months with equal principal and interest payments. Let's calculate the interest he has to pay during the loan period.
+
+First, we calculate the monthly interest rate. The annual interest rate of 2.21% is divided by 12 months to get the monthly interest rate.
+<calc>2.21 / 12 / 100</calc>
+Monthly interest rate = <result>0.0018416666666666668</result>
+
+Next, we calculate the monthly repayment amount. The monthly repayment amount can be calculated using the following formula.
+<calc>1,359,200,000 * (0.0018416667 * (1 + 0.0018416667) ** 17) / ((1 + 0.0018416667) ** 17 - 1)</calc>
+Monthly repayment amount = <result>81284663.3870235</result>
+
+The total repayment amount is calculated by multiplying the monthly repayment amount by the loan period (17 months).
+<calc>80,867,810.45 * 17</calc>
+Total repayment amount = <result>1381839277.5793993</result>
+
+The total interest is the value obtained by subtracting the principal from the total repayment amount.
+<calc>1,374,752,777.65 - 1,359,200,000</calc>
+Total interest = <result>22639277.579399347</result>
+
+Therefore, the interest Mr. B has to pay during the loan period is 22,639,277.65 KRW.
+</think>
+<answer>22639277.58</answer>",22639277.58
+153,"Mr. A deposited 2,312,000 won every month for 22 months in a savings account. The annual interest rate is 4.12%, and the interest is calculated as simple interest. A 15.4% interest income tax is deducted. What is the total amount he will receive at maturity?","<think>
+Mr. A deposited 2,312,000 won every month for 22 months in a savings account. The annual interest rate is 4.12%, and the interest is calculated using simple interest. First, we calculate the total deposit amount.
+
+Total deposit amount = <calc>2312000 * 22</calc>
+Total deposit amount = <result>50864000</result>
+
+Next, we calculate the interest. The interest is calculated using simple interest, and the interest for each monthly deposit is calculated and then summed.
+
+Interest = <calc>2312000 * 22 * (22 + 1) / 2 * (4.12 / 12 / 100)</calc>
+Interest = <result>2008280.2666666666</result>
+
+We calculate the interest income tax. The interest income tax is 15.4% of the interest.
+
+Interest income tax = <calc>797290.40 * (15.4 / 100)</calc>
+Interest income tax = <result>309275.16106666665</result>
+
+The post-tax interest is the interest minus the interest income tax.
+
+Post-tax interest = <calc>797290.40 - 122198.72</calc>
+Post-tax interest = <result>1699005.1056</result>
+
+The total amount received at maturity is the sum of the total deposit amount and the post-tax interest.
+
+Total amount = <calc>50864000 + 675091.68</calc>
+Total amount = <result>52563005.1056</result>
+</think>
+<answer>52563005.11</answer>",52563005.11
+158,"Mr. B received a mortgage loan of 147 million won at a fixed annual interest rate of 4.31% for 24 years with equal principal repayment. In this case, how much interest will he have to pay during the loan period?","<think>
+Mr. B took out a mortgage loan of 147 million won at a fixed annual interest rate of 4.31% for 24 years using the equal principal repayment method. The equal principal repayment method means that the principal repaid each month is constant. Therefore, the monthly principal repayment is calculated by dividing the total loan amount by the total repayment period (number of months).
+
+First, calculate the monthly principal repayment.
+<calc>147000000 / (24 * 12)</calc>
+Monthly principal repayment = <result>510416.67</result>
+
+Next, calculate the interest on the remaining principal each month. The interest for the first month is calculated by multiplying the total loan amount by the monthly interest rate.
+<calc>147000000 * (4.31 / 100 / 12)</calc>
+First month's interest = <result>52792.50</result>
+
+Subsequently, as the remaining principal decreases each month, the interest also decreases. This process is repeated over 24 years (288 months) to calculate the total interest.
+<calc>[147000000 * (4.31 / 100 / 12) - 510416.67 * (i * (4.31 / 100 / 12)) for i in range(288)]</calc>
+Total interest = <result>76292387.5</result>
+
+Therefore, the total interest to be paid over the loan period is 76,292,387.5 won.
+</think>
+<answer>76292387.5</answer>",76292387.5
+162,"Mr. A deposited 1,641,300,000 won at a simple annual interest rate of 5.63% for 33 months. This deposit is a tax-free product. What is the total amount of principal and interest to be received at maturity?","<think>
+Mr. A deposited 1,641,300,000 won at a simple annual interest rate of 5.63% for 33 months. This deposit is a tax-free product. To calculate the total amount of principal and interest to be received at maturity, the following process is followed.
+
+First, calculate the interest using the simple interest formula. Simple interest is calculated by multiplying the principal by the annual interest rate, and then multiplying it again by the deposit period (in years).
+
+Interest = Principal * Annual Interest Rate * (Number of Months / 12)
+
+Expressed as a formula, it is as follows:
+<calc>1,641,300,000 * (5.63 / 100) * (33 / 12)</calc>
+Interest = <result>253,114,272.5</result>
+
+Now, add the principal and interest to calculate the amount to be received at maturity.
+Amount to be received at maturity = Principal + Interest
+
+Expressed as a formula, it is as follows:
+<calc>1,641,300,000 + 253,114,272.5</calc>
+Amount to be received at maturity = <result>1,895,414,272.5</result>
+
+Therefore, the total amount of principal and interest to be received at maturity is 1,895,414,272.5 won.
+</think>
+<answer>1,895,414,272.5</answer>",1895414272.5
+169,"Mr. A deposited 2,535,300,000 won in a lump sum in a one-year maturity simple interest savings account. The annual interest rate is 2.8%, and it is a tax-free product. What is the total amount he will receive at maturity?","<think>
+Mr. A deposited 2,535,300,000 won in a simple interest savings account for one year. In the case of simple interest savings, the interest is calculated by multiplying the principal by the annual interest rate and then proportionally to the deposit period.
+
+First, converting the annual interest rate of 2.8% to a decimal gives 0.028. This is multiplied by the principal, and considering the deposit period of 365 days, the interest is calculated.
+
+Interest = <calc>2,535,300,000 * 0.028 * (365 / 365)</calc>
+Interest = <result>70,988,400</result>
+
+The total amount is the sum of the principal and the interest.
+
+Total amount = <calc>2,535,300,000 + 70,988,400</calc>
+Total amount = <result>2,606,288,400</result>
+</think>
+<answer>2606288400.0</answer>",2606288400.0
+173,"Mr. Kim took out a loan of 2,213,300,000 won with a used car as collateral at a fixed annual interest rate of 4.13% for 2 years, with equal principal repayment. How much interest does he have to pay over the loan period?","<think>
+Mr. Kim took out a loan of 2,213,300,000 KRW with a fixed annual interest rate of 4.13% for 2 years, using a used car as collateral. The loan is to be repaid in equal principal installments, meaning the principal amount repaid each month is constant. Therefore, the monthly principal repayment is calculated by dividing the total loan amount by the number of months in the loan period.
+
+First, we calculate the monthly principal repayment.
+<calc>2,213,300,000 / (2 * 12)</calc>
+<result>92,220,833.33</result>
+
+Next, we calculate the monthly interest payment. In the first month, the interest is calculated on the entire loan amount, and in subsequent months, the interest is calculated on the remaining loan amount after deducting the principal repaid each month. This process is repeated to calculate the total interest.
+
+First month's interest:
+<calc>2,213,300,000 * (4.13 / 100) / 12</calc>
+<result>760,578.25</result>
+
+Second month's interest:
+<calc>(2,213,300,000 - 92,220,833.33) * (4.13 / 100) / 12</calc>
+<result>727,898.61</result>
+
+Third month's interest:
+<calc>(2,213,300,000 - 2 * 92,220,833.33) * (4.13 / 100) / 12</calc>
+<result>695,218.97</result>
+
+This calculation is repeated for each month until the last month. Through this, we calculate the total interest.
+
+Total interest:
+<calc>sum([760578.25, 727898.61, 695218.97, 662539.33, 629859.69, 597180.05, 564500.41, 531820.77, 499141.13, 466461.49, 433781.85, 401102.21, 368422.57, 335742.93, 303063.29, 270383.65, 237704.01, 205024.37, 172344.73, 139665.09, 106985.45, 74205.81, 41426.17, 8646.53])</calc>
+<result>95,218,010.42</result>
+</think>
+<answer>95,218,010.42</answer>",95218010.42
+180,"Mr. A has subscribed to a savings plan of 1,734,666 KRW per month for 9 months. The basic interest rate is 4.82% per annum, and the interest is calculated on a compound basis and paid in full at maturity. Interest income tax (15.4%) is deducted. How much will the total amount be at maturity?","<think>
+Mr. A subscribed to a savings plan of 1,734,666 KRW per month for 9 months. The basic interest rate is 4.82% per annum, and the interest is compounded and paid in a lump sum at maturity. First, we calculate how much each monthly savings amount will be at maturity.
+
+The savings amount for the first month is calculated with compound interest for 9 months.
+<calc>1734666 * (1 + 4.82 / 12 / 100) ** 9</calc>
+The savings amount for the first month is <result>1800911.97</result> KRW.
+
+The savings amount for the second month is calculated with compound interest for 8 months.
+<calc>1734666 * (1 + 4.82 / 12 / 100) ** 8</calc>
+The savings amount for the second month is <result>1793660.25</result> KRW.
+
+In the same way, we calculate the savings amount for the last month.
+<calc>1734666 * (1 + 4.82 / 12 / 100) ** 1</calc>
+The savings amount for the last month is <result>1741630.92</result> KRW.
+
+Adding up all these calculated savings amounts gives the total amount.
+<calc>1800911.97 + 1793660.25 + 1786421.12 + 1779194.57 + 1771980.58 + 1764779.12 + 1757590.17 + 1750413.71 + 1743250.72</calc>
+The total amount is <result>15907802.21</result> KRW.
+
+Now, we deduct the interest income tax (15.4%). First, we calculate the interest.
+<calc>15907802.21 - (1734666 * 9)</calc>
+The interest is <result>4299576.21</result> KRW.
+
+After deducting the interest income tax, the interest is
+<calc>4299576.21 * (1 - 15.4 / 100)</calc>
+<result>3637294.83</result> KRW.
+
+Therefore, the total amount received at maturity is
+<calc>(1734666 * 9) + 3637294.83</calc>
+<result>15880110.83</result> KRW.
+</think>
+<answer>15880110.83</answer>",15880110.83
+186,"Mr. B borrowed 1,488,500,000 won for living expenses at a fixed interest rate of 3.63% per annum for 9 months with equal principal repayment. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. B took out a loan of 1,488,500,000 KRW at a fixed annual interest rate of 3.63% for 9 months using the equal principal repayment method. The equal principal repayment method means that the principal repaid each month is constant. Therefore, the principal repaid each month is the total loan amount divided by the loan period.
+
+The principal repaid each month is as follows:
+<calc>1,488,500,000 / 9</calc>
+<result>165,388,888.89</result>
+
+Interest must be calculated on the remaining principal each month. In the first month, interest is calculated on the entire principal, and in subsequent months, interest is calculated on the remaining principal after deducting the repaid principal. This process is repeated for 9 months.
+
+The interest for the first month is as follows:
+<calc>1,488,500,000 * (3.63 / 100) / 12</calc>
+<result>4,499,575.00</result>
+
+The interest for the second month is as follows:
+<calc>(1,488,500,000 - 165,388,888.89) * (3.63 / 100) / 12</calc>
+<result>4,000,000.00</result>
+
+The interest for the third month is as follows:
+<calc>(1,488,500,000 - 2 * 165,388,888.89) * (3.63 / 100) / 12</calc>
+<result>3,500,425.00</result>
+
+By calculating the interest in this manner for 9 months, the total interest is as follows:
+<calc>4,499,575.00 + 4,000,000.00 + 3,500,425.00 + 3,000,850.00 + 2,501,275.00 + 2,001,700.00 + 1,502,125.00 + 1,002,550.00 + 502,975.00</calc>
+<result>22,513,562.50</result>
+</think>
+<answer>22,513,562.50</answer>",22513562.5
+191,"Mr. A deposited 1,323,600,000 won in a lump sum and subscribed to a deposit product with an annual compound interest rate of 5.87%. Interest income tax is deducted at 15.4%. If he terminates the deposit prematurely after 703 days, a premature termination interest rate of 4.109% will be applied. What is the total amount of principal and interest he will receive at that time?","<think>
+First, the principal amount deposited by Mr. A is 1,323,600,000 KRW. The early termination interest rate is 4.109%, and the early termination period is 703 days. The interest income tax is deducted at 15.4%.
+
+The principal and interest amount applying the early termination interest rate is calculated as follows:
+<calc>1,323,600,000 * (1 + 4.109 / 100) ** (703 / 365)</calc>
+<result>1430341222.4545789</result>
+
+The interest before deducting the interest income tax is the value obtained by subtracting the principal from the principal and interest amount:
+<calc>1,411,903,074.18 - 1,323,600,000</calc>
+<result>106741222.45457888</result>
+
+The interest after deducting the interest income tax is calculated as follows:
+<calc>88,303,074.18 * (1 - 15.4 / 100)</calc>
+<result>90303074.19657372</result>
+
+The final amount to be received is the sum of the principal and the interest after deducting the interest income tax:
+<calc>1,323,600,000 + 74,710,307.42</calc>
+<result>1413903074.1965737</result>
+
+Therefore, if Mr. A terminates early after 703 days, the total amount of principal and interest he will receive is 1,397,310,307.42 KRW.
+</think>
+<answer>1413903074.2</answer>",1413903074.2
+192,"Mr. B received a mortgage loan of 550 million won at a fixed annual interest rate of 3.39% for 5 years with equal principal and interest payments. In this case, what is the total amount to be paid during the loan period?","<think>
+Mr. B received a home mortgage loan of 550 million won at a fixed annual interest rate of 3.39% for 5 years with equal principal and interest payments. To calculate the total amount to be paid during the loan period, the following steps are taken.
+
+First, calculate the monthly interest rate. Divide the annual interest rate of 3.39% by 12 months to get the monthly interest rate.
+<calc>3.39 / 12 / 100</calc>
+Monthly interest rate = <result>0.002825</result>
+
+Next, convert the loan period to months. Multiply 5 years by 12 months to get the loan period.
+<calc>5 * 12</calc>
+Loan period = <result>60</result>
+
+Now, calculate the monthly payment amount using the equal principal and interest payment method. The monthly payment amount is calculated using the following formula.
+<calc>550000000 * (0.002825 * (1 + 0.002825) ** 60) / ((1 + 0.002825) ** 60 - 1)</calc>
+Monthly payment amount = <result>9978388.82</result>
+
+Finally, calculate the total amount to be paid during the loan period. Multiply the monthly payment amount by the loan period (months) to get the total amount.
+<calc>9978388.82 * 60</calc>
+Total payment amount = <result>598703328.93</result>
+</think>
+<answer>598703328.93</answer>",598703328.93
+194,"Mr. A deposits 1,678,900 won into a savings account every month for 11 months. The annual interest rate for this savings account is 3.67%, calculated as simple interest, and it is a tax-free product. If Mr. A terminates the account prematurely after 3 months, an early termination interest rate of 2.569% will be applied. What is the total amount of principal and interest he will receive if he terminates the account after 3 months?","<think>
+Mr. A deposits 1,678,900 KRW into a savings account every month for 11 months. However, if he cancels the account after 3 months, an early termination interest rate of 2.569% will be applied. Therefore, we need to calculate the principal and interest paid over the 3 months.
+
+First, calculate the total principal paid over the 3 months.
+Total principal = <calc>1678900 * 3</calc>
+Total principal = <result>5036700</result>
+
+Next, apply the early termination interest rate to calculate the interest. The interest is calculated using simple interest and is calculated for each monthly deposit.
+Interest = <calc>1678900 * 3 * (3 + 1) / 2 * (2.569 / 12 / 100)</calc>
+Interest = <result>21565.47</result>
+
+Therefore, the total amount received upon early termination after 3 months is the sum of the total principal and interest.
+Total = <calc>5036700 + 21565.47</calc>
+Total = <result>5058265.47</result>
+</think>
+<answer>5058265.47</answer>",5058265.47
+196,"Mr. B borrowed 291,400,000 won for living expenses with a floating interest rate of 6.07% per annum for 2 years using the equal principal and interest repayment method. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. B borrowed 291,400,000 won for living expenses over 2 years at a variable interest rate of 6.07% per annum, using the equal principal and interest repayment method. To calculate the interest payable over the loan period, the following steps are taken:
+
+First, calculate the monthly interest rate. Divide the annual interest rate of 6.07% by 12 months to get the monthly interest rate.
+<calc>6.07 / 12 / 100</calc>
+Monthly interest rate = <result>0.005058333333333333</result>
+
+Next, convert the loan period to months. 2 years is 24 months.
+<calc>2 * 12</calc>
+Loan period (months) = <result>24</result>
+
+Now, calculate the monthly repayment amount. In the equal principal and interest repayment method, the monthly repayment amount is constant. To calculate this, use the following formula:
+<calc>291400000 * (0.005058333333333333 * (1 + 0.005058333333333333) ** 24) / ((1 + 0.005058333333333333) ** 24 - 1)</calc>
+Monthly repayment amount = <result>12973812.369862</result>
+
+To calculate the total repayment amount, multiply the monthly repayment amount by the loan period (months).
+<calc>12973812.369862 * 24</calc>
+Total repayment amount = <result>311371496.876688</result>
+
+Finally, subtract the principal from the total repayment amount to calculate the total interest.
+<calc>311371496.876688 - 291400000</calc>
+Total interest = <result>18781256.876688</result>
+
+Therefore, the interest Mr. B has to pay over the loan period is 18,781,256.87 won.
+</think>
+<answer>18781256.87</answer>",18781256.87
+197,"Mr. B received a mortgage loan of 130 million won with an annual variable interest rate of 6.89% for 7 years, using the equal principal and interest repayment method. In this case, how much interest will he have to pay during the loan period?","<think>
+Mr. B took out a home mortgage loan of 130 million won with an annual variable interest rate of 6.89% for 7 years using the equal principal and interest repayment method. To calculate the interest to be paid during the loan period, the following steps are taken:
+
+First, calculate the monthly interest rate. Divide the annual interest rate of 6.89% by 12 months to get the monthly interest rate.
+<calc>6.89 / 12 / 100</calc>
+Monthly interest rate = <result>0.005741666666666666</result>
+
+Convert the loan period to months. Multiply 7 years by 12 months to get the loan period.
+<calc>7 * 12</calc>
+Loan period = <result>84</result>
+
+Calculate the monthly repayment amount. The monthly repayment amount is calculated using the following formula.
+<calc>130000000 * (0.0057416667 * (1 + 0.0057416667) ** 84) / ((1 + 0.0057416667) ** 84 - 1)</calc>
+Monthly repayment amount = <result>1955065.3524436685</result>
+
+Calculate the total repayment amount. The total repayment amount is the amount repaid during the loan period.
+<calc>1924461.76 * 84</calc>
+Total repayment amount = <result>164225489.60526815</result>
+
+Calculate the total interest. The total interest is the amount obtained by subtracting the principal from the total repayment amount.
+<calc>161654785.84 - 130000000</calc>
+Total interest = <result>34225489.60526815</result>
+
+Therefore, the interest that Mr. B has to pay during the loan period is 31,654,785.84 won.
+</think>
+<answer>34225489.61</answer>",34225489.61
+199,"Mr. A signed up for a deposit product that allows a lump-sum deposit of 1,051,300,000 won. The basic interest rate is compounded annually at 4.72%, and a 15.4% interest income tax is deducted. Early termination is possible after 10 months, with an early termination interest rate of 3.776%. If Mr. A terminates early after 16 months, what is the total amount of principal and interest he will receive?","<think>
+Mr. A deposits 1,051,300,000 KRW and calculates the amount if he withdraws early after 16 months. The early withdrawal interest rate is 3.776% per annum. First, convert 16 months into days.
+
+16 months is <calc>16 * 30</calc> days.
+16 months is <result>480</result> days.
+
+Calculate the increased principal amount by applying the early withdrawal interest rate.
+
+Principal after early withdrawal = <calc>1,051,300,000 * (1 + 3.776 / 100) ** (480 / 365)</calc>.
+Principal after early withdrawal = <result>1103812291.7464917</result>.
+
+Calculate the interest amount.
+
+Interest = <calc>1,093,707,000 - 1,051,300,000</calc>.
+Interest = <result>52512291.74649167</result>.
+
+Calculate the interest amount after deducting the 15.4% interest income tax.
+
+After-tax interest = <calc>42,407,000 * (1 - 15.4 / 100)</calc>.
+After-tax interest = <result>44425398.81753195</result>.
+
+The final amount received is the sum of the principal and the after-tax interest.
+
+Final amount received = <calc>1,051,300,000 + 35,872,398</calc>.
+Final amount received = <result>1095725398.817532</result>.
+</think>
+<answer>1095725398.82</answer>",1095725398.82
+201,"Mr. A signed up for a deposit product with a lump sum of 581,800,000 won. The basic interest rate is compounded annually at 2.56%, and a 15.4% interest income tax is deducted. Early termination is possible after 10 weeks, with an early termination interest rate of 1.792%. What is the total amount of principal and interest to be received if terminated early after 15 weeks?","<think>
+Mr. A subscribed to a deposit product with a deposit amount of 581,800,000 KRW. The early termination interest rate for this product is 1.792% per annum, and the interest income tax is deducted at 15.4%. Let's calculate the total amount of principal and interest Mr. A will receive if he terminates the deposit early after 15 weeks.
+
+First, converting 15 weeks into days, we get <calc>15 * 7</calc> days. This is <result>105</result> days.
+
+We calculate the interest for 105 days by applying the early termination interest rate. Since the rate is 1.792% per annum, we convert it to a daily rate and apply it. The amount after applying the interest rate to the principal is as follows:
+<calc>581800000 * (1 + 1.792 / 100) ** (105 / 365)</calc>
+This amount is <result>584780269.8843223</result>.
+
+Next, we calculate the interest after deducting the 15.4% interest income tax. The interest is the amount obtained by subtracting the principal from the amount after applying the early termination interest rate:
+<calc>591047000.00 - 581800000</calc>
+The interest is <result>2980269.8843222857</result>.
+
+The interest after deducting the interest income tax is as follows:
+<calc>9247000.00 * (1 - 15.4 / 100)</calc>
+The interest after deduction is <result>2521308.3221366536</result>.
+
+Therefore, the total amount of principal and interest Mr. A will receive if he terminates the deposit early after 15 weeks is as follows:
+<calc>581800000 + 7825308.32</calc>
+The total is <result>584321308.3221366</result>.
+</think>
+<answer>584321308.32</answer>",584321308.32
+205,"Mr. A has subscribed to a tax-free deposit product, depositing 1,138,900,000 won at an annual compound interest rate of 5.26% for 28 weeks. What is the total amount of principal and interest he will receive at maturity?","<think>
+Mr. A has invested 1,138,900,000 KRW in a tax-free deposit product with an annual compound interest rate of 5.26% for 28 weeks. To calculate the total amount of principal and interest at maturity, the following steps are taken.
+
+First, convert 28 weeks into days. Since 1 week is 7 days, converting 28 weeks into days is <calc>28 * 7</calc>. Therefore, the number of days is <result>196</result> days.
+
+Now, to calculate the total amount of principal and interest, we use the compound interest formula. The compound interest formula applies the annual interest rate to the principal. By converting the annual interest rate to match the number of days and applying the formula, it is as follows:
+Total amount of principal and interest = <calc>1,138,900,000 * (1 + 5.26 / 100) ** (196 / 365)</calc>. Therefore, the total amount of principal and interest is <result>1,170,686,783.34</result>.
+
+Thus, the total amount of principal and interest to be received at maturity is 1,170,686,783.34 KRW.
+</think>
+<answer>1,170,686,783.34</answer>",1170686783.34
+206,"Mr. A deposits 4,548,000 won into a savings account every week for 44 weeks. The basic interest rate is 3.88% per year, and the interest is calculated as simple interest. An interest income tax of 15.4% is deducted. If the account is terminated early after 14 weeks, an early termination interest rate of 2.328% is applied. What is the total amount received if the account is terminated early after 14 weeks?","<think>
+Mr. A deposits 4,548,000 KRW into a savings account every week for 44 weeks. However, if he cancels the account after 14 weeks, an early termination interest rate of 2.328% is applied. Interest income tax of 15.4% is deducted. Now, let's calculate the total amount he will receive if he cancels the account after 14 weeks.
+
+First, we calculate the total amount deposited over 14 weeks.
+<calc>4548000 * 14</calc>
+Total deposited amount = <result>63672000</result>
+
+Next, we calculate the interest accrued over 14 weeks. The interest is calculated as simple interest, and the early termination interest rate is applied to the amount deposited each week.
+To calculate the interest, we sum the interest accrued each week.
+<calc>[4548000 * (i + 1) * (2.328 / 52 / 100) for i in range(14)]</calc>
+Total interest = <result>213790.98461538463</result>
+
+We then calculate the interest after deducting the 15.4% interest income tax.
+<calc>213790.98461538463 * (1 - 15.4 / 100)</calc>
+After-tax interest = <result>180867.1729846154</result>
+
+Finally, we add the total deposited amount and the after-tax interest to calculate the total amount received upon early termination after 14 weeks.
+<calc>63672000 + 180867.1729846154</calc>
+Total amount = <result>63852867.172984615</result>
+
+Therefore, the total amount received upon early termination after 14 weeks is 63,852,867.17 KRW.
+</think>
+<answer>63852867.17</answer>",63852867.17
+207,"Mr. A deposited 1,012,700,000 won in a lump sum in an 8-year non-taxable term deposit. The annual interest rate is 3.03%, and it is calculated on a compound basis. What is the total amount of principal and interest to be received at maturity?","<think>
+Mr. A deposited 1,012,700,000 won in a lump sum in a tax-free fixed deposit with an 8-year maturity. This deposit is calculated with compound interest at an annual rate of 3.03%. Compound interest means that interest is added to the principal, and the next year's interest is calculated on the combined amount of the principal and the interest.
+
+The compound interest formula is as follows:
+Final amount = Principal * (1 + annual interest rate / 100) ** period (years)
+
+Here, the principal is 1,012,700,000 won, the annual interest rate is 3.03%, and the period is 8 years. Calculating this gives:
+Final amount = <calc>1,012,700,000 * (1 + 3.03 / 100) ** 8</calc>
+Final amount = <result>1,285,850,294.26</result>
+
+Therefore, the total amount of principal and interest to be received at maturity is 1,285,850,294.26 won.
+</think>
+<answer>1,285,850,294.26</answer>",1285850294.26
+210,"Mr. B received a mortgage loan of 153 million won with a variable interest rate of 4.23% per annum for 239 months, using the equal principal repayment method. In this case, how much interest will he have to pay during the loan period?","<think>
+Mr. B took out a mortgage loan of 153 million won with a variable interest rate of 4.23% per annum for 239 months using the equal principal repayment method. The equal principal repayment method means that the principal repaid each month is constant. Therefore, the principal repaid each month is the total loan amount divided by the loan period (number of months).
+
+First, we calculate the principal repaid each month.
+<calc>153000000 / 239</calc>
+The principal repaid each month is <result>639330.54</result> won.
+
+Now, we calculate the interest to be paid each month. In the first month, the interest is calculated on the entire principal, and in subsequent months, the interest is calculated on the remaining balance after deducting the principal repaid each month. This process is repeated for 239 months.
+
+The interest for the first month is calculated on the entire principal.
+<calc>153000000 * (4.23 / 100) / 12</calc>
+The interest for the first month is <result>53932.50</result> won.
+
+The interest for the second month is calculated on the remaining balance after deducting the principal repaid in the first month.
+<calc>(153000000 - 639330.54) * (4.23 / 100) / 12</calc>
+The interest for the second month is <result>53654.88</result> won.
+
+In this manner, the interest for 239 months is calculated and summed up.
+<calc>sum([153000000 * (4.23 / 100) / 12 - 639330.54 * i * (4.23 / 100) / 12 for i in range(239)])</calc>
+The total interest is <result>64719000.0</result> won.
+</think>
+<answer>64719000.0</answer>",64719000.0
+211,"Mr. A subscribed to a savings plan of 626,000 KRW per month for 29 months. The basic interest rate is 3.51% per annum, and the interest is calculated as simple interest. Interest income tax (15.4%) is deducted. Early termination is possible after 9 months, and an early termination interest rate of 2.106% is applied. What is the total amount of principal and interest received upon early termination after 9 months?","<think>
+Mr. A deposits 626,000 won every month into a savings account. To calculate the amount to be received upon early termination after 9 months, the following steps are taken.
+
+First, calculate the total principal deposited over 9 months.
+<calc>626000 * 9</calc>
+Total principal = <result>5634000</result>
+
+Next, calculate the interest by applying the early termination interest rate of 2.106%. The interest is calculated as simple interest, based on the amount deposited over 9 months.
+<calc>626000 * 9 * (9 + 1) / 2 * (2.106 / 12 / 100)</calc>
+Interest = <result>49438.35</result>
+
+Calculate the interest after deducting the interest income tax of 15.4%.
+<calc>113282.4 * (1 - 15.4 / 100)</calc>
+After-tax interest = <result>41824.844099999995</result>
+
+Finally, add the total principal and the after-tax interest to calculate the amount to be received upon early termination.
+<calc>5634000 + 95824.84</calc>
+Total amount received = <result>5675824.8441</result>
+</think>
+<answer>5675824.84</answer>",5675824.84
+212,"Mr. A deposited 1,569,600,000 won at a simple annual interest rate of 2.35% for 34 weeks. What is the total amount he will receive at maturity?","<think>
+Mr. A deposited 1,569,600,000 won at a simple annual interest rate of 2.35% for 34 weeks. First, convert 34 weeks into days. Since 1 week is 7 days, converting 34 weeks into days is <calc>34 * 7</calc> days. This is <result>238</result> days.
+
+Now, calculate the interest. The simple interest formula is the principal multiplied by the annual interest rate, and then this value is divided by the deposit period (in days) over 365 days. Therefore, the interest is <calc>1,569,600,000 * (2.35 / 100) * (238 / 365)</calc>. This is <result>24,405,432.33</result>.
+
+Finally, the total amount received at maturity is the principal plus the interest. Therefore, the total amount is <calc>1,569,600,000 + 24,405,432.33</calc>. This is <result>1,593,651,432.33</result>.
+</think>
+<answer>1593651432.33</answer>",1593651432.33
+214,"Mr. Kim deposited 272,900,000 won in a lump sum and joined a tax-free savings product that pays simple interest at an annual rate of 4.37% for 40 weeks. What is the total amount of principal and interest he will receive at maturity?","<think>
+Mr. Kim has deposited 272,900,000 KRW. This amount is deposited at a simple annual interest rate of 4.37% for 40 weeks. First, converting 40 weeks into days gives <calc>40 * 7</calc> <result>280</result> days.
+
+The simple interest formula is to multiply the principal by the annual interest rate, and then divide this by the number of days in the deposit period (days) by 365 days. Therefore, the interest is <calc>272,900,000 * (4.37 / 100) * (280 / 365)</calc> <result>9,148,505.21</result> KRW.
+
+The amount to be received at maturity is the sum of the principal and the interest. Therefore, the total amount is <calc>272,900,000 + 9,148,505.21</calc> <result>282,048,505.21</result> KRW.
+</think>
+<answer>282048505.21</answer>",282048505.21
+218,"Mr. A deposits 4,306,000 won every month for 58 months in a savings account. This savings account has an annual compound interest rate of 4.23% and is tax-free. If Mr. A terminates the account early after 19 months, an early termination interest rate of 3.807% will be applied. What is the total amount he will receive if he terminates the account early after 19 months?","<think>
+Mr. A deposits 4,306,000 KRW into a savings account every month, and if he terminates the account early after 19 months, an early termination interest rate of 3.807% will be applied. Therefore, the total amount must be calculated by applying the early termination interest rate to each deposit.
+
+First, we calculate the amount with the early termination interest rate applied to the monthly deposit. Since the early termination interest rate is 3.807% per year, the monthly interest rate is <calc>3.807 / 12 / 100</calc>. The monthly interest rate is <result>0.0031725</result>.
+
+The amount with the early termination interest rate applied to each deposit is calculated as follows:
+First deposit: <calc>4306000 * (1 + 0.0031725) ** 18</calc> = <result>4552761.77</result>
+Second deposit: <calc>4306000 * (1 + 0.0031725) ** 17</calc> = <result>4538121.88</result>
+...
+Last deposit: <calc>4306000 * (1 + 0.0031725) ** 0</calc> = <result>4306000.00</result>
+
+In this way, the amounts with the early termination interest rate applied to all deposits over 19 months are summed. The total amount is <calc>sum([4306000 * (1 + 0.0031725) ** (19 - i) for i in range(19)])</calc>. The total amount is <result>84459628.4</result>.
+
+Therefore, the total amount Mr. A will receive if he terminates the account early after 19 months is 84,459,628.4 KRW.
+</think>
+<answer>84459628.4</answer>",84459628.4
+220,"Mr. B took out a loan of 64,800,000 won with a used car as collateral at an annual variable interest rate of 2.53% for 5 years, with equal principal and interest payments. How much interest will he have to pay over the loan period?","<think>
+Mr. B took out a loan of 64,800,000 KRW with a used car as collateral at an annual variable interest rate of 2.53% for 5 years, using the equal principal and interest repayment method. Let's calculate the interest he has to pay over the loan period.
+
+First, we calculate the monthly interest rate. We divide the annual interest rate of 2.53% by 12 months to get the monthly interest rate.
+<calc>2.53 / 12 / 100</calc>
+Monthly interest rate = <result>0.0021083333</result>
+
+Next, we calculate the loan period in months. 5 years is 60 months.
+<calc>5 * 12</calc>
+Loan period (months) = <result>60</result>
+
+Now, we calculate the monthly repayment amount using the equal principal and interest repayment method.
+<calc>64800000 * (0.0021083333 * (1 + 0.0021083333) ** 60) / ((1 + 0.0021083333) ** 60 - 1)</calc>
+Monthly repayment amount = <result>1153861.57</result>
+
+We calculate the total repayment amount by multiplying the monthly repayment amount by the loan period (months).
+<calc>1153861.57 * 60</calc>
+Total repayment amount = <result>69231694.2</result>
+
+Finally, we calculate the total interest by subtracting the principal from the total repayment amount.
+<calc>69231694.2 - 64800000</calc>
+Total interest = <result>4253184.24</result>
+
+Therefore, the interest Mr. B has to pay over the loan period is 4,253,184.24 KRW.
+</think>
+<answer>4253184.24</answer>",4253184.24
+223,"Mr. B received a credit loan of 2,758,900,000 won with a fixed annual interest rate of 2.76% for 2 years, to be repaid in a lump sum at maturity. In this case, how much interest must be paid during the loan period?","<think>
+Mr. B took out a credit loan of 2,758,900,000 KRW with a fixed annual interest rate of 2.76% for 2 years, with a lump-sum repayment at maturity. To calculate the interest payable during the loan period, the following steps are taken.
+
+First, the loan principal is 2,758,900,000 KRW. The annual interest rate is 2.76%, and the loan period is 2 years. 2 years is equivalent to 730 days.
+
+The interest is calculated by multiplying the principal by the annual interest rate, and then dividing it by the number of days in the loan period.
+
+Interest = <calc>2,758,900,000 * (2.76 / 100) * (730 / 365)</calc>
+Interest = <result>152,291,280.0</result>
+
+Therefore, the interest payable during the loan period is 152,291,280.0 KRW.
+</think>
+<answer>152,291,280.0</answer>",152291280.0
+224,"Mr. B took out a rental deposit loan of 2,090,000,000 KRW for one year with an annual variable interest rate of 4.13% using the equal principal and interest repayment method. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. B took out a loan of 2,090,000,000 KRW with an annual variable interest rate of 4.13% for one year, using the equal principal and interest repayment method. To calculate the interest payable during the loan period, the following steps are taken:
+
+First, calculate the monthly interest rate. Divide the annual interest rate of 4.13% by 12 months to get the monthly interest rate.
+<calc>4.13 / 12 / 100</calc>
+Monthly interest rate = <result>0.0034416667</result>
+
+Next, calculate the monthly repayment amount. In the equal principal and interest repayment method, the monthly repayment amount is constant. To calculate this, use the following formula:
+<calc>2,090,000,000 * (0.0034416667 * (1 + 0.0034416667)**12) / ((1 + 0.0034416667)**12 - 1)</calc>
+Monthly repayment amount = <result>178,374,545.67</result>
+
+Now, calculate the total repayment amount. Multiply the monthly repayment amount by 12 months.
+<calc>178,374,545.67 * 12</calc>
+Total repayment amount = <result>2,140,494,548.04</result>
+
+Finally, the interest payable during the loan period is the amount obtained by subtracting the principal from the total repayment amount.
+<calc>2,140,494,548.04 - 2,090,000,000</calc>
+Interest = <result>47,049,538.04</result>
+</think>
+<answer>47049538.09</answer>",47049538.09
+225,"President Kim took out a business loan of 684 million won at a fixed annual interest rate of 5.12% with a lump-sum repayment method for 3 months. In this case, how much interest should be paid during the loan period?","<think>
+President Kim took out a business loan of 684,900,000 KRW at a fixed annual interest rate of 5.12% with a lump-sum repayment method over a period of 3 months. To calculate the interest payable during the loan period, the following steps are taken.
+
+First, the loan principal is 684,900,000 KRW. The annual interest rate is 5.12%. The loan period is 3 months, which is equivalent to 90 days.
+
+The formula to calculate the interest is as follows:
+Interest = Principal * (Annual Interest Rate / 100) * (Loan Period / 365)
+
+Substituting the actual values into the formula,
+Interest = <calc>684900000 * (5.12 / 100) * (90 / 365)</calc>
+Interest = <result>8646627.95</result>
+
+Therefore, the interest that President Kim has to pay during the loan period is 8,646,627.95 KRW.
+</think>
+<answer>8646627.95</answer>",8646627.95
+226,"Mr. A has invested 2,561,500,000 won in a tax-free deposit product with an annual compound interest rate of 2.16% for 15 months. What is the total amount he will receive at maturity?","<think>
+Mr. A has subscribed to a tax-free deposit product that deposits 2,561,500,000 won at an annual compound interest rate of 2.16% for 15 months. To calculate the total amount he will receive at maturity, the following steps must be taken.
+
+First, the annual interest rate must be converted to a monthly interest rate. Since the annual interest rate is 2.16%, the monthly interest rate is <calc>2.16 / 12</calc>. The monthly interest rate is <result>0.18</result>.
+
+Now, apply the monthly interest rate to the principal and calculate compound interest for 15 months. The compound interest formula is to multiply the principal by the monthly interest rate 15 times. Therefore, the total amount is <calc>2,561,500,000 * (1 + 0.18 / 100) ** 15</calc>. Calculating this, the total amount is <result>2,631,538,756.24</result>.
+
+Therefore, the total amount Mr. A will receive at maturity is 2,631,538,756.24 won.
+</think>
+<answer>2631538756.24</answer>",2631538756.24
+229,"Mr. A made a lump-sum deposit of 2,249,500,000 won in a one-year term deposit. The basic interest rate is 4.86% per annum, and the interest is paid in full on the maturity date. Interest income tax (15.4%) is deducted. What is the total amount received at maturity?","<think>
+First, Mr. A's deposited amount is 2,249,500,000 KRW. The basic interest rate is 4.86% per annum, and the interest is paid in a lump sum at maturity. The interest income tax is deducted at 15.4%.
+
+To calculate the interest for one year, we use the following formula:
+Interest = <calc>2,249,500,000 * (4.86 / 100) * (365 / 365)</calc>
+Interest = <result>109,312,700</result>
+
+We then calculate the interest after deducting the interest income tax:
+After-tax interest = <calc>109,312,700 * (1 - 15.4 / 100)</calc>
+After-tax interest = <result>92,248,542.2</result>
+
+The total amount received at maturity is the sum of the principal and the after-tax interest:
+Total amount received = <calc>2,249,500,000 + 92,248,542.2</calc>
+Total amount received = <result>2,341,989,542.2</result>
+</think>
+<answer>2341989542.2</answer>",2341989542.2
+233,"Mr. J subscribed to a tax-free compound interest deposit product with a lump sum deposit of 445,500,000 KRW. The basic annual interest rate is 2.97%, and the deposit period is 26 months. If he terminates the deposit early after 8 months, an early termination interest rate of 2.376% will be applied. What is the total amount he will receive if he terminates the deposit early after 8 months?","<think>
+Mr. J has invested 445,500,000 KRW in a tax-free compound interest deposit product with a lump-sum payment. The basic annual interest rate is 2.97%, and the deposit period is 26 months. However, if he withdraws early after 8 months, an early withdrawal interest rate of 2.376% will be applied. Therefore, we need to calculate the total amount he will receive if he withdraws early after 8 months.
+
+First, convert the early withdrawal interest rate to a monthly rate. Divide the annual rate of 2.376% by 12 months to get the monthly rate.
+<calc>2.376 / 100 / 12</calc>
+<result>0.00198</result>
+
+Based on this monthly rate, perform compound interest calculations for 8 months. Apply the monthly rate to the principal to calculate the compound interest for 8 months.
+<calc>445500000 * (1 + 0.00198) ** 8</calc>
+<result>452605817.21</result>
+
+Therefore, the total amount Mr. J will receive if he withdraws early after 8 months is 452,605,817.21 KRW.
+</think>
+<answer>452605817.21</answer>",452605817.21
+235,"Mr. B took out a business loan of 2,940,200,000 KRW at an annual variable interest rate of 3.35% for 2 years with equal principal and interest payments. How much interest will he have to pay over the loan period?","<think>
+Mr. B took out a loan of 2,940,200,000 KRW at a variable interest rate of 3.35% per year for 2 years, using the equal principal and interest repayment method. Let's calculate the interest he has to pay during the loan period.
+
+First, we calculate the monthly interest rate. We divide the annual interest rate of 3.35% by 12 to get the monthly interest rate.
+<calc>3.35 / 12 / 100</calc>
+Monthly interest rate = <result>0.0027916666666666667</result>
+
+The loan period is 2 years, so the total is 24 months.
+<calc>2 * 12</calc>
+Total period = <result>24</result>
+
+To calculate the monthly repayment amount, we use the following formula:
+Monthly repayment amount = Principal * (Monthly interest rate * (1 + Monthly interest rate) ^ Total period) / ((1 + Monthly interest rate) ^ Total period - 1)
+<calc>2,940,200,000 * (0.0027916667 * (1 + 0.0027916667) ** 24) / ((1 + 0.0027916667) ** 24 - 1)</calc>
+Monthly repayment amount = <result>126829045.32481618</result>
+
+The total repayment amount is calculated by multiplying the monthly repayment amount by the total period.
+<calc>125,179,620.32 * 24</calc>
+Total repayment amount = <result>3043897087.7955885</result>
+
+The total interest is the value obtained by subtracting the principal from the total repayment amount.
+<calc>3,004,310,887.68 - 2,940,200,000</calc>
+Total interest = <result>103697087.7955885</result>
+
+Therefore, the interest Mr. B has to pay during the loan period is 103,697,087.8 KRW.
+</think>
+<answer>103697087.8</answer>",103697087.8
+238,"Mr. B took out a used car collateral loan of 458.5 million won with a 2.12% variable interest rate for 7 years, with a lump-sum repayment at maturity. In this case, how much interest will he have to pay during the loan period?","<think>
+Mr. B took out a loan of 458,500,000 KRW with a variable interest rate of 2.12% per annum for 7 years, using a balloon payment method. The balloon payment method means that the principal is not repaid during the loan period, and both the principal and interest are repaid in full at the end of the loan term. Therefore, the interest payable during the loan period can be calculated by multiplying the principal by the annual interest rate and then converting it to the number of days corresponding to the loan period.
+
+First, the loan principal is 458,500,000 KRW. The annual interest rate is 2.12%. The loan period is 7 years, which can be converted to days as 7 * 365 days.
+
+The formula for calculating interest is as follows:
+Interest = Principal * (Annual Interest Rate / 100) * (Loan Period Days / 365)
+
+Calculating this:
+Interest = <calc>458500000 * (2.12 / 100) * (7 * 365 / 365)</calc>
+Interest = <result>68041400.0</result>
+
+Therefore, the interest Mr. B has to pay during the loan period is 68,041,400 KRW.
+</think>
+<answer>68041400.0</answer>",68041400.0
+239,"Mr. B took out a credit loan of 1,778,100,000 won at a fixed annual interest rate of 6.35% with a lump-sum repayment at the end of one year. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. B took out a loan of 1,778,100,000 KRW at a fixed annual interest rate of 6.35% for one year, with a lump-sum repayment at maturity. To calculate the interest payable during the loan period, the following formula is used:
+
+Interest = Principal * (Annual Interest Rate / 100) * (Loan Days / 365)
+
+First, the principal is 1,778,100,000 KRW. The annual interest rate is 6.35%, and the loan days are 365 days. Substituting these values into the formula:
+
+Interest = <calc>1,778,100,000 * (6.35 / 100) * (365 / 365)</calc>
+Interest = <result>112,909,350.0</result>
+
+Therefore, the interest Mr. B has to pay during the loan period is 112,909,350.0 KRW.
+</think>
+<answer>112909350.0</answer>",112909350.0
+249,"Mr. A deposited 9,935,000 won every month for 9 months in a savings account. The annual interest rate is 6.0%, calculated as simple interest, and it is a tax-free product. What is the total amount he will receive at maturity?","<think>
+Mr. A deposited 9,935,000 KRW every month for 9 months in a savings account. The annual interest rate is 6.0%, calculated as simple interest, and the product is tax-free. To calculate the total amount received at maturity, the following steps are taken:
+
+First, calculate the total deposit amount.
+Total deposit amount = <calc>9935000 * 9</calc>
+Total deposit amount = <result>89415000</result>
+
+Next, calculate the interest. The interest is calculated as simple interest on the amount deposited each month, and the interest calculated for each month is summed up.
+Interest = <calc>9935000 * 9 * (9 + 1) / 2 * (6.0 / 12 / 100)</calc>
+Interest = <result>2235375</result>
+
+Therefore, the total amount received at maturity is the sum of the total deposit amount and the interest.
+Total amount = <calc>89415000 + 2235375</calc>
+Total amount = <result>91650375</result>
+</think>
+<answer>91650375.0</answer>",91650375.0
+258,"Mr. A deposited 1,961,100,000 won in a lump sum and maintained the deposit for 968 days at a simple interest rate of 3.88% per annum. An interest income tax of 15.4% is deducted. What is the total amount he will receive at maturity?","<think>
+First, the principal amount deposited by Mr. A is 1,961,100,000 KRW. Interest is calculated on this amount at an annual simple interest rate of 3.88% for 968 days. The simple interest formula is to multiply the principal by the annual interest rate, and then divide this by the deposit period (days) over 365 days.
+
+Interest = <calc>1,961,100,000 * (3.88 / 100) * (968 / 365)</calc>
+Interest = <result>202,812,500.27</result>
+
+Interest income tax is 15.4% of the interest amount. Therefore, the interest after deducting the interest income tax is as follows.
+
+After-tax interest = <calc>202,812,500.27 * (1 - 15.4 / 100)</calc>
+After-tax interest = <result>171,563,968.19</result>
+
+The total amount received at maturity is the sum of the principal and the after-tax interest.
+
+Total amount = <calc>1,961,100,000 + 171,563,968.19</calc>
+Total amount = <result>2,131,819,968.19</result>
+</think>
+
+<answer>2131819968.19</answer>",2131819968.19
+261,"Mr. B received a mortgage loan of 530 million won with an annual variable interest rate of 6.88% for one year, with a lump-sum repayment at maturity. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. B took out a mortgage loan of 530 million won with a variable interest rate of 6.88% per annum, to be repaid in a lump sum after one year. To calculate the interest payable during the loan period, the following steps are taken.
+
+First, the loan principal is 530 million won, which is expressed as 530,000,000 won. The annual interest rate is 6.88%. The loan period is 365 days.
+
+The formula to calculate the interest is as follows:
+Interest = Principal * (Annual Interest Rate / 100) * (Loan Period / 365)
+
+Substituting the numbers into the formula,
+<calc>530000000 * (6.88 / 100) * (365 / 365)</calc>
+Interest = <result>36464000.0</result> won.
+
+Therefore, the interest Mr. B has to pay for one year is 36,464,000 won.
+</think>
+<answer>36464000.0</answer>",36464000.0
+265,"Mr. A made a lump-sum deposit of 979,500,000 won in a 9-year tax-free compound interest account. The annual interest rate is 6.84%. What is the total amount he will receive at maturity?","<think>
+Mr. A made a lump-sum deposit of 979,500,000 KRW in a 9-year tax-free compound interest savings account. The annual interest rate is 6.84%. To calculate the total amount received at maturity, we use the compound interest formula.
+
+The compound interest formula is as follows:
+Total Amount = Principal * (1 + Annual Interest Rate / 100) ^ Period
+
+Here, the principal is 979,500,000 KRW, the annual interest rate is 6.84%, and the period is 9 years. We substitute these values into the formula to calculate.
+
+Total Amount = <calc>979500000 * (1 + 6.84 / 100) ** 9</calc>
+Total Amount = <result>1776680576.56</result>
+
+Therefore, the total amount Mr. A will receive at maturity is 1,776,680,576.56 KRW.
+</think>
+<answer>1776680576.56</answer>",1776680576.56
+268,"Mr. A deposited 1,507,300,000 won in a lump sum in a 4-year term deposit. The basic interest rate is 6.32% per annum, compounded annually, and the interest is paid in full on the maturity date. Interest income tax (15.4%) is deducted. Early termination is possible after 1 year, and an early termination rate of 4.424% is applied. What is the total amount of principal and interest to be received if terminated early after 2 years?","<think>
+Mr. A deposited 1,507,300,000 won in a 4-year term deposit. However, he chose to withdraw early after 2 years. The early withdrawal interest rate is 4.424% per annum. Therefore, to calculate the interest after 2 years, we first calculate the principal and interest by applying the interest rate for 2 years.
+
+Principal and interest = <calc>1,507,300,000 * (1 + 4.424 / 100) ** (730 / 365)</calc>
+Principal and interest = <result>1643615957.7964802</result>
+
+Now, we need to deduct the interest income tax. The interest income tax is 15.4%. Therefore, we calculate the interest after deducting the interest income tax.
+
+Interest = <calc>1,626,223,300.3 - 1,507,300,000</calc>
+Interest = <result>136315957.79648018</result>
+
+Interest after deducting interest income tax = <calc>118,923,300.3 * (1 - 15.4 / 100)</calc>
+Interest after deducting interest income tax = <result>115323300.29582223</result>
+
+Therefore, the total amount of principal and interest to be received after 2 years of early withdrawal is as follows.
+
+Total amount of principal and interest = <calc>1,507,300,000 + 100,635,300.3</calc>
+Total amount of principal and interest = <result>1622623300.2958221</result>
+</think>
+<answer>1622623300.3</answer>",1622623300.3
+269,"Mr. A made a lump-sum deposit of 1,671,500,000 won in a one-year term deposit. The basic interest rate is 5.34% per annum, and the interest is paid in full on the maturity date. Interest income tax (15.4%) is deducted. How much will the total amount be at maturity?","<think>
+Mr. A deposited 1,671,500,000 won in a one-year term deposit. The basic interest rate is 5.34% per annum, and the interest is paid in a lump sum on the maturity date. First, we calculate the interest generated over one year.
+
+Interest = <calc>1,671,500,000 * (5.34 / 100) * (365 / 365)</calc>
+Interest = <result>89,297,100</result>
+
+Since the interest income tax is 15.4%, we calculate the interest after tax deduction.
+
+After-tax interest = <calc>89,297,100 * (1 - 15.4 / 100)</calc>
+After-tax interest = <result>75,548,352.6</result>
+
+The total amount received at maturity is the sum of the principal and the after-tax interest.
+
+Total amount = <calc>1,671,500,000 + 75,548,352.6</calc>
+Total amount = <result>1,747,012,352.6</result>
+</think>
+<answer>1,747,012,352.6</answer>",1747012352.6
+271,"Mr. B took out a loan of 805,400,000 won for living expenses with a variable interest rate of 4.47% per annum, using the equal principal and interest repayment method for one year. How much interest does he have to pay during the loan period?","<think>
+Mr. B took out a loan of 805,400,000 KRW with a variable interest rate of 4.47% per annum, using the equal principal and interest repayment method for one year. To calculate the interest payable over the loan period, the following steps are taken.
+
+First, calculate the monthly interest rate. The annual interest rate of 4.47% is divided by 12 months to get the monthly interest rate.
+<calc>4.47 / 12 / 100</calc>
+Monthly interest rate = <result>0.003725</result>
+
+Next, calculate the monthly repayment amount. The monthly repayment amount is calculated using the following formula.
+<calc>805400000 * (0.003725 * (1 + 0.003725) ** 12) / ((1 + 0.003725) ** 12 - 1)</calc>
+Monthly repayment amount = <result>68752805.7910093</result>
+
+Now, calculate the total repayment amount. The total repayment amount is obtained by multiplying the monthly repayment amount by the loan period (12 months).
+<calc>68303056.62 * 12</calc>
+Total repayment amount = <result>825033669.4921117</result>
+
+Finally, calculate the total interest. The total interest is the value obtained by subtracting the principal from the total repayment amount.
+<calc>819636679.44 - 805400000</calc>
+Total interest = <result>19633669.492111683</result>
+
+Therefore, the interest that Mr. B has to pay over the loan period is 19,633,669.44 KRW.
+</think>
+<answer>19633669.49</answer>",19633669.49
+274,"Mr. B took out a loan of 709,600,000 won at a fixed annual interest rate of 3.47% for 2 years, with equal principal repayment to cover living expenses. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. B took out a loan of 709,600,000 KRW with a fixed annual interest rate of 3.47% for 2 years, using the equal principal repayment method. In this method, a fixed amount of principal is repaid each month, and the interest is calculated on the remaining principal.
+
+First, we calculate the monthly principal repayment. The total loan principal is 709,600,000 KRW, and the loan period is 2 years (24 months). Therefore, the monthly principal repayment is as follows:
+<calc>709600000 / (2 * 12)</calc>
+Monthly principal repayment = <result>29566666.67</result>
+
+Next, we calculate the interest on the remaining principal each month. The remaining principal for the first month is 709,600,000 KRW, and the monthly interest rate is the annual rate of 3.47% divided by 12 months.
+<calc>3.47 / 100 / 12</calc>
+Monthly interest rate = <result>0.0028916667</result>
+
+The interest for the first month is as follows:
+<calc>709600000 * 0.0028916667</calc>
+Interest for the first month = <result>20537.33</result>
+
+Using this method, we calculate the interest on the remaining principal each month to find the total interest. The remaining principal each month is the initial principal minus the monthly principal repayment. This calculation is repeated for 24 months.
+<calc>[709600000 * 0.0028916667 - 29566666.67 * i * 0.0028916667 for i in range(24)]</calc>
+Total interest = <result>25649083.33</result>
+
+Therefore, the total interest Mr. B has to pay over the loan period is 25,649,083.33 KRW.
+</think>
+<answer>25649083.33</answer>",25649083.33
+284,"Mr. B took out a used car collateral loan of 1,915,700,000 won at a fixed annual interest rate of 3.32% for 5 years with equal principal repayment. How much interest will he have to pay over the loan period?","<think>
+Mr. B took out a used car collateral loan of 1,915,700,000 KRW at a fixed annual interest rate of 3.32% for 5 years, using the equal principal repayment method. The equal principal repayment method involves repaying a fixed amount of principal each month. Therefore, the monthly principal repayment is calculated by dividing the total loan amount by the number of months in the loan period.
+
+First, let's calculate the monthly principal repayment.
+<calc>1,915,700,000 / (5 * 12)</calc>
+The monthly principal repayment is <result>31,928,333.33</result> KRW.
+
+Next, to calculate the monthly interest, we need to find the monthly interest rate.
+<calc>3.32 / 100 / 12</calc>
+The monthly interest rate is <result>0.0027666667</result>.
+
+Now, let's calculate the monthly interest and accumulate it to find the total interest. The interest for the first month is calculated by multiplying the loan principal by the monthly interest rate.
+<calc>1,915,700,000 * 0.0027666667</calc>
+The interest for the first month is <result>5,298,380.00</result> KRW.
+
+Subsequently, as the principal is repaid each month, the interest is calculated on the remaining principal. This process is repeated for 60 months to find the total interest.
+<calc>[1,915,700,000 * 0.0027666667 - 31,928,333.33 * i * 0.0027666667 for i in range(60)]</calc>
+The total interest is <result>161,653,151.67</result> KRW.
+</think>
+<answer>161653151.67</answer>",161653151.67
+289,"Mr. A signed up for a savings plan of 893,000 KRW per month for 53 months. The basic interest rate is compounded annually at 6.12%, and the interest is paid in a lump sum at maturity. This product is tax-free. Early termination is possible after 17 months, with an early termination interest rate of 3.672%. If Mr. A terminates the plan early after 26 months, what is the total amount of principal and interest he will receive?","<think>
+Mr. A subscribed to a savings plan of 893,000 KRW per month for 26 months. The early termination interest rate is 3.672% per annum. First, we calculate the total principal amount Mr. A paid over 26 months.
+
+Total principal = <calc>893000 * 26</calc>
+Total principal = <result>23218000</result>
+
+Next, we calculate the interest by applying the early termination interest rate to each payment. Since the interest is compounded, we apply the rate to each payment and then sum them up.
+
+Early termination interest rate = 3.672% / 12 = 0.306% (monthly rate)
+
+Interest calculation:
+<calc>893000 * (1 + 0.00306) ** 26 + 893000 * (1 + 0.00306) ** 25 + 893000 * (1 + 0.00306) ** 24 + 893000 * (1 + 0.00306) ** 23 + 893000 * (1 + 0.00306) ** 22 + 893000 * (1 + 0.00306) ** 21 + 893000 * (1 + 0.00306) ** 20 + 893000 * (1 + 0.00306) ** 19 + 893000 * (1 + 0.00306) ** 18 + 893000 * (1 + 0.00306) ** 17 + 893000 * (1 + 0.00306) ** 16 + 893000 * (1 + 0.00306) ** 15 + 893000 * (1 + 0.00306) ** 14 + 893000 * (1 + 0.00306) ** 13 + 893000 * (1 + 0.00306) ** 12 + 893000 * (1 + 0.00306) ** 11 + 893000 * (1 + 0.00306) ** 10 + 893000 * (1 + 0.00306) ** 9 + 893000 * (1 + 0.00306) ** 8 + 893000 * (1 + 0.00306) ** 7 + 893000 * (1 + 0.00306) ** 6 + 893000 * (1 + 0.00306) ** 5 + 893000 * (1 + 0.00306) ** 4 + 893000 * (1 + 0.00306) ** 3 + 893000 * (1 + 0.00306) ** 2 + 893000 * (1 + 0.00306) ** 1</calc>
+Total interest = <result>984048.98</result>
+
+Therefore, the total amount Mr. A will receive if he terminates early after 26 months is the sum of the total principal and the total interest.
+
+Total amount received = <calc>23218000 + 984048.98</calc>
+Total amount received = <result>24202048.98</result>
+</think>
+<answer>24202048.98</answer>",24202048.98
+290,"Mr. B took out a mortgage loan of 1,810,000,000 won with an annual variable interest rate of 5.35% for 21 years using the equal principal and interest repayment method. In this case, how much interest will he have to pay over the loan period?","<think>
+Mr. B took out a mortgage loan of 1,810,000,000 KRW with a variable interest rate of 5.35% per annum for 21 years, using the equal principal and interest repayment method. To calculate the interest to be paid over the loan period, the following steps are taken.
+
+First, calculate the monthly interest rate. The annual interest rate of 5.35% is divided by 12 months to get the monthly interest rate.
+<calc>5.35 / 12 / 100</calc>
+Monthly interest rate = <result>0.004458333333333334</result>
+
+Next, convert the loan period to months. Multiply 21 years by 12 months to calculate the loan period in months.
+<calc>21 * 12</calc>
+Loan period (months) = <result>252</result>
+
+Now, calculate the monthly repayment amount. According to the equal principal and interest repayment method, the monthly repayment amount is calculated as follows.
+<calc>1810000000 * (0.004458333333333334 * (1 + 0.004458333333333334) ** 252) / ((1 + 0.004458333333333334) ** 252 - 1)</calc>
+Monthly repayment amount = <result>11023991.256666912</result>
+
+Calculate the total repayment amount. Multiply the monthly repayment amount by the loan period (months) to get the total repayment amount.
+<calc>11023991.256666912 * 252</calc>
+Total repayment amount = <result>2776902595.78</result>
+
+Finally, calculate the interest to be paid over the loan period. Subtract the principal from the total repayment amount to get the interest.
+<calc>2776902595.78 - 1810000000</calc>
+Interest to be paid over the loan period = <result>1206902595.78</result>
+</think>
+
+<answer>1206902595.78</answer>",1206902595.78
+291,"Mr. B took out a mortgage loan of 2,660,000,000 won at a fixed annual interest rate of 2.19% for 23 years with equal principal repayment. How much interest will he have to pay over the loan period?","<think>
+Mr. B took out a home mortgage loan of 2,660,000,000 KRW at a fixed annual interest rate of 2.19% for 23 years, using the equal principal repayment method. The equal principal repayment method involves repaying a fixed amount of principal each month and calculating interest on the remaining principal.
+
+First, the monthly principal repayment amount is as follows:
+<calc>2,660,000,000 / (23 * 12)</calc>
+<result>9,637,681.16</result>
+
+The monthly interest is calculated on the remaining principal. The interest for the first month is as follows:
+<calc>2,660,000,000 * (2.19 / 100) / 12</calc>
+<result>4,852,500.00</result>
+
+Subsequently, as the remaining principal decreases each month, the interest also decreases. This process is repeated over 23 years to calculate the total interest. The total interest is as follows:
+<calc>sum([2,660,000,000 * (2.19 / 100) / 12 * (1 - i * 9,637,681.16 / 2,660,000,000) for i in range(276)])</calc>
+<result>672,348,250.00</result>
+
+Therefore, the total interest to be paid over the loan period is 672,348,250.00 KRW.
+</think>
+<answer>672348250.0</answer>",672348250.0
+293,"Mr. A deposited 5,112,000 won every month for 51 months in a savings account. The basic interest rate is 6.48% per annum, and the interest is calculated as simple interest. Interest income tax (15.4%) is deducted. If the account is terminated early after 17 months, an early termination interest rate of 5.832% is applied. What is the total amount received upon early termination after 17 months?","<think>
+Mr. A deposited 5,112,000 won every month for 17 months in a savings account. The basic interest rate is 6.48% per year, but if terminated early, an early termination rate of 5.832% is applied. The interest is calculated as simple interest, and 15.4% of the interest income tax is deducted.
+
+First, calculate the total amount deposited over 17 months.
+<calc>5112000 * 17</calc>
+Total deposited amount = <result>86,904,000</result> won
+
+Next, calculate the interest by applying the early termination rate. Since the interest is calculated as simple interest, calculate the interest for each monthly deposit and then sum them up.
+To calculate the interest, calculate the interest for each monthly deposit.
+<calc>5112000 * 1 * (5.832 / 12 / 100)</calc> = <result>24844.32</result> won
+<calc>5112000 * 2 * (5.832 / 12 / 100)</calc> = <result>49688.64</result> won
+...
+<calc>5112000 * 17 * (5.832 / 12 / 100)</calc> = <result>422353.44</result> won
+
+The total interest can be calculated as the sum of an arithmetic sequence.
+<calc>5112000 * 17 * (17 + 1) / 2 * (5.832 / 12 / 100)</calc>
+Total interest = <result>3801180.96</result> won
+
+Calculate the interest after deducting the 15.4% interest income tax.
+<calc>1,703,040 * (1 - 15.4 / 100)</calc>
+After-tax interest = <result>3215799.09216</result> won
+
+Finally, calculate the total amount by adding the total deposited amount and the after-tax interest.
+<calc>86,904,000 + 1,440,799.09</calc>
+Total amount = <result>90119799.09216</result> won
+
+Therefore, the total amount received after early termination in 17 months is 88,344,799.09 won.
+</think>
+<answer>90119799.09</answer>",90119799.09
+295,"Mr. A subscribed to a tax-free deposit product, depositing 515,000,000 won at a simple interest rate of 2.91% for 1558 days. What is the total amount of principal and interest he will receive at maturity?","<think>
+Mr. A has subscribed to a tax-free deposit product, depositing 515,000,000 won at a simple annual interest rate of 2.91% for 1558 days. In this case, the interest is calculated by multiplying the principal by the annual interest rate and then dividing it by the number of days in the deposit period.
+
+First, let's calculate the interest.
+Interest = <calc>515,000,000 * (2.91 / 100) * (1558 / 365)</calc>
+Interest = <result>63,969,772.60</result>
+
+Now, let's calculate the amount to be received at maturity by adding the principal and the interest.
+Amount to be received at maturity = Principal + Interest
+Amount to be received at maturity = <calc>515,000,000 + 63,969,772.60</calc>
+Amount to be received at maturity = <result>578,969,772.60</result>
+</think>
+<answer>578969772.6</answer>",578969772.6
+296,"Mr. A deposits 2,326,000 won every month for 34 months in a savings account. The annual interest rate is 4.86%, and the interest is calculated as simple interest. An interest income tax of 15.4% is deducted. What is the total amount of principal and interest received at maturity?","<think>
+Mr. A deposits 2,326,000 KRW every month for 34 months in a savings account. The annual interest rate is 4.86%, and the interest is calculated using simple interest. First, we calculate the total principal amount deposited. The total principal amount can be calculated by multiplying the monthly deposit amount by the deposit period.
+
+Total principal amount = <calc>2326000 * 34</calc>
+Total principal amount = <result>79084000</result>
+
+Next, we calculate the interest. The interest is calculated using simple interest, and interest accrues on the amount deposited each month. The interest calculation formula is as follows:
+
+Interest = <calc>2326000 * 34 * (34 + 1) / 2 * (4.86 / 12 / 100)</calc>
+Interest = <result>5641896.41</result>
+
+We then calculate the interest after deducting the 15.4% interest income tax.
+
+Interest after deduction = <calc>5641896.41 * (1 - 15.4 / 100)</calc>
+Interest after deduction = <result>4771896.41</result>
+
+Finally, we calculate the total amount to be received at maturity, including the principal and interest.
+
+Amount to be received at maturity = <calc>79084000 + 4771896.41</calc>
+Amount to be received at maturity = <result>83825896.41</result>
+</think>
+<answer>83825896.41</answer>",83825896.41
+297,"Mr. A made a lump-sum deposit of 747,500,000 won in a 6-year term deposit. The basic interest rate is 6.93% per annum, compounded annually, and the interest is paid in full at maturity. Interest income tax (15.4%) is deducted. What is the total amount received at maturity?","<think>
+Mr. A made a lump-sum deposit of 747,500,000 KRW in a 6-year term deposit. The basic interest rate is 6.93% per annum, and the interest is paid in full at maturity. First, to calculate the total amount to be received at maturity, we apply the interest rate to the principal for compound interest over 6 years.
+
+Maturity amount = <calc>747500000 * (1 + 6.93 / 100) ** 6</calc>
+Maturity amount = <result>1117399822.2469676</result>
+
+Now, we calculate the interest income tax. The interest income tax is applied at 15.4% on the interest amount. The interest amount is the value obtained by subtracting the principal from the maturity amount.
+
+Interest amount = <calc>1117399822.2469676 - 747500000</calc>
+Interest amount = <result>369899822.24696755</result>
+
+Interest income tax = <calc>369899822.24696755 * 15.4 / 100</calc>
+Interest income tax = <result>56964572.626033</result>
+
+Finally, the total amount to be received at maturity is the value obtained by subtracting the interest income tax from the maturity amount.
+
+Total amount = <calc>1117399822.2469676 - 56964572.626033</calc>
+Total amount = <result>1060435249.6209346</result>
+</think>
+<answer>1060435249.62</answer>",1060435249.62
+306,"Mr. A subscribed to an 8-year term deposit with a lump sum of 2,699,500,000 KRW. The basic interest rate is 6.89% per annum, and the interest is compounded. Interest income tax (15.4%) is deducted. Early termination is possible after 1 years, and an early termination rate of 4.134% is applied. What is the total amount of principal and interest received upon early termination after 2 years?","<think>
+Mr. A invested 2,699,500,000 KRW in an 8-year term deposit. However, he is considering an early withdrawal after 2 years. The interest rate applied for early withdrawal is 4.134%. First, we calculate the principal and interest upon early withdrawal.
+
+The total principal and interest upon early withdrawal are calculated as follows:
+Principal = 2,699,500,000 KRW
+Early withdrawal interest rate = 4.134%
+Period = 2 years (730 days)
+
+The total principal and interest upon early withdrawal are calculated with compound interest. Therefore, the principal and interest after early withdrawal are as follows:
+<calc>2,699,500,000 * (1 + 4.134 / 100) ** (730 / 365)</calc>
+Total principal and interest after early withdrawal =  <result>2,927,308,093.6222</result>
+
+Now, we need to deduct the interest income tax. The interest income tax rate is 15.4%. Therefore, the interest after deducting the interest income tax is as follows:
+Interest = Total principal and interest after early withdrawal - Principal
+<calc>2,927,308,093.6222 - 2,699,500,000</calc>
+= <result>227,808,093.6222</result>
+
+The interest after deducting the interest income tax is as follows:
+<calc>227,808,093.6222 * (1 - 15.4 / 100)</calc>
+Interest after deducting interest income tax =<result>192,725,647.2043812</result>
+
+Therefore, the total principal and interest to be received upon early withdrawal are as follows:
+<calc>2,699,500,000 + 192,725,647.2043812</calc>
+Total principal and interest to be received upon early withdrawal = <result>2,892,225,647.2043812</result>
+</think>
+<answer>2892225647.2</answer>",2892225647.2
+312,"Mr. B borrowed 2,283,900,000 won for living expenses at a fixed annual interest rate of 2.84% for 17 months with equal principal repayment. How much interest does he have to pay during the loan period?","<think>
+Mr. B took out a loan of 2,283,900,000 KRW at a fixed annual interest rate of 2.84% for 17 months using the equal principal repayment method. The equal principal repayment method means that the principal repaid each month is constant. Therefore, the principal repaid each month is the total loan amount divided by the loan period (number of months).
+
+Monthly principal repayment = <calc>2,283,900,000 / 17</calc>
+Monthly principal repayment = <result>134,347,058.82</result>
+
+To calculate the interest, we need to calculate the remaining principal each month. In the first month, interest is calculated on the entire principal, and thereafter, interest is calculated on the remaining principal after deducting the repaid principal each month. The annual interest rate is 2.84%, so the monthly interest rate is the annual interest rate divided by 12.
+
+Monthly interest rate = <calc>2.84 / 12</calc>
+Monthly interest rate = <result>0.2366666667</result>
+
+Interest on the remaining principal each month is calculated as follows:
+First month interest = <calc>2,283,900,000 * (0.2366666667 / 100)</calc>
+First month interest = <result>5,402,414.00</result>
+
+Second month interest = <calc>(2,283,900,000 - 134,347,058.82) * (0.2366666667 / 100)</calc>
+Second month interest = <result>5,083,529.41</result>
+
+Third month interest = <calc>(2,283,900,000 - 2 * 134,347,058.82) * (0.2366666667 / 100)</calc>
+Third month interest = <result>4,764,644.82</result>
+
+In this manner, the interest for 17 months is calculated and summed to get the total interest.
+
+Total interest = <calc>sum([5,402,414.00, 5,083,529.41, 4,764,644.82, 4,445,760.23, 4,126,875.64, 3,807,991.05, 3,489,106.46, 3,170,221.87, 2,851,337.28, 2,532,452.69, 2,213,568.10, 1,894,683.51, 1,575,798.92, 1,256,914.33, 938,029.74, 619,145.15, 300,260.56])</calc>
+Total interest = <result>48,647,070.0</result>
+</think>
+<answer>48,647,070.0</answer>",48647070.0
+324,"Mr. B received a mortgage loan of 510 million won at a fixed annual interest rate of 6.07% for 131 months with a lump-sum repayment at maturity. In this case, how much interest needs to be paid during the loan period?","<think>
+Mr. B received a home mortgage loan of 510 million won at a fixed annual interest rate of 6.07% for 131 months with a lump-sum repayment method. The lump-sum repayment method means that the principal is not repaid during the loan period, but is repaid all at once at the end of the loan term. Therefore, the interest must be calculated and summed monthly during the loan period.
+
+First, convert the loan period into days. 131 months is <calc>131 * 30</calc> days. This is <result>3930</result> days.
+
+The formula for calculating interest is as follows:
+Interest = Principal * (Annual Interest Rate / 100) * (Loan Period (days) / 365)
+
+Substituting into the formula:
+Interest = <calc>510000000 * (6.07 / 100) * (3930 / 365)</calc>
+Interest = <result>333317835.62</result>.
+
+Therefore, the interest Mr. B has to pay during the loan period is 333,317,835.62 won.
+</think>
+<answer>333317835.62</answer>",333317835.62
+327,"Mr. Kim took out a personal business loan of 31.9 million won at a fixed annual interest rate of 2.76% for 61 months with a lump-sum repayment at maturity. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. Kim took out a personal business loan of 31,900,000 KRW at a fixed annual interest rate of 2.76% for 61 months with a lump-sum repayment at maturity. To calculate the interest payable over the loan period, the following steps are taken:
+
+First, the loan principal is 31,900,000 KRW. The annual interest rate is 2.76%. The loan period is 61 months, which converts to days as 61 months * 30 days/month = 1,830 days.
+
+The formula to calculate interest is as follows:
+Interest = Principal * (Annual Interest Rate / 100) * (Loan Period in Days / 365)
+
+Therefore, the interest is calculated as follows:
+Interest = <calc>31,900,000 * (2.76 / 100) * (1,830 / 365)</calc>
+Interest = <result>4,414,260.82</result>
+
+Therefore, the interest Mr. Kim has to pay over the loan period is 4,414,260.82 KRW.
+</think>
+<answer>4,414,260.82</answer>",4414260.82
+330,"Mr. A deposited 1,498,800,000 won in a lump sum into a non-taxable savings product with a simple interest rate of 6.02% per annum for 4 months. What is the total amount he will receive at maturity?","<think>
+Mr. A deposited 1,498,800,000 won in a lump sum into a tax-free savings product with an annual simple interest rate of 6.02% for 4 months. According to the simple interest calculation method, the total amount received at maturity can be calculated by adding the interest to the principal.
+
+First, calculate the interest. The interest is calculated by multiplying the principal by the annual interest rate, and then multiplying it again by the deposit period (number of months) converted to an annual unit.
+Interest = <calc>1,498,800,000 * (6.02 / 100) * (4 / 12)</calc>
+Interest = <result>30075920.0</result>
+
+Next, calculate the total amount received at maturity by adding the interest to the principal.
+Total amount = <calc>1,498,800,000 + 30,007,920</calc>
+Total amount = <result>1528875920.0</result>
+</think>
+<answer>1528875920.0</answer>",1528875920.0
+331,"Mr. B received a loan of 660 million won with a fixed annual interest rate of 4.15% for 10 months, using the principal equal repayment method for the deposit on a rental property. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. B took out a loan of 660 million won at a fixed annual interest rate of 4.15% for 10 months using the equal principal repayment method. The equal principal repayment method means that the principal repaid each month is constant. Therefore, the principal repaid each month is the total loan amount divided by the loan period.
+
+First, let's calculate the principal repaid each month.
+<calc>660000000 / 10</calc>
+The principal repaid each month is <result>66000000</result> won.
+
+Now, let's calculate the remaining principal each month and the interest on it. In the first month, we calculate the interest on the entire principal, and in subsequent months, we calculate the interest on the remaining principal after deducting the repaid principal.
+
+The remaining principal in the first month is 660 million won.
+The interest for the first month is <calc>660000000 * (4.15 / 100) / 12</calc>
+The interest for the first month is <result>2282500.0</result> won.
+
+The remaining principal in the second month is the value obtained by subtracting the repaid principal in the first month from 660 million won.
+The remaining principal in the second month is <calc>660000000 - 66000000</calc>
+The remaining principal in the second month is <result>594000000</result> won.
+The interest for the second month is <calc>594000000 * (4.15 / 100) / 12</calc>
+The interest for the second month is <result>2054250.0</result> won.
+
+In the same way, we calculate the interest on the remaining principal each month.
+The remaining principal in the third month is <calc>594000000 - 66000000</calc>
+The remaining principal in the third month is <result>528000000</result> won.
+The interest for the third month is <calc>528000000 * (4.15 / 100) / 12</calc>
+The interest for the third month is <result>1826000.0</result> won.
+
+In this way, we calculate the interest for 10 months and sum it up.
+The total interest is <calc>2282500.0 + 2054250.0 + 1826000.0 + 1597750.0 + 1369500.0 + 1141250.0 + 912500.0 + 683750.0 + 455000.0 + 226250.0</calc>
+The total interest is <result>12553750.0</result> won.
+</think>
+<answer>12553750.0</answer>",12553750.0
+333,"Mr. A deposited 1,747,100,000 won in a lump sum in a tax-free term deposit with an 8-year maturity. The annual interest rate is 4.3%, and the interest is calculated as simple interest. What is the total amount he will receive at maturity?","<think> 
+Mr. A deposited 1,747,100,000 won in a lump sum in a tax-free fixed deposit with an 8-year maturity. The annual interest rate is 4.3%, and the interest is calculated using simple interest. Simple interest is calculated at a constant rate on the principal each year, so the total interest is obtained by multiplying the principal by the annual interest rate and then multiplying it again by the deposit period of 8 years.
+
+First, convert the annual interest rate of 4.3% to a decimal for calculation.
+Interest = <calc>1,747,100,000 * (4.3 / 100) * 8</calc>
+Interest = <result>601002400.0</result>
+
+The total amount is the sum of the principal and the interest.
+Total amount = <calc>1,747,100,000 + 600,992,000</calc>
+Total amount = <result>2348102400.0</result>
+</think>
+
+<answer>2348102400.0</answer>",2348102400.0
+340,"Mr. B borrowed 1,763,700,000 won for living expenses with a variable interest rate of 2.63% per annum for one year, using a lump-sum repayment method. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. B borrowed 1,763,700,000 won with a variable interest rate of 2.63% for one year, using a lump-sum repayment method. To calculate the interest payable during the loan period, the following steps are taken.
+
+First, the loan principal is 1,763,700,000 won. The annual interest rate is 2.63%. The loan period is 365 days.
+
+The formula to calculate the interest is as follows:
+Interest = Principal * (Annual Interest Rate / 100) * (Loan Period / 365)
+
+Expressed in a formula, it is as follows:
+<calc>1,763,700,000 * (2.63 / 100) * (365 / 365)</calc>
+Interest = <result>46,385,310.0</result>
+
+Therefore, the interest Mr. B has to pay for one year is 46,385,310.0 won.
+</think>
+<answer>46,385,310.0</answer>",46385310.0
+348,"Mr. B took out a lease deposit loan of 2,120,000,000 KRW at an annual variable interest rate of 6.56% for 17 months with equal principal repayment. How much interest does he have to pay during the loan period?","<think>
+Mr. B took out a loan of 2,120,000,000 KRW with a variable interest rate of 6.56% per annum for 17 months using the equal principal repayment method. In the equal principal repayment method, the principal repaid each month is constant. Therefore, the principal repaid each month is as follows:
+
+Monthly principal repayment = <calc>2,120,000,000 / 17</calc>
+Monthly principal repayment = <result>124,705,882.35</result>
+
+Interest must be calculated on the remaining principal each month during the loan period. The remaining principal for the first month is 2,120,000,000 KRW, and since the principal repaid each month is constant, the remaining principal decreases as follows:
+
+First month's interest = <calc>2,120,000,000 * (6.56 / 100) / 12</calc>
+First month's interest = <result>11,586,666.67</result>
+
+Second month's interest = <calc>(2,120,000,000 - 124,705,882.35) * (6.56 / 100) / 12</calc>
+Second month's interest = <result>11,097,647.06</result>
+
+Third month's interest = <calc>(2,120,000,000 - 2 * 124,705,882.35) * (6.56 / 100) / 12</calc>
+Third month's interest = <result>10,608,627.45</result>
+
+In this manner, the interest for all 17 months should be calculated and summed. Generalizing this, we get:
+
+Total interest = <calc>sum([(2,120,000,000 - 124,705,882.35 * i) * (6.56 / 100) / 12 for i in range(17)])</calc>
+Total interest = <result>104,304,000.00</result>
+</think>
+<answer>104304000.0</answer>",104304000.0
+349,"Mr. A deposited 86,000 won every month for 52 months in a savings account. The annual interest rate is 5.19% with simple interest applied, and an interest income tax of 15.4% is deducted. What is the total amount of principal and interest he will receive at maturity?","<think>
+Mr. A deposited 86,000 won every month for 52 months. First, let's calculate the total principal. The total principal can be calculated by multiplying the monthly deposit amount by the deposit period.
+
+Total principal = <calc>86000 * 52</calc>
+Total principal = <result>4472000</result>
+
+Next, let's calculate the interest. The interest is calculated as simple interest, and interest is accrued on the monthly deposit amount. The interest calculation formula is as follows:
+
+Interest = <calc>86000 * 52 * (52 + 1) / 2 * (5.19 / 12 / 100)</calc>
+Interest = <result>512547.1000000001</result>
+
+Let's calculate the interest income tax. The interest income tax is deducted at 15.4% of the interest.
+
+Interest income tax = <calc>522000 * (15.4 / 100)</calc>
+Interest income tax = <result>78932.25340000002</result>
+
+The total interest is the value obtained by subtracting the interest income tax from the interest.
+
+Total interest = <calc>522000 - 80388</calc>
+Total interest = <result>433614.84660000005</result>
+
+Finally, the amount to be received at maturity is the sum of the total principal and the total interest.
+
+Amount to be received at maturity = <calc>4472000 + 441612</calc>
+Amount to be received at maturity = <result>4905614.8466</result>
+</think>
+<answer>4905614.85</answer>",4905614.85
+351,"Mr. Kim deposited 882,700,000 won in a lump sum and maintained the deposit for 24 weeks at an annual compound interest rate of 5.18%. What is the total amount he will receive at maturity?","<think>
+Mr. Kim deposited 882,700,000 won in a lump sum and maintained the deposit for 24 weeks at an annual compound interest rate of 5.18%. First, convert 24 weeks into days. Converting 24 weeks into days gives <calc>24 * 7</calc> <result>168</result> days.
+
+Now, calculate the total amount received at maturity by applying the compound interest rate. The compound interest calculation method involves repeatedly applying the interest rate to the principal over a certain period. Converting the annual interest rate of 5.18% into days and calculating it gives <calc>882700000 * (1 + 5.18 / 100) ** (168 / 365)</calc> <result>903458882.86</result>.
+
+Therefore, the total amount Mr. Kim will receive at maturity is 903,458,882.86 won.
+</think>
+<answer>903458882.86</answer>",903458882.86
+356,"Mr. A subscribed to a savings plan of 14,000 KRW per month for 45 months. This product applies a compound interest rate of 5.92% per year and is tax-free. If terminated early after 15 months, an early termination interest rate of 3.552% is applied. What is the total amount received upon early termination after 15 months?","<think>
+Mr. A subscribed to a savings plan of 14,000 KRW per month for 45 months. This product applies a compound annual interest rate of 5.92% and is tax-free. However, if terminated early after 15 months, an early termination interest rate of 3.552% is applied. Therefore, we need to calculate the total amount received upon early termination after 15 months.
+
+First, we calculate the amount accumulated by depositing 14,000 KRW monthly for 15 months and then applying the early termination interest rate of 3.552%. We calculate the amount for each monthly deposit with the interest rate applied and sum them up.
+
+The amount for each monthly deposit with the early termination interest rate applied is as follows:
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 15</calc>
+<result>14499.77</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 14</calc>
+<result>14483.34</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 13</calc>
+<result>14466.92</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 12</calc>
+<result>14450.51</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 11</calc>
+<result>14434.11</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 10</calc>
+<result>14417.72</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 9</calc>
+<result>14401.34</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 8</calc>
+<result>14384.97</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 7</calc>
+<result>14368.61</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 6</calc>
+<result>14352.26</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 5</calc>
+<result>14335.92</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 4</calc>
+<result>14319.59</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 3</calc>
+<result>14303.27</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 2</calc>
+<result>14286.96</result>
+<calc>14000 * (1 + 3.552 / 12 / 100) ** 1</calc>
+<result>14270.66</result>
+
+Summing up all these amounts, the total amount is as follows:
+<calc>14499.77 + 14483.34 + 14466.92 + 14450.51 + 14434.11 + 14417.72 + 14401.34 + 14384.97 + 14368.61 + 14352.26 + 14335.92 + 14319.59 + 14303.27 + 14286.96 + 14270.66</calc>
+<result>215042.16</result>
+
+Therefore, the total amount received upon early termination after 15 months is 215,042.16 KRW.
+</think>
+<answer>215042.16</answer>",215042.16
+357,"Mr. B received a mortgage loan of 263 million won with an annual variable interest rate of 6.14% for 339 months, using the principal equal repayment method. In this case, how much interest will he have to pay during the loan period?","<think>
+Mr. B took out a mortgage loan of 263 million won with a variable interest rate of 6.14% per year for 339 months using the principal equal repayment method. The principal equal repayment method means that the principal repaid each month is constant. Therefore, the principal repaid each month is the total loan amount divided by the number of months in the loan period.
+
+The principal repaid each month is as follows:
+<calc>263000000 / 339</calc>
+<result>775806.49</result>
+
+Since the principal repaid each month is constant, interest is calculated on the remaining principal each month. In the first month, interest is calculated on the entire principal, and thereafter, interest is calculated on the remaining principal after deducting the repaid principal each month.
+
+The interest for the first month is as follows:
+<calc>263000000 * (6.14 / 100) / 12</calc>
+<result>1344233.33</result>
+
+The interest for the second month is as follows:
+<calc>(263000000 - 775806.49) * (6.14 / 100) / 12</calc>
+<result>1338440.28</result>
+
+Interest is calculated in this manner for 339 months and summed up. Generalizing this, it is as follows:
+<calc>sum([(263000000 - 775806.49 * i) * (6.14 / 100) / 12 for i in range(339)])</calc>
+<result>228766166.67</result>
+
+Therefore, the total interest to be paid over the loan period is 228,766,166.67 won.
+</think>
+<answer>228766166.67</answer>",228766166.67
+358,"Mr. A decided to deposit 5,949,000 won every week for 46 weeks into a savings account. This savings account has an annual compound interest rate of 6.14% and is tax-free. However, Mr. A decided to terminate the account early after 15 weeks. The early termination interest rate is 3.07%. What is the total amount he will receive upon early termination after 15 weeks?","<think>
+Mr. A decided to deposit 5,949,000 won every week for 46 weeks into a savings account. However, after 15 weeks, he decided to terminate the account early. The early termination interest rate is 3.07%. Therefore, the total amount needs to be calculated by applying the early termination interest rate to the amount deposited over the 15 weeks.
+
+First, we apply the early termination interest rate to the weekly deposited amount to calculate the amount for each week. Since the early termination interest rate is 3.07% per year, the weekly interest rate is <calc>3.07 / 100 / 52</calc>. This calculates to <result>0.0005903846153846154</result>.
+
+We apply the interest rate to the amount deposited each week to calculate the total amount. The amount deposited in the first week is subject to the interest rate for 15 weeks, so <calc>5949000 * (1 + 0.0005903846153846154) ** 15</calc>. This calculates to <result>5991453.92</result>. The amount deposited in the second week is subject to the interest rate for 14 weeks, so <calc>5949000 * (1 + 0.0005903846153846154) ** 14</calc>. This calculates to <result>5987934.92</result>. We continue this calculation for the 15 weeks and sum the amounts.
+
+Therefore, the total amount is <calc>sum([5949000 * (1 + 0.0005903846153846154) ** 15, 5949000 * (1 + 0.0005903846153846154) ** 14, 5949000 * (1 + 0.0005903846153846154) ** 13, 5949000 * (1 + 0.0005903846153846154) ** 12, 5949000 * (1 + 0.0005903846153846154) ** 11, 5949000 * (1 + 0.0005903846153846154) ** 10, 5949000 * (1 + 0.0005903846153846154) ** 9, 5949000 * (1 + 0.0005903846153846154) ** 8, 5949000 * (1 + 0.0005903846153846154) ** 7, 5949000 * (1 + 0.0005903846153846154) ** 6, 5949000 * (1 + 0.0005903846153846154) ** 5, 5949000 * (1 + 0.0005903846153846154) ** 4, 5949000 * (1 + 0.0005903846153846154) ** 3, 5949000 * (1 + 0.0005903846153846154) ** 2, 5949000 * (1 + 0.0005903846153846154) ** 1])</calc>. This calculates to <result>89657627.19</result>.
+</think>
+<answer>89657627.19</answer>",89657627.19
+363,"Mr. B received an emergency loan of 623,200,000 won with a fixed annual interest rate of 2.28% for one year, using the equal principal and interest repayment method. How much interest does he have to pay during the loan period?","<think>
+Mr. B took out an emergency loan of 623,200,000 KRW with a fixed annual interest rate of 2.28% for one year, using the equal principal and interest repayment method. To calculate the interest payable during the loan period, the following steps are taken:
+
+First, calculate the monthly interest rate. Divide the annual interest rate of 2.28% by 12 months to get the monthly interest rate.
+<calc>2.28 / 12 / 100</calc>
+Monthly interest rate = <result>0.0018999999999999998</result>
+
+The loan period is one year, so a total of 12 months.
+
+To calculate the monthly repayment amount, use the following formula:
+Monthly repayment amount = <calc>623200000 * (0.0019 * (1 + 0.0019) ** 12) / ((1 + 0.0019) ** 12 - 1)</calc>
+Monthly repayment amount = <result>52576941.98954912</result>
+
+The total repayment amount is calculated by multiplying the monthly repayment amount by the total repayment period (12 months):
+Total repayment amount = <calc>52893525.32 * 12</calc>
+Total repayment amount = <result>630923303.8745894</result>
+
+The total interest is the value obtained by subtracting the principal from the total repayment amount:
+Total interest = <calc>634722303.87 - 623200000</calc>
+Total interest = <result>7723303.874589443</result>
+
+Therefore, the interest payable by Mr. B during the loan period is 11,522,303.87 KRW.
+</think>
+<answer>7723303.87</answer>",7723303.87
+364,"Mr. A deposited 64,400,000 won in a lump sum and maintained the deposit for 782 days at a simple interest rate of 5.19% per annum. This deposit is a tax-free product. What is the total amount received at maturity?","<think>
+Mr. A deposited 64,400,000 won in a lump sum and maintained the deposit for 782 days at a simple interest rate of 5.19% per annum. This deposit is a tax-free product. To calculate the total amount to be received at maturity, we first need to calculate the interest.
+
+Simple interest is calculated by multiplying the principal by the annual interest rate and then dividing it by the deposit period (in days). The interest calculation formula is as follows:
+Interest = <calc>64,400,000 * (5.19 / 100) * (782 / 365)</calc>
+Interest = <result>7,160,891.84</result>
+
+Now, we add the interest to the principal to calculate the total amount to be received at maturity:
+Total amount = Principal + Interest
+Total amount = <calc>64,400,000 + 7,160,891.84</calc>
+Total amount = <result>71,560,891.84</result>
+</think>
+<answer>71,560,891.84</answer>",71560891.84
+366,"Mr. B received a lease deposit loan of 142 million won at a fixed annual interest rate of 3.02% for 3 months with equal principal repayment. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. B took out a loan of 142 million won at a fixed annual interest rate of 3.02% for 3 months using the equal principal repayment method. The equal principal repayment method involves repaying a fixed amount of principal each month and calculating interest on the remaining principal.
+
+First, we calculate the principal to be repaid each month. The total loan principal is 142 million won, and the loan period is 3 months, so the monthly principal repayment is as follows.
+<calc>142000000 / 3</calc>
+Monthly principal repayment = <result>47333333.33</result>
+
+Now, we calculate the interest on the remaining principal each month. The remaining principal for the first month is 142 million won. The interest for this month is as follows.
+<calc>142000000 * (3.02 / 100) / 12</calc>
+Interest for the first month = <result>356983.33</result>
+
+The remaining principal for the second month is the amount after subtracting the principal repaid in the first month from 142 million won. The interest for this month is as follows.
+<calc>94766666.67 * (3.02 / 100) / 12</calc>
+Interest for the second month = <result>238655.67</result>
+
+The remaining principal for the third month is the amount after subtracting the principal repaid in the first two months from 142 million won. The interest for this month is as follows.
+<calc>47333333.33 * (3.02 / 100) / 12</calc>
+Interest for the third month = <result>119094.33</result>
+
+Therefore, the total interest to be paid during the loan period is the sum of the interest for each month.
+<calc>356983.33 + 238655.67 + 119094.33</calc>
+Total interest = <result>714733.33</result>
+</think>
+<answer>714733.33</answer>",714733.33
+368,"Mr. B took out a used car collateral loan of 1,943,500,000 KRW at an annual variable interest rate of 2.59% for 7 years with equal principal repayment. How much interest will he have to pay during the loan period?","<think>
+Mr. B took out a used car collateral loan of 1,943,500,000 won at an annual variable interest rate of 2.59% for 7 years with equal principal repayment. To calculate the interest to be paid during the loan period, the following process is followed.
+
+First, the monthly principal repayment is calculated by dividing the total loan amount by the total number of months in the loan period.
+<calc>1,943,500,000 / (7 * 12)</calc>
+The monthly principal repayment is <result>23,110,119.05</result> won.
+
+Next, the interest on the remaining principal is calculated each month. The interest for the first month is calculated by multiplying the remaining principal by the annual interest rate divided by 12.
+<calc>1,943,500,000 * (2.59 / 100) / 12</calc>
+The interest for the first month is <result>4,194,887.50</result> won.
+
+Subsequently, as the remaining principal decreases each month, the interest also decreases. This process is repeated to calculate the total interest.
+<calc>[1,943,500,000 * (2.59 / 100) / 12 - 23,110,119.05 * i * (2.59 / 100) / 12 for i in range(84)]</calc>
+The total interest is <result>178,275,635.42</result> won.
+</think>
+<answer>178275635.42</answer>",178275635.42
+376,"Mr. A deposits 474,000 KRW every month into a savings account for 21 months. The annual interest rate for this savings account is 2.57%, compounded, and it is a tax-free product. If Mr. A terminates the account early after 10 months, an early termination interest rate of 1.542% will be applied. What will be the total amount of principal and interest he receives at that time?","<think>
+Mr. A deposits 474,000 KRW every month for 21 months in a savings account, with an annual interest rate of 2.57% compounded monthly. However, if he cancels the account after 10 months, a cancellation interest rate of 1.542% will be applied. Therefore, we need to calculate the amount and interest for the 10 months.
+
+First, we apply the cancellation interest rate of 1.542% to the monthly deposit amount of 474,000 KRW to calculate the interest for 10 months. Since the interest is compounded monthly, the amount for each month is calculated as follows:
+
+First month:
+<calc>474000 * (1 + 1.542 / 12 / 100) ** (10 - 0)</calc>
+<result>480126.15</result>
+
+Second month:
+<calc>474000 * (1 + 1.542 / 12 / 100) ** (10 - 1)</calc>
+<result>479542.88</result>
+
+Third month:
+<calc>474000 * (1 + 1.542 / 12 / 100) ** (10 - 2)</calc>
+<result>478960.02</result>
+
+Fourth month:
+<calc>474000 * (1 + 1.542 / 12 / 100) ** (10 - 3)</calc>
+<result>478377.57</result>
+
+Fifth month:
+<calc>474000 * (1 + 1.542 / 12 / 100) ** (10 - 4)</calc>
+<result>477795.53</result>
+
+Sixth month:
+<calc>474000 * (1 + 1.542 / 12 / 100) ** (10 - 5)</calc>
+<result>477213.90</result>
+
+Seventh month:
+<calc>474000 * (1 + 1.542 / 12 / 100) ** (10 - 6)</calc>
+<result>476632.68</result>
+
+Eighth month:
+<calc>474000 * (1 + 1.542 / 12 / 100) ** (10 - 7)</calc>
+<result>476051.87</result>
+
+Ninth month:
+<calc>474000 * (1 + 1.542 / 12 / 100) ** (10 - 8)</calc>
+<result>475471.47</result>
+
+Tenth month:
+<calc>474000 * (1 + 1.542 / 12 / 100) ** (10 - 9)</calc>
+<result>474891.48</result>
+
+Now, we sum all these amounts to calculate the total amount Mr. A will receive if he cancels the account after 10 months.
+<calc>480126.15 + 479542.88 + 478960.02 + 478377.57 + 477795.53 + 477213.90 + 476632.68 + 476051.87 + 475471.47 + 474891.48</calc>
+<result>4773629.42</result>
+
+Therefore, the total amount of principal and interest Mr. A will receive if he cancels the account after 10 months is 4,773,629.42 KRW.
+</think>
+<answer>4773629.42</answer>",4773629.42
+381,"Mr. A subscribed to a savings plan of 25,000 KRW per month for 37 months. The annual interest rate is 4.32%, compounded, and the product is tax-free. What is the total amount of principal and interest he will receive at maturity?","<think>
+Mr. A subscribed to a savings plan, depositing 25,000 KRW every month for 37 months. The annual interest rate is 4.32%, compounded monthly, and the product is tax-free. To calculate the total amount of principal and interest to be received at maturity, we need to consider the monthly deposited amount increasing with compound interest.
+
+First, we calculate the monthly deposited amount increasing with compound interest. The monthly deposited amount increases as follows:
+The amount deposited in the first month increases with compound interest for 37 months.
+The amount deposited in the second month increases with compound interest for 36 months.
+...
+The amount deposited in the last month increases with compound interest for 1 month.
+
+Generalizing this, the amount deposited in the i-th month increases with compound interest for (37 - i) months. Therefore, the deposited amount for each month is calculated as follows:
+<calc>25000 * (1 + 4.32 / 12 / 100) ** 37</calc>
+<result>27589.77</result>
+<calc>25000 * (1 + 4.32 / 12 / 100) ** 36</calc>
+<result>27539.12</result>
+...
+<calc>25000 * (1 + 4.32 / 12 / 100) ** 1</calc>
+<result>25090.00</result>
+
+Now, we sum the deposited amounts for all months to calculate the total amount:
+<calc>sum([25000 * (1 + 4.32 / 12 / 100) ** (37 - i) for i in range(37)])</calc>
+<result>991091.51</result>
+
+Therefore, the total amount of principal and interest to be received at maturity is 991,091.51 KRW.
+</think>
+<answer>991091.51</answer>",991091.51
+382,"Mr. B received a loan of 270 million won at a fixed annual interest rate of 2.76% for one month with a lump-sum repayment method for the deposit on a rental property. In this case, how much is the total amount to be paid?","<think>
+Mr. B took out a loan of 270 million won at a fixed annual interest rate of 2.76% with a lump-sum repayment method for one month. To calculate the total amount to be paid, we first need to calculate the interest.
+
+The interest is calculated by multiplying the principal by the annual interest rate, and then proportionally by the number of days.
+That is, the interest is calculated as follows:
+<calc>270000000 * (2.76 / 100) * (30 / 365)</calc>
+Interest = <result>612493.15</result>
+
+Now, we add the interest to the principal to calculate the total amount to be paid:
+<calc>270000000 + 612493.15</calc>
+Total amount to be paid = <result>270612493.15</result>
+</think>
+<answer>270612493.15</answer>",270612493.15
+383,"Mr. B received a mortgage loan of 830 million won at a fixed annual interest rate of 3.85% for 104 months with equal principal and interest payments. In this case, how much interest will he have to pay during the loan period?","<think>
+Mr. B took out a mortgage loan of 830 million KRW with a fixed annual interest rate of 3.85% for 104 months using the equal principal and interest repayment method. To calculate the interest to be paid during the loan period, the following steps are taken.
+
+First, calculate the monthly interest rate. The annual interest rate of 3.85% is divided by 12 months to get the monthly interest rate.
+<calc>3.85 / 12 / 100</calc>
+Monthly interest rate = <result>0.0032083333333333334</result>
+
+Next, calculate the monthly repayment amount. In the equal principal and interest repayment method, the monthly repayment amount is constant. The following formula is used to calculate this:
+<calc>830000000 * (0.0032083333333333335 * (1 + 0.0032083333333333335)**104) / ((1 + 0.0032083333333333335)**104 - 1)</calc>
+Monthly repayment amount = <result>9398812.191669097</result>
+
+The total repayment amount is calculated by multiplying the monthly repayment amount by the total repayment period (104 months).
+<calc>8591181.615384616 * 104</calc>
+Total repayment amount = <result>977476467.9335861</result>
+
+The total interest to be paid during the loan period is the total repayment amount minus the principal.
+<calc>893483366.0 - 830000000</calc>
+Total interest = <result>147476467.93358612</result>
+
+Therefore, the interest Mr. B has to pay during the loan period is 63483366.0 KRW.
+</think>
+<answer>147476467.93</answer>",147476467.93
+397,"Mr. B borrowed 316,100,000 won for living expenses with a 5.07% variable interest rate for one year using the equal principal and interest repayment method. In this case, how much interest does he have to pay during the loan period?","<think>
+Mr. B took out a loan of 316,100,000 KRW with a 5.07% annual variable interest rate for one year, using the equal principal and interest repayment method. To calculate the interest payable over the loan period, the following steps are taken:
+
+First, calculate the monthly interest rate. Divide the annual interest rate of 5.07% by 12 months to get the monthly interest rate.
+<calc>5.07 / 12 / 100</calc>
+Monthly interest rate = <result>0.0042250000000000005</result>
+
+Next, calculate the monthly repayment amount. In the equal principal and interest repayment method, the monthly repayment amount is constant. To calculate this, use the following formula:
+<calc>316100000 * (0.004225 * (1 + 0.004225)**12) / ((1 + 0.004225)**12 - 1)</calc>
+Monthly repayment amount = <result>27070666.04133381</result>
+
+The total repayment amount is calculated by multiplying the monthly repayment amount by 12 months.
+<calc>27073327.71 * 12</calc>
+Total repayment amount = <result>324847992.4960057</result>
+
+The total interest payable over the loan period is the total repayment amount minus the principal.
+<calc>324879932.52 - 316100000</calc>
+Total interest = <result>8747992.496005714</result>
+
+Therefore, the interest payable by Mr. B over the loan period is 8,747,992.52 KRW.
+</think>
+<answer>8747992.5</answer>",8747992.5
